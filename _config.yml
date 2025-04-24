@@ -3,7 +3,7 @@ email: info@zephyrtransport.org
 timezone: America/New_York
 baseurl: '/momo-website'
 permalink: '/:title/'
-logo: 'assets/images/logo.png'
+logo: 'assets/images/momo-logo.png'
 favicon: 'assets/images/favicon.ico'
 author: momo
 paginate: 30
