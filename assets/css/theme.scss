@@ -8,9 +8,7 @@ $blue: #3d61fd !default;
 
 @import 'bootstrap/bootstrap';
 
-@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap');
-
 @import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;700&display=swap');
 
 /* add additional CSS rules below */
@@ -22,7 +20,7 @@ body {
   background: #fff;
   font-size: 16px;
   transition: all 200ms linear;
-  font-family: 'Libre Franklin', 'PT Sans', sans-serif;
+  font-family: 'Libre Franklin', sans-serif;
   line-height: 1.7;
   color: #333;
   overflow-x: hidden;
@@ -624,7 +622,7 @@ ul.tags li a:hover {
 .article-post h5,
 .article-post h6 {
   font-weight: 600;
-  font-family: PT Sans;
+  font-family: Libre Franklin;
   margin-top: 3rem;
 }
 
