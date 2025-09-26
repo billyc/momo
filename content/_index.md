@@ -1,10 +1,17 @@
 ---
-date: '2025-09-26T11:58:37-04:00'
-draft: true
-title: ''
+title: My Site
+toc: false
 ---
 
-# You are so cool!
+This is the landing page.
 
-This is the new site. Welcome to zombo.com
+## Explore
 
+{{< cards >}}
+  {{< card link="docs" title="Docs" icon="book-open" >}}
+  {{< card link="about" title="About" icon="user" >}}
+{{< /cards >}}
+
+## Documentation
+
+For more information, visit [Hextra](https://imfing.github.io/hextra).
