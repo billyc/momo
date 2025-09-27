@@ -1,0 +1,13 @@
+{{ define "main" }} {{ $slug := replaceRE "^/speakers/(.*?)/$" "$1" .RelPermalink }} {{ $speaker :=
+where .Site.Data.speakers "name" (replace $slug "-" " " | title) | first 1 }} {{ if $speaker }} {{
+$sp := index $speaker 0 }}
+<article class="speaker-profile">
+  <h1>{{ $sp.name }}</h1>
+  <p><strong>{{ $sp.title }}</strong></p>
+  <p><em>{{ $sp.company }}</em></p>
+  <p>{{ $sp.bio }}</p>
+  <p>Email: <a href="mailto:{{ $sp.email }}">{{ $sp.email }}</a></p>
+</article>
+{{ else }}
+<p>Speaker not found.</p>
+{{ end }} {{ end }}
