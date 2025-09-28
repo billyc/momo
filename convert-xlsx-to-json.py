@@ -12,8 +12,17 @@ gid = {
 
 for k,v in gid.items():
     csv_url = sheet_url + "/export?format=csv&gid=" + str(v)
-    df = pd.read_csv(csv_url)
+    df = pd.read_csv(csv_url, keep_default_na=False, na_filter=False)
     print(df.head())
+
+    if k == "speakers":
+        # sort by last name
+        df.sort_values(by="LastName", inplace=True)
+
+        # attach headshot avatars
+        with open ("static/assets/avatars/_avatars.yaml", "r") as file:
+            lookup = yaml.safe_load(file)
+            df["avatar"] = df["Name"].map(lookup["avatars"])
 
     # Convert the DataFrame to a list of dictionaries (one dict per row)
     records = df.to_dict(orient="records")
