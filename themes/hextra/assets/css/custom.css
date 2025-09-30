@@ -38,7 +38,7 @@
 
 .speaker-info {
   flex: 1;
-  padding: 0.5rem 0.75rem 1rem 0.75rem;
+  padding: 0.5rem 0.75rem 0.25rem 0.75rem;
   text-align: left;
   background: #f5f5f5;
 
@@ -55,17 +55,50 @@
   font-size: 0.9rem;
   color: #888;
   margin: 0;
-  margin-top: 0.75rem;
+  margin-bottom: 0.5rem;
   line-height: 1.1rem;
+
 }
 
 .hextra-toc {
   display: none;
 }
 
+
+.session-card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ccc;
+  margin-top: 1rem;
+  padding: 1rem 1rem;
+  color: #444;
+}
+.session-time {
+  color: #666;
+  font-size: 0.9rem;
+}
+.session-track {
+  text-transform: uppercase;
+  color: white;
+  font-size: 0.8rem;
+  font-weight: bold;
+  background-color: blue;
+  margin-top: 0.5rem;
+  margin-right: auto;
+  padding: 0px 4px 2px 4px;
+}
+.session-desc {
+  margin-top: 1rem;
+}
+
 @-moz-document url-prefix() {
   .speaker-affiliation {
     max-height: calc(1.1rem * 3);
+    overflow: hidden;
+  }
+  .session-desc {
+    /* font-size: 1rem; */
+    max-height: 10rem;
     overflow: hidden;
   }
 }

@@ -1,0 +1,14 @@
+{{ $day := .Get 0 }}
+{{ $sessions := index site.Data.agenda $day }}
+<b>{{ $day }}</b>
+{{ range $sessions }}
+
+<div class="session-card">
+  <b>{{ .SessionTitle }}</b>
+  <div class="session-time">{{ .TimeStart }} – {{ .TimeEnd }} at {{ .RoomLocation}}</div>
+  <div class="session-track">{{ .Tracks }}</div>
+  <div class="session-desc">{{ .Description | safeHTML }}</div>
+  <a>Read more...</a>
+</div>
+
+{{ end }}

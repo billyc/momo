@@ -2,6 +2,23 @@ import sys,json
 import pandas as pd
 import yaml
 
+import re
+import unicodedata
+
+YEAR="2025"
+
+def make_filename_safe(name: str) -> str:
+    # Normalize Unicode (e.g., é → e)
+    name = unicodedata.normalize('NFKD', name)
+    name = name.encode('ascii', 'ignore').decode('ascii')  # remove non-ASCII
+    # Replace spaces and repeated hyphens
+    name = re.sub(r'\s+', '-', name)
+    # Remove anything that's not a-z, 0-9, underscore, or hyphen
+    name = re.sub(r'[^a-zA-Z0-9_-]', '', name)
+    # Collapse multiple hyphens and lowercase
+    name = re.sub(r'-{2,}', '-', name).strip('-').lower()
+    return name
+
 # Load the Excel file and select the 'data' sheet
 sheet_url = "https://docs.google.com/spreadsheets/d/1h9T9-gtwsDiBqeEq0kxhfSD4gvLAU4tO"
 
@@ -23,12 +40,44 @@ for k,v in gid.items():
         with open ("static/assets/avatars/_avatars.yaml", "r") as file:
             lookup = yaml.safe_load(file)
             df["avatar"] = df["Name"].map(lookup["avatars"])
+            df["title"] = df["Name"]
+            df["type"] = 'speakers'
+            df["layout"] = 'speakers'
 
-    # Convert the DataFrame to a list of dictionaries (one dict per row)
-    records = df.to_dict(orient="records")
+        # write individual speaker pages
+        speakers = df.to_dict(orient="records")
+        for i,speaker in enumerate(speakers):
+            yaml_string = yaml.dump(speaker, sort_keys=False)
+            md = f"---\n{yaml_string}---\n"
+            with open(f"./content/speakers/{YEAR}/{i}.md", "w") as f:
+                f.write(md)
 
-    # Write the list of dictionaries to a YAML file
-    with open(f"{k}.yaml", "w") as f:
-        # sort_keys=False preserves column order
-        #json.dump(records, f, sort_keys=False, indent=2)
-        yaml.dump(records, f, sort_keys=False)
+        # Convert the DataFrame to a list of dictionaries (one dict per row)
+        records = df.to_dict(orient="records")
+
+        # Write the list of dictionaries to a YAML file
+        with open(f"./data/{k}.yaml", "w") as f:
+            # sort_keys=False preserves column order
+            #json.dump(records, f, sort_keys=False, indent=2)
+            yaml.dump(records, f, sort_keys=False)
+
+    if k == "agenda":
+
+        days = {
+            '09/14/2025': [],
+            '09/15/2025': [],
+            '09/16/2025': [],
+            '09/17/2025': [],
+        }
+
+        for date in days.keys():
+            sessions = df[df['Date'] == date]
+            daysessions = sessions[sessions['SessionOrSub'] == 'Session'].to_dict(orient="records")
+            days[date] = daysessions
+            print(date)
+            print([session["SessionTitle"] for session in daysessions])
+        # Write the list of dictionaries to a YAML file
+        with open(f"./data/{k}.yaml", "w") as f:
+            # sort_keys=False preserves column order
+            #json.dump(records, f, sort_keys=False, indent=2)
+            yaml.dump(days, f, sort_keys=False)

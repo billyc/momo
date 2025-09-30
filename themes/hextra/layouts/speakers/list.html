@@ -9,7 +9,7 @@
           {{ if .Title }}<h1>{{ .Title }}</h1>{{ end }}
           <div class="speaker-grid">
              {{ range $index, $speaker := .Site.Data.speakers }}
-               <a class="speaker-card" href="{{ "/speakers/" | relURL }}{{ $index }}/">
+               <a class="speaker-card" href="./{{ $index }}/">
                  <div class="speaker-image">
                    <img src="../../assets/avatars/{{ $speaker.avatar }}" alt="">
                  </div>
