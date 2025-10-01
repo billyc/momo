@@ -68,10 +68,12 @@
 .session-card {
   display: flex;
   flex-direction: column;
-  border: 1px solid #ccc;
+  border: 1px solid #ddd;
+  border-left: 3px solid #578ef5;
   margin-top: 1rem;
   padding: 1rem 1rem;
   color: #444;
+  /* background-color: #f8f8f8; */
 }
 .session-time {
   color: #666;
@@ -82,13 +84,14 @@
   color: white;
   font-size: 0.8rem;
   font-weight: bold;
-  background-color: blue;
-  margin-top: 0.5rem;
-  margin-right: auto;
-  padding: 0px 4px 2px 4px;
+  background-color: rgb(137, 74, 209);
+  margin-right: 2px;
+  padding: 0px 5px 1px 5px;
+  display: inline-block;
 }
 .session-desc {
   margin-top: 1rem;
+  line-height: 1.4rem;
 }
 
 @-moz-document url-prefix() {
@@ -101,4 +104,23 @@
     max-height: 10rem;
     overflow: hidden;
   }
+}
+
+.hextra-nav-container {
+  /* background-color: #fffe; */
+  /* padding: 0.5rem 0 0.25rem 0 !important; */
+}
+
+.sub-session {
+  margin-top: 0.75rem;
+  padding: 0 0.5rem;
+}
+
+.sub-title {
+  color: #5b46cf;
+}
+
+.sub-speaker {
+  margin-top: -0.25rem;
+  font-weight: bold;
 }

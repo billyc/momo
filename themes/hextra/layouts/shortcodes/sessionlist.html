@@ -4,11 +4,40 @@
 {{ range $sessions }}
 
 <div class="session-card">
-  <b>{{ .SessionTitle }}</b>
-  <div class="session-time">{{ .TimeStart }} – {{ .TimeEnd }} at {{ .RoomLocation}}</div>
-  <div class="session-track">{{ .Tracks }}</div>
-  <div class="session-desc">{{ .Description | safeHTML }}</div>
-  <a>Read more...</a>
+<b>{{ .SessionTitle }}</b>
+
+<div class="session-time">{{ .TimeStart }} – {{ .TimeEnd }} at {{ .RoomLocation}}</div>
+
+{{ if gt (len .Tracks) 0 }}
+<div style="display: inline-block;">
+{{ range .Tracks }}
+<div class="session-track">{{ . }}</div>
+{{ end }}
+</div>
+{{ end }}
+
+<div class="session-people">
+{{ if .Moderator }} <span> {{.Moderator}} {{ end }}
+{{ if .Facilitator }} <span> {{.Facilitator}} {{ end }}
+</div>
+
+<div class="session-desc">{{ .Description | safeHTML }}</div>
+<!-- <a>Read more...</a> -->
+
+{{ if gt (len .subs) 0 }}
+<b>{{len .subs}} Sub-Sessions:</b>
+{{ range .subs }}
+<div class="sub-session">
+  <div class="sub-title">{{ .SessionTitle }}</div>
+  <div class="sub-speaker">{{ .RolePanelist }}</div>
+  {{ if gt (len .Speakers) 0 }}
+  {{range .Speakers}}<div class="sub-speaker">{{ . }}</div>{{end}}
+  {{ end }}
+  <div class="sub-desc">{{ .SessionDescription }}</div>
+</div>
+{{ end }}
+{{ end }}
+
 </div>
 
 {{ end }}

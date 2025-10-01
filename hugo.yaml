@@ -26,18 +26,18 @@ menu:
     - name: About
       pageRef: /about
       weight: 2
-    - name: Contact ↗
-      url: 'https://github.com/imfing'
+    - name: Zephyr↗
+      url: "https://zephyrtransport.org"
       weight: 3
     - name: Search
       weight: 4
       params:
         type: search
-    - name: GitHub
-      weight: 5
-      url: 'https://github.com/imfing/hextra-starter-template'
-      params:
-        icon: github
+    # - name: GitHub
+    #   weight: 5
+    #   url: "https://github.com/imfing/hextra-starter-template"
+    #   params:
+    #     icon: github
     # - name: Twitter
     #   weight: 6
     #   url: 'https://twitter.com/'
@@ -46,23 +46,26 @@ menu:
 
 params:
   editURL:
-    enable: true
-    base: 'https://github.com/imfing/hextra-starter-template/edit/main/content'
+    enable: false
+    base: "https://github.com/imfing/hextra-starter-template/edit/main/content"
 
   footer:
     displayCopyright: true
     displayPoweredBy: false
 
   navbar:
-    displayTitle: true
-    displayLogo: false
+    displayTitle: false
+    displayLogo: true
+    logo:
+      path: "assets/images/momo2025.png"
+      width: 200
 
   search:
     enable: true
     index_content: true
-    index_sections: ['speakers', 'posts', 'docs']
+    index_sections: ["2025", "speakers", "posts", "docs"]
 
   outputs:
-    home: ['HTML', 'JSON']
-    speakers: ['HTML', 'JSON']
-    section: ['HTML', 'JSON']
+    home: ["HTML", "JSON"]
+    speakers: ["HTML", "JSON"]
+    section: ["HTML", "JSON"]

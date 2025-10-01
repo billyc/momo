@@ -1,33 +1,32 @@
-import sys,json
+import sys, json
 import pandas as pd
 import yaml
 
 import re
 import unicodedata
 
-YEAR="2025"
+YEAR = "2025"
+
 
 def make_filename_safe(name: str) -> str:
     # Normalize Unicode (e.g., é → e)
-    name = unicodedata.normalize('NFKD', name)
-    name = name.encode('ascii', 'ignore').decode('ascii')  # remove non-ASCII
+    name = unicodedata.normalize("NFKD", name)
+    name = name.encode("ascii", "ignore").decode("ascii")  # remove non-ASCII
     # Replace spaces and repeated hyphens
-    name = re.sub(r'\s+', '-', name)
+    name = re.sub(r"\s+", "-", name)
     # Remove anything that's not a-z, 0-9, underscore, or hyphen
-    name = re.sub(r'[^a-zA-Z0-9_-]', '', name)
+    name = re.sub(r"[^a-zA-Z0-9_-]", "", name)
     # Collapse multiple hyphens and lowercase
-    name = re.sub(r'-{2,}', '-', name).strip('-').lower()
+    name = re.sub(r"-{2,}", "-", name).strip("-").lower()
     return name
+
 
 # Load the Excel file and select the 'data' sheet
 sheet_url = "https://docs.google.com/spreadsheets/d/1h9T9-gtwsDiBqeEq0kxhfSD4gvLAU4tO"
 
-gid = {
-    "agenda": 12805781,
-    "speakers": 1604031287
-}
+gid = {"agenda": 12805781, "speakers": 1604031287}
 
-for k,v in gid.items():
+for k, v in gid.items():
     csv_url = sheet_url + "/export?format=csv&gid=" + str(v)
     df = pd.read_csv(csv_url, keep_default_na=False, na_filter=False)
     print(df.head())
@@ -37,19 +36,19 @@ for k,v in gid.items():
         df.sort_values(by="LastName", inplace=True)
 
         # attach headshot avatars
-        with open ("static/assets/avatars/_avatars.yaml", "r") as file:
+        with open("static/assets/avatars/_avatars.yaml", "r") as file:
             lookup = yaml.safe_load(file)
             df["avatar"] = df["Name"].map(lookup["avatars"])
             df["title"] = df["Name"]
-            df["type"] = 'speakers'
-            df["layout"] = 'speakers'
+            df["type"] = "speakers"
+            df["layout"] = "speakers"
 
         # write individual speaker pages
         speakers = df.to_dict(orient="records")
-        for i,speaker in enumerate(speakers):
+        for i, speaker in enumerate(speakers):
             yaml_string = yaml.dump(speaker, sort_keys=False)
             md = f"---\n{yaml_string}---\n"
-            with open(f"./content/speakers/{YEAR}/{i}.md", "w") as f:
+            with open(f"./content/{YEAR}/speakers/{i}.md", "w") as f:
                 f.write(md)
 
         # Convert the DataFrame to a list of dictionaries (one dict per row)
@@ -58,26 +57,53 @@ for k,v in gid.items():
         # Write the list of dictionaries to a YAML file
         with open(f"./data/{k}.yaml", "w") as f:
             # sort_keys=False preserves column order
-            #json.dump(records, f, sort_keys=False, indent=2)
+            # json.dump(records, f, sort_keys=False, indent=2)
             yaml.dump(records, f, sort_keys=False)
 
     if k == "agenda":
 
         days = {
-            '09/14/2025': [],
-            '09/15/2025': [],
-            '09/16/2025': [],
-            '09/17/2025': [],
+            "09/14/2025": [],
+            "09/15/2025": [],
+            "09/16/2025": [],
+            "09/17/2025": [],
         }
 
         for date in days.keys():
-            sessions = df[df['Date'] == date]
-            daysessions = sessions[sessions['SessionOrSub'] == 'Session'].to_dict(orient="records")
-            days[date] = daysessions
+            todays_sessions = []
+
+            # get today's sessions
+            today = df[df["Date"] == date].to_dict(orient="records")
+            # attach subsessions to sessions
+            current_session = None
+            for event in today:
+                if event["SessionOrSub"] == "Session":
+                    if current_session != None:
+                        todays_sessions.append(current_session)
+                    current_session = event
+                    current_session["subs"] = []
+                else:
+                    current_session["subs"].append(event)
+
+                # split things up nicely
+                speakers = []
+                if len(event["Speakers"]) > 0:
+                    speakers = [a.strip() for a in sorted(event["Speakers"].split(";"))]
+                event["Speakers"] = speakers
+
+                tracks = []
+                if len(event["Tracks"]) > 0:
+                    tracks = [a.strip() for a in sorted(event["Tracks"].split(";"))]
+                event["Tracks"] = tracks
+
+            # all done with today's events
+            todays_sessions.append(current_session)
+            days[date] = todays_sessions
             print(date)
-            print([session["SessionTitle"] for session in daysessions])
+            print([session["SessionTitle"] for session in todays_sessions])
+
         # Write the list of dictionaries to a YAML file
         with open(f"./data/{k}.yaml", "w") as f:
             # sort_keys=False preserves column order
-            #json.dump(records, f, sort_keys=False, indent=2)
+            # json.dump(records, f, sort_keys=False, indent=2)
             yaml.dump(days, f, sort_keys=False)
