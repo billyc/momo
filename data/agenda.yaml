@@ -24,9 +24,11 @@
   - Suzanne Childress
   - Vladimir Livshits
   RolePanelist: ''
-  RoleDebater: ''
-  RoleModerator: Daniel Florian
-  RoleFacilitator: William Friedrichs
+  RoleDebater: []
+  RoleModerator:
+  - Daniel Florian
+  RoleFacilitator:
+  - William Friedrichs
   Authors: ''
   RecordedVideoURL: ''
   SessionOrSub: Session
@@ -59,9 +61,14 @@
     for regional transportation planning.</p>'
   Speakers: []
   RolePanelist: ''
-  RoleDebater: ''
-  RoleModerator: Sijia Wang; Xuesong (Simon) Zhou; Lisa Zorn; Andre Carrel
-  RoleFacilitator: Rhett Fussell
+  RoleDebater: []
+  RoleModerator:
+  - Andre Carrel
+  - Lisa Zorn
+  - Xuesong (Simon) Zhou
+  - Sijia Wang
+  RoleFacilitator:
+  - Rhett Fussell
   Authors: ''
   RecordedVideoURL: ''
   SessionOrSub: Session
@@ -76,9 +83,9 @@
   Description: ''
   Speakers: []
   RolePanelist: ''
-  RoleDebater: ''
-  RoleModerator: ''
-  RoleFacilitator: ''
+  RoleDebater: []
+  RoleModerator: []
+  RoleFacilitator: []
   Authors: ''
   RecordedVideoURL: ''
   SessionOrSub: Session
@@ -107,9 +114,10 @@
     productivity due to telecommuting, particularly in a post-pandemic context.</span></p><p>&nbsp;</p>'
   Speakers: []
   RolePanelist: ''
-  RoleDebater: ''
-  RoleModerator: Vladimir Livshits
-  RoleFacilitator: ''
+  RoleDebater: []
+  RoleModerator:
+  - Vladimir Livshits
+  RoleFacilitator: []
   Authors: ''
   RecordedVideoURL: ''
   SessionOrSub: Session
@@ -175,9 +183,9 @@
     Speakers:
     - Bishoy Kelleny
     RolePanelist: ''
-    RoleDebater: ''
-    RoleModerator: ''
-    RoleFacilitator: ''
+    RoleDebater: []
+    RoleModerator: []
+    RoleFacilitator: []
     Authors: ''
     RecordedVideoURL: ''
     SessionOrSub: Sub
@@ -319,9 +327,9 @@
     Speakers:
     - Neeco Beltran
     RolePanelist: ''
-    RoleDebater: ''
-    RoleModerator: ''
-    RoleFacilitator: ''
+    RoleDebater: []
+    RoleModerator: []
+    RoleFacilitator: []
     Authors: ''
     RecordedVideoURL: ''
     SessionOrSub: Sub
@@ -359,9 +367,9 @@
     Speakers:
     - Feng Liu
     RolePanelist: ''
-    RoleDebater: ''
-    RoleModerator: ''
-    RoleFacilitator: ''
+    RoleDebater: []
+    RoleModerator: []
+    RoleFacilitator: []
     Authors: ''
     RecordedVideoURL: ''
     SessionOrSub: Sub
@@ -428,9 +436,9 @@
     Speakers:
     - Tassio Magassy
     RolePanelist: ''
-    RoleDebater: ''
-    RoleModerator: ''
-    RoleFacilitator: ''
+    RoleDebater: []
+    RoleModerator: []
+    RoleFacilitator: []
     Authors: ''
     RecordedVideoURL: ''
     SessionOrSub: Sub
@@ -475,9 +483,9 @@
     Speakers:
     - Mark Bradley
     RolePanelist: ''
-    RoleDebater: ''
-    RoleModerator: ''
-    RoleFacilitator: ''
+    RoleDebater: []
+    RoleModerator: []
+    RoleFacilitator: []
     Authors: ''
     RecordedVideoURL: ''
     SessionOrSub: Sub
@@ -527,9 +535,9 @@
     Speakers:
     - Andrew Rohne
     RolePanelist: ''
-    RoleDebater: ''
-    RoleModerator: ''
-    RoleFacilitator: ''
+    RoleDebater: []
+    RoleModerator: []
+    RoleFacilitator: []
     Authors: ''
     RecordedVideoURL: ''
     SessionOrSub: Sub
@@ -570,9 +578,10 @@
   - Mark Moran
   - Guy Rousseau
   RolePanelist: ''
-  RoleDebater: ''
-  RoleModerator: Joe Castiglione
-  RoleFacilitator: ''
+  RoleDebater: []
+  RoleModerator:
+  - Joe Castiglione
+  RoleFacilitator: []
   Authors: ''
   RecordedVideoURL: ''
   SessionOrSub: Session
@@ -651,9 +660,11 @@
     Join us!</span></p>'
   Speakers: []
   RolePanelist: ''
-  RoleDebater: ''
-  RoleModerator: Stephen Lawe; Chris Berrens
-  RoleFacilitator: ''
+  RoleDebater: []
+  RoleModerator:
+  - Chris Berrens
+  - Stephen Lawe
+  RoleFacilitator: []
   Authors: ''
   RecordedVideoURL: ''
   SessionOrSub: Session
@@ -676,9 +687,10 @@
     of a strong, collaborative community.</span></p>'
   Speakers: []
   RolePanelist: ''
-  RoleDebater: ''
-  RoleModerator: Marty Milkovits
-  RoleFacilitator: ''
+  RoleDebater: []
+  RoleModerator:
+  - Marty Milkovits
+  RoleFacilitator: []
   Authors: ''
   RecordedVideoURL: ''
   SessionOrSub: Session
@@ -699,9 +711,10 @@
     - Why are we even doing this?</p>'
   Speakers: []
   RolePanelist: ''
-  RoleDebater: ''
-  RoleModerator: Gregory Macfarlane
-  RoleFacilitator: ''
+  RoleDebater: []
+  RoleModerator:
+  - Gregory Macfarlane
+  RoleFacilitator: []
   Authors: ''
   RecordedVideoURL: ''
   SessionOrSub: Session
@@ -716,9 +729,9 @@
     Description: <p><a title="FHWA Forecasting TOPR _Cover letter" href="https://metroanalytic.sharepoint.com/:w:/s/MA/EQUsNignn-NLqkBSwKOnZRMBf6ICeDmEPwouYN_qXuSuLQ?e=yXq7aW">https://metroanalytic.sharepoint.com/:w:/s/MA/EQUsNignn-NLqkBSwKOnZRMBf6ICeDmEPwouYN_qXuSuLQ?e=yXq7aW</a></p>
     Speakers: []
     RolePanelist: Katie Asmussen; Rob Schiffer; Suzie Swim; Gaurav Vyas
-    RoleDebater: ''
-    RoleModerator: ''
-    RoleFacilitator: ''
+    RoleDebater: []
+    RoleModerator: []
+    RoleFacilitator: []
     Authors: ''
     RecordedVideoURL: ''
     SessionOrSub: Sub
@@ -747,9 +760,11 @@
     travel survey methodologies.</p>'
   Speakers: []
   RolePanelist: ''
-  RoleDebater: ''
-  RoleModerator: Liz Roten
-  RoleFacilitator: Ashley Asmus
+  RoleDebater: []
+  RoleModerator:
+  - Liz Roten
+  RoleFacilitator:
+  - Ashley Asmus
   Authors: ''
   RecordedVideoURL: ''
   SessionOrSub: Session
@@ -815,9 +830,9 @@
     Speakers:
     - Parsa Soleyman Farahani
     RolePanelist: ''
-    RoleDebater: ''
-    RoleModerator: ''
-    RoleFacilitator: ''
+    RoleDebater: []
+    RoleModerator: []
+    RoleFacilitator: []
     Authors: ''
     RecordedVideoURL: ''
     SessionOrSub: Sub
@@ -849,9 +864,9 @@
     Speakers:
     - James Sullivan
     RolePanelist: ''
-    RoleDebater: ''
-    RoleModerator: ''
-    RoleFacilitator: ''
+    RoleDebater: []
+    RoleModerator: []
+    RoleFacilitator: []
     Authors: ''
     RecordedVideoURL: ''
     SessionOrSub: Sub
@@ -908,9 +923,9 @@
     Speakers:
     - Jonathan Silverberg
     RolePanelist: ''
-    RoleDebater: ''
-    RoleModerator: ''
-    RoleFacilitator: ''
+    RoleDebater: []
+    RoleModerator: []
+    RoleFacilitator: []
     Authors: ''
     RecordedVideoURL: ''
     SessionOrSub: Sub
@@ -968,9 +983,9 @@
     Speakers:
     - Vijay Sivaraman
     RolePanelist: ''
-    RoleDebater: ''
-    RoleModerator: ''
-    RoleFacilitator: ''
+    RoleDebater: []
+    RoleModerator: []
+    RoleFacilitator: []
     Authors: ''
     RecordedVideoURL: ''
     SessionOrSub: Sub
@@ -997,9 +1012,9 @@
     Speakers:
     - Jiangchuan Hu
     RolePanelist: ''
-    RoleDebater: ''
-    RoleModerator: ''
-    RoleFacilitator: ''
+    RoleDebater: []
+    RoleModerator: []
+    RoleFacilitator: []
     Authors: ''
     RecordedVideoURL: ''
     SessionOrSub: Sub
@@ -1026,9 +1041,9 @@
     Speakers:
     - Francisco Torres
     RolePanelist: ''
-    RoleDebater: ''
-    RoleModerator: ''
-    RoleFacilitator: ''
+    RoleDebater: []
+    RoleModerator: []
+    RoleFacilitator: []
     Authors: ''
     RecordedVideoURL: ''
     SessionOrSub: Sub
@@ -1059,9 +1074,9 @@
     Speakers:
     - Cynthia Chen
     RolePanelist: ''
-    RoleDebater: ''
-    RoleModerator: ''
-    RoleFacilitator: ''
+    RoleDebater: []
+    RoleModerator: []
+    RoleFacilitator: []
     Authors: ''
     RecordedVideoURL: ''
     SessionOrSub: Sub
@@ -1077,9 +1092,9 @@
     Speakers:
     - Yongzhao Peng
     RolePanelist: ''
-    RoleDebater: ''
-    RoleModerator: ''
-    RoleFacilitator: ''
+    RoleDebater: []
+    RoleModerator: []
+    RoleFacilitator: []
     Authors: ''
     RecordedVideoURL: ''
     SessionOrSub: Sub
@@ -1144,9 +1159,9 @@
     Speakers:
     - Kate Dannemiller
     RolePanelist: ''
-    RoleDebater: ''
-    RoleModerator: ''
-    RoleFacilitator: ''
+    RoleDebater: []
+    RoleModerator: []
+    RoleFacilitator: []
     Authors: ''
     RecordedVideoURL: ''
     SessionOrSub: Sub
@@ -1170,9 +1185,11 @@
     increase safety, and enhance mobility for all users.</p>'
   Speakers: []
   RolePanelist: ''
-  RoleDebater: ''
-  RoleModerator: Guy Rousseau
-  RoleFacilitator: Grant Saunders
+  RoleDebater: []
+  RoleModerator:
+  - Guy Rousseau
+  RoleFacilitator:
+  - Grant Saunders
   Authors: ''
   RecordedVideoURL: ''
   SessionOrSub: Session
@@ -1199,9 +1216,9 @@
     Speakers:
     - Hailey Amundson
     RolePanelist: ''
-    RoleDebater: ''
-    RoleModerator: ''
-    RoleFacilitator: ''
+    RoleDebater: []
+    RoleModerator: []
+    RoleFacilitator: []
     Authors: ''
     RecordedVideoURL: ''
     SessionOrSub: Sub
@@ -1248,9 +1265,9 @@
     Speakers:
     - Joe Broach
     RolePanelist: ''
-    RoleDebater: ''
-    RoleModerator: ''
-    RoleFacilitator: ''
+    RoleDebater: []
+    RoleModerator: []
+    RoleFacilitator: []
     Authors: ''
     RecordedVideoURL: ''
     SessionOrSub: Sub
@@ -1330,9 +1347,9 @@
     Speakers:
     - Rhett Fussell
     RolePanelist: ''
-    RoleDebater: ''
-    RoleModerator: ''
-    RoleFacilitator: ''
+    RoleDebater: []
+    RoleModerator: []
+    RoleFacilitator: []
     Authors: ''
     RecordedVideoURL: ''
     SessionOrSub: Sub
@@ -1392,9 +1409,9 @@
     Speakers:
     - Kazi Ullah
     RolePanelist: ''
-    RoleDebater: ''
-    RoleModerator: ''
-    RoleFacilitator: ''
+    RoleDebater: []
+    RoleModerator: []
+    RoleFacilitator: []
     Authors: ''
     RecordedVideoURL: ''
     SessionOrSub: Sub
@@ -1420,9 +1437,11 @@
     for more equitable and efficient transportation systems.</p>'
   Speakers: []
   RolePanelist: ''
-  RoleDebater: ''
-  RoleModerator: Jonathan Ehrlich
-  RoleFacilitator: Jorge Diaz-Gutierrez
+  RoleDebater: []
+  RoleModerator:
+  - Jonathan Ehrlich
+  RoleFacilitator:
+  - Jorge Diaz-Gutierrez
   Authors: ''
   RecordedVideoURL: ''
   SessionOrSub: Session
@@ -1458,9 +1477,9 @@
     Speakers:
     - Mark Bradley
     RolePanelist: ''
-    RoleDebater: ''
-    RoleModerator: ''
-    RoleFacilitator: ''
+    RoleDebater: []
+    RoleModerator: []
+    RoleFacilitator: []
     Authors: ''
     RecordedVideoURL: ''
     SessionOrSub: Sub
@@ -1555,9 +1574,9 @@
     Speakers:
     - Paris Charitatos
     RolePanelist: ''
-    RoleDebater: ''
-    RoleModerator: ''
-    RoleFacilitator: ''
+    RoleDebater: []
+    RoleModerator: []
+    RoleFacilitator: []
     Authors: ''
     RecordedVideoURL: ''
     SessionOrSub: Sub
@@ -1574,9 +1593,9 @@
     Speakers:
     - Dan Tischler
     RolePanelist: ''
-    RoleDebater: ''
-    RoleModerator: ''
-    RoleFacilitator: ''
+    RoleDebater: []
+    RoleModerator: []
+    RoleFacilitator: []
     Authors: ''
     RecordedVideoURL: ''
     SessionOrSub: Sub
@@ -1651,9 +1670,9 @@
     Speakers:
     - Brian Lee
     RolePanelist: ''
-    RoleDebater: ''
-    RoleModerator: ''
-    RoleFacilitator: ''
+    RoleDebater: []
+    RoleModerator: []
+    RoleFacilitator: []
     Authors: ''
     RecordedVideoURL: ''
     SessionOrSub: Sub
@@ -1667,9 +1686,9 @@
   Description: ''
   Speakers: []
   RolePanelist: ''
-  RoleDebater: ''
-  RoleModerator: ''
-  RoleFacilitator: ''
+  RoleDebater: []
+  RoleModerator: []
+  RoleFacilitator: []
   Authors: ''
   RecordedVideoURL: ''
   SessionOrSub: Session
@@ -1704,9 +1723,11 @@
     equitable, and sustainable mobility networks.</span></p>'
   Speakers: []
   RolePanelist: ''
-  RoleDebater: ''
-  RoleModerator: Elizabeth Sall
-  RoleFacilitator: Shivang Shelat
+  RoleDebater: []
+  RoleModerator:
+  - Elizabeth Sall
+  RoleFacilitator:
+  - Shivang Shelat
   Authors: ''
   RecordedVideoURL: ''
   SessionOrSub: Session
@@ -1764,9 +1785,9 @@
     Speakers:
     - Thomas Orgren
     RolePanelist: ''
-    RoleDebater: ''
-    RoleModerator: ''
-    RoleFacilitator: ''
+    RoleDebater: []
+    RoleModerator: []
+    RoleFacilitator: []
     Authors: ''
     RecordedVideoURL: ''
     SessionOrSub: Sub
@@ -1794,9 +1815,9 @@
     Speakers:
     - Guy Rousseau
     RolePanelist: ''
-    RoleDebater: ''
-    RoleModerator: ''
-    RoleFacilitator: ''
+    RoleDebater: []
+    RoleModerator: []
+    RoleFacilitator: []
     Authors: ''
     RecordedVideoURL: ''
     SessionOrSub: Sub
@@ -1933,9 +1954,9 @@
     Speakers:
     - Parsa Soleyman Farahani
     RolePanelist: ''
-    RoleDebater: ''
-    RoleModerator: ''
-    RoleFacilitator: ''
+    RoleDebater: []
+    RoleModerator: []
+    RoleFacilitator: []
     Authors: ''
     RecordedVideoURL: ''
     SessionOrSub: Sub
@@ -2018,9 +2039,9 @@
     Speakers:
     - Kotpati Yugesh Naidu
     RolePanelist: ''
-    RoleDebater: ''
-    RoleModerator: ''
-    RoleFacilitator: ''
+    RoleDebater: []
+    RoleModerator: []
+    RoleFacilitator: []
     Authors: ''
     RecordedVideoURL: ''
     SessionOrSub: Sub
@@ -2067,9 +2088,11 @@
     challenges and opportunties for using DTA in transportation and planning analysis.</span></p>'
   Speakers: []
   RolePanelist: ''
-  RoleDebater: ''
-  RoleModerator: Peter Bosa
-  RoleFacilitator: Eric Nava
+  RoleDebater: []
+  RoleModerator:
+  - Peter Bosa
+  RoleFacilitator:
+  - Eric Nava
   Authors: ''
   RecordedVideoURL: ''
   SessionOrSub: Session
@@ -2127,9 +2150,9 @@
     Speakers:
     - Shaghayegh Shabanian
     RolePanelist: ''
-    RoleDebater: ''
-    RoleModerator: ''
-    RoleFacilitator: ''
+    RoleDebater: []
+    RoleModerator: []
+    RoleFacilitator: []
     Authors: ''
     RecordedVideoURL: ''
     SessionOrSub: Sub
@@ -2239,9 +2262,9 @@
     Speakers:
     - Weimin Jin
     RolePanelist: ''
-    RoleDebater: ''
-    RoleModerator: ''
-    RoleFacilitator: ''
+    RoleDebater: []
+    RoleModerator: []
+    RoleFacilitator: []
     Authors: ''
     RecordedVideoURL: ''
     SessionOrSub: Sub
@@ -2301,9 +2324,9 @@
     Speakers:
     - Jim Hicks
     RolePanelist: ''
-    RoleDebater: ''
-    RoleModerator: ''
-    RoleFacilitator: ''
+    RoleDebater: []
+    RoleModerator: []
+    RoleFacilitator: []
     Authors: ''
     RecordedVideoURL: ''
     SessionOrSub: Sub
@@ -2364,9 +2387,9 @@
     Speakers:
     - Michael Mahut
     RolePanelist: ''
-    RoleDebater: ''
-    RoleModerator: ''
-    RoleFacilitator: ''
+    RoleDebater: []
+    RoleModerator: []
+    RoleFacilitator: []
     Authors: ''
     RecordedVideoURL: ''
     SessionOrSub: Sub
@@ -2383,9 +2406,9 @@
     Speakers:
     - Jeff Pierson
     RolePanelist: ''
-    RoleDebater: ''
-    RoleModerator: ''
-    RoleFacilitator: ''
+    RoleDebater: []
+    RoleModerator: []
+    RoleFacilitator: []
     Authors: ''
     RecordedVideoURL: ''
     SessionOrSub: Sub
@@ -2414,9 +2437,11 @@
     better planning and decision-making.</p><p class="MsoNormal">&nbsp;</p>'
   Speakers: []
   RolePanelist: ''
-  RoleDebater: ''
-  RoleModerator: Berrien Barks
-  RoleFacilitator: Mary Richards
+  RoleDebater: []
+  RoleModerator:
+  - Berrien Barks
+  RoleFacilitator:
+  - Mary Richards
   Authors: ''
   RecordedVideoURL: ''
   SessionOrSub: Session
@@ -2500,9 +2525,9 @@
     Speakers:
     - Helia Mohammadi Mavi
     RolePanelist: ''
-    RoleDebater: ''
-    RoleModerator: ''
-    RoleFacilitator: ''
+    RoleDebater: []
+    RoleModerator: []
+    RoleFacilitator: []
     Authors: ''
     RecordedVideoURL: ''
     SessionOrSub: Sub
@@ -2571,9 +2596,9 @@
     Speakers:
     - Scott Smith
     RolePanelist: ''
-    RoleDebater: ''
-    RoleModerator: ''
-    RoleFacilitator: ''
+    RoleDebater: []
+    RoleModerator: []
+    RoleFacilitator: []
     Authors: ''
     RecordedVideoURL: ''
     SessionOrSub: Sub
@@ -2687,9 +2712,9 @@
     Speakers:
     - Chi Lam
     RolePanelist: ''
-    RoleDebater: ''
-    RoleModerator: ''
-    RoleFacilitator: ''
+    RoleDebater: []
+    RoleModerator: []
+    RoleFacilitator: []
     Authors: ''
     RecordedVideoURL: ''
     SessionOrSub: Sub
@@ -2751,9 +2776,9 @@
     Speakers:
     - Raj Roy
     RolePanelist: ''
-    RoleDebater: ''
-    RoleModerator: ''
-    RoleFacilitator: ''
+    RoleDebater: []
+    RoleModerator: []
+    RoleFacilitator: []
     Authors: ''
     RecordedVideoURL: ''
     SessionOrSub: Sub
@@ -2824,9 +2849,9 @@
     Speakers:
     - Zeina Wafa
     RolePanelist: ''
-    RoleDebater: ''
-    RoleModerator: ''
-    RoleFacilitator: ''
+    RoleDebater: []
+    RoleModerator: []
+    RoleFacilitator: []
     Authors: ''
     RecordedVideoURL: ''
     SessionOrSub: Sub
@@ -2856,9 +2881,9 @@
   - Peter Bosa
   - Marty Milkovits
   RolePanelist: ''
-  RoleDebater: ''
-  RoleModerator: ''
-  RoleFacilitator: ''
+  RoleDebater: []
+  RoleModerator: []
+  RoleFacilitator: []
   Authors: ''
   RecordedVideoURL: ''
   SessionOrSub: Session
@@ -2878,9 +2903,9 @@
     - Peter Bosa
     - Marty Milkovits
     RolePanelist: ''
-    RoleDebater: ''
-    RoleModerator: ''
-    RoleFacilitator: ''
+    RoleDebater: []
+    RoleModerator: []
+    RoleFacilitator: []
     Authors: ''
     RecordedVideoURL: ''
     SessionOrSub: Sub
@@ -2895,9 +2920,9 @@
     Speakers:
     - Nancy Daubenberger
     RolePanelist: ''
-    RoleDebater: ''
-    RoleModerator: ''
-    RoleFacilitator: ''
+    RoleDebater: []
+    RoleModerator: []
+    RoleFacilitator: []
     Authors: ''
     RecordedVideoURL: ''
     SessionOrSub: Sub
@@ -2912,9 +2937,9 @@
     Speakers:
     - Jeremy Raw
     RolePanelist: ''
-    RoleDebater: ''
-    RoleModerator: ''
-    RoleFacilitator: ''
+    RoleDebater: []
+    RoleModerator: []
+    RoleFacilitator: []
     Authors: ''
     RecordedVideoURL: ''
     SessionOrSub: Sub
@@ -2940,9 +2965,11 @@
     in AI education, computational resources, and data integration.</p>'
   Speakers: []
   RolePanelist: ''
-  RoleDebater: ''
-  RoleModerator: Rosella Picado
-  RoleFacilitator: Suzie Swim
+  RoleDebater: []
+  RoleModerator:
+  - Rosella Picado
+  RoleFacilitator:
+  - Suzie Swim
   Authors: ''
   RecordedVideoURL: ''
   SessionOrSub: Session
@@ -3014,9 +3041,9 @@
     Speakers:
     - Vince Bernardin
     RolePanelist: ''
-    RoleDebater: ''
-    RoleModerator: ''
-    RoleFacilitator: ''
+    RoleDebater: []
+    RoleModerator: []
+    RoleFacilitator: []
     Authors: ''
     RecordedVideoURL: ''
     SessionOrSub: Sub
@@ -3077,9 +3104,9 @@
     Speakers:
     - Tianming Liu
     RolePanelist: ''
-    RoleDebater: ''
-    RoleModerator: ''
-    RoleFacilitator: ''
+    RoleDebater: []
+    RoleModerator: []
+    RoleFacilitator: []
     Authors: ''
     RecordedVideoURL: ''
     SessionOrSub: Sub
@@ -3141,9 +3168,9 @@
     Speakers:
     - David Schmitt
     RolePanelist: ''
-    RoleDebater: ''
-    RoleModerator: ''
-    RoleFacilitator: ''
+    RoleDebater: []
+    RoleModerator: []
+    RoleFacilitator: []
     Authors: ''
     RecordedVideoURL: ''
     SessionOrSub: Sub
@@ -3233,9 +3260,9 @@
     Speakers:
     - Tara Diba
     RolePanelist: ''
-    RoleDebater: ''
-    RoleModerator: ''
-    RoleFacilitator: ''
+    RoleDebater: []
+    RoleModerator: []
+    RoleFacilitator: []
     Authors: ''
     RecordedVideoURL: ''
     SessionOrSub: Sub
@@ -3334,9 +3361,9 @@
     Speakers:
     - Henan Zhu
     RolePanelist: ''
-    RoleDebater: ''
-    RoleModerator: ''
-    RoleFacilitator: ''
+    RoleDebater: []
+    RoleModerator: []
+    RoleFacilitator: []
     Authors: ''
     RecordedVideoURL: ''
     SessionOrSub: Sub
@@ -3364,9 +3391,11 @@
     characteristics and their role in transit access and micro-transit use.</span></p>'
   Speakers: []
   RolePanelist: ''
-  RoleDebater: ''
-  RoleModerator: Jeffrey Hood
-  RoleFacilitator: Randolph Pullen
+  RoleDebater: []
+  RoleModerator:
+  - Jeffrey Hood
+  RoleFacilitator:
+  - Randolph Pullen
   Authors: ''
   RecordedVideoURL: ''
   SessionOrSub: Session
@@ -3442,9 +3471,9 @@
     Speakers:
     - Ali Riahi Samani
     RolePanelist: ''
-    RoleDebater: ''
-    RoleModerator: ''
-    RoleFacilitator: ''
+    RoleDebater: []
+    RoleModerator: []
+    RoleFacilitator: []
     Authors: ''
     RecordedVideoURL: ''
     SessionOrSub: Sub
@@ -3507,9 +3536,9 @@
     Speakers:
     - Kate Dannemiller
     RolePanelist: ''
-    RoleDebater: ''
-    RoleModerator: ''
-    RoleFacilitator: ''
+    RoleDebater: []
+    RoleModerator: []
+    RoleFacilitator: []
     Authors: ''
     RecordedVideoURL: ''
     SessionOrSub: Sub
@@ -3586,9 +3615,9 @@
     Speakers:
     - Eric Lind
     RolePanelist: ''
-    RoleDebater: ''
-    RoleModerator: ''
-    RoleFacilitator: ''
+    RoleDebater: []
+    RoleModerator: []
+    RoleFacilitator: []
     Authors: ''
     RecordedVideoURL: ''
     SessionOrSub: Sub
@@ -3639,9 +3668,9 @@
     Speakers:
     - Thomas Orgren
     RolePanelist: ''
-    RoleDebater: ''
-    RoleModerator: ''
-    RoleFacilitator: ''
+    RoleDebater: []
+    RoleModerator: []
+    RoleFacilitator: []
     Authors: ''
     RecordedVideoURL: ''
     SessionOrSub: Sub
@@ -3711,9 +3740,9 @@
     Speakers:
     - Subid Ghimire
     RolePanelist: ''
-    RoleDebater: ''
-    RoleModerator: ''
-    RoleFacilitator: ''
+    RoleDebater: []
+    RoleModerator: []
+    RoleFacilitator: []
     Authors: ''
     RecordedVideoURL: ''
     SessionOrSub: Sub
@@ -3737,9 +3766,11 @@
     and inconsistencies across different modeling efforts.</p>'
   Speakers: []
   RolePanelist: ''
-  RoleDebater: ''
-  RoleModerator: Like Liu
-  RoleFacilitator: Matthew Gates
+  RoleDebater: []
+  RoleModerator:
+  - Like Liu
+  RoleFacilitator:
+  - Matthew Gates
   Authors: ''
   RecordedVideoURL: ''
   SessionOrSub: Session
@@ -3764,9 +3795,9 @@
     Speakers:
     - Bill Stein
     RolePanelist: ''
-    RoleDebater: ''
-    RoleModerator: ''
-    RoleFacilitator: ''
+    RoleDebater: []
+    RoleModerator: []
+    RoleFacilitator: []
     Authors: ''
     RecordedVideoURL: ''
     SessionOrSub: Sub
@@ -3797,9 +3828,9 @@
     Speakers:
     - Billy Charlton
     RolePanelist: ''
-    RoleDebater: ''
-    RoleModerator: ''
-    RoleFacilitator: ''
+    RoleDebater: []
+    RoleModerator: []
+    RoleFacilitator: []
     Authors: ''
     RecordedVideoURL: ''
     SessionOrSub: Sub
@@ -3862,9 +3893,9 @@
     Speakers:
     - Jonathan Avner
     RolePanelist: ''
-    RoleDebater: ''
-    RoleModerator: ''
-    RoleFacilitator: ''
+    RoleDebater: []
+    RoleModerator: []
+    RoleFacilitator: []
     Authors: ''
     RecordedVideoURL: ''
     SessionOrSub: Sub
@@ -3907,9 +3938,9 @@
     Speakers:
     - Jawad Mahmud Hoque
     RolePanelist: ''
-    RoleDebater: ''
-    RoleModerator: ''
-    RoleFacilitator: ''
+    RoleDebater: []
+    RoleModerator: []
+    RoleFacilitator: []
     Authors: ''
     RecordedVideoURL: ''
     SessionOrSub: Sub
@@ -3923,9 +3954,9 @@
   Description: ''
   Speakers: []
   RolePanelist: ''
-  RoleDebater: ''
-  RoleModerator: ''
-  RoleFacilitator: ''
+  RoleDebater: []
+  RoleModerator: []
+  RoleFacilitator: []
   Authors: ''
   RecordedVideoURL: ''
   SessionOrSub: Session
@@ -3949,9 +3980,11 @@
     modeling, as well as addressing localized traffic impacts in rapidly growing areas.</p>'
   Speakers: []
   RolePanelist: ''
-  RoleDebater: ''
-  RoleModerator: James Sullivan
-  RoleFacilitator: Scott Weber
+  RoleDebater: []
+  RoleModerator:
+  - James Sullivan
+  RoleFacilitator:
+  - Scott Weber
   Authors: ''
   RecordedVideoURL: ''
   SessionOrSub: Session
@@ -4000,9 +4033,9 @@
     - Mithila Hasan
     - Eric Wilke
     RolePanelist: ''
-    RoleDebater: ''
-    RoleModerator: ''
-    RoleFacilitator: ''
+    RoleDebater: []
+    RoleModerator: []
+    RoleFacilitator: []
     Authors: ''
     RecordedVideoURL: ''
     SessionOrSub: Sub
@@ -4128,9 +4161,9 @@
     Speakers:
     - Neeco Beltran
     RolePanelist: ''
-    RoleDebater: ''
-    RoleModerator: ''
-    RoleFacilitator: ''
+    RoleDebater: []
+    RoleModerator: []
+    RoleFacilitator: []
     Authors: ''
     RecordedVideoURL: ''
     SessionOrSub: Sub
@@ -4195,9 +4228,9 @@
     Speakers:
     - Edgar Millard
     RolePanelist: ''
-    RoleDebater: ''
-    RoleModerator: ''
-    RoleFacilitator: ''
+    RoleDebater: []
+    RoleModerator: []
+    RoleFacilitator: []
     Authors: ''
     RecordedVideoURL: ''
     SessionOrSub: Sub
@@ -4278,9 +4311,9 @@
     Speakers:
     - Vijay Sivaraman
     RolePanelist: ''
-    RoleDebater: ''
-    RoleModerator: ''
-    RoleFacilitator: ''
+    RoleDebater: []
+    RoleModerator: []
+    RoleFacilitator: []
     Authors: ''
     RecordedVideoURL: ''
     SessionOrSub: Sub
@@ -4319,9 +4352,9 @@
     - Benjamin Nault
     - Florence Ngai
     RolePanelist: ''
-    RoleDebater: ''
-    RoleModerator: ''
-    RoleFacilitator: ''
+    RoleDebater: []
+    RoleModerator: []
+    RoleFacilitator: []
     Authors: ''
     RecordedVideoURL: ''
     SessionOrSub: Sub
@@ -4347,9 +4380,11 @@
     rigor of demand modeling, project evaluation, and policy analysis.</p>'
   Speakers: []
   RolePanelist: ''
-  RoleDebater: ''
-  RoleModerator: Bill Hereth
-  RoleFacilitator: Dan Tischler
+  RoleDebater: []
+  RoleModerator:
+  - Bill Hereth
+  RoleFacilitator:
+  - Dan Tischler
   Authors: ''
   RecordedVideoURL: ''
   SessionOrSub: Session
@@ -4391,9 +4426,9 @@
     - Kyle Schroeckenthaler, PMP
     - Allen Greenberg
     RolePanelist: ''
-    RoleDebater: ''
-    RoleModerator: ''
-    RoleFacilitator: ''
+    RoleDebater: []
+    RoleModerator: []
+    RoleFacilitator: []
     Authors: ''
     RecordedVideoURL: ''
     SessionOrSub: Sub
@@ -4440,9 +4475,9 @@
     - Sophie Blumenstein
     - Daniel Tempesta
     RolePanelist: ''
-    RoleDebater: ''
-    RoleModerator: ''
-    RoleFacilitator: ''
+    RoleDebater: []
+    RoleModerator: []
+    RoleFacilitator: []
     Authors: ''
     RecordedVideoURL: ''
     SessionOrSub: Sub
@@ -4475,9 +4510,9 @@
     - JJ Paul
     - Jon Commers
     RolePanelist: ''
-    RoleDebater: ''
-    RoleModerator: ''
-    RoleFacilitator: ''
+    RoleDebater: []
+    RoleModerator: []
+    RoleFacilitator: []
     Authors: ''
     RecordedVideoURL: ''
     SessionOrSub: Sub
@@ -4513,9 +4548,9 @@
     Speakers:
     - Chris Gregerson
     RolePanelist: ''
-    RoleDebater: ''
-    RoleModerator: ''
-    RoleFacilitator: ''
+    RoleDebater: []
+    RoleModerator: []
+    RoleFacilitator: []
     Authors: ''
     RecordedVideoURL: ''
     SessionOrSub: Sub
@@ -4581,9 +4616,9 @@
     Speakers:
     - Liming Wang
     RolePanelist: ''
-    RoleDebater: ''
-    RoleModerator: ''
-    RoleFacilitator: ''
+    RoleDebater: []
+    RoleModerator: []
+    RoleFacilitator: []
     Authors: ''
     RecordedVideoURL: ''
     SessionOrSub: Sub
@@ -4619,9 +4654,9 @@
     Speakers:
     - Drew Cooper
     RolePanelist: ''
-    RoleDebater: ''
-    RoleModerator: ''
-    RoleFacilitator: ''
+    RoleDebater: []
+    RoleModerator: []
+    RoleFacilitator: []
     Authors: ''
     RecordedVideoURL: ''
     SessionOrSub: Sub
@@ -4644,9 +4679,11 @@
     insights and lessons learned to inform future statewide modeling efforts.</p>'
   Speakers: []
   RolePanelist: ''
-  RoleDebater: ''
-  RoleModerator: Michelle Bina
-  RoleFacilitator: Mark Radovic
+  RoleDebater: []
+  RoleModerator:
+  - Michelle Bina
+  RoleFacilitator:
+  - Mark Radovic
   Authors: ''
   RecordedVideoURL: ''
   SessionOrSub: Session
@@ -4693,9 +4730,9 @@
     Speakers:
     - Paul Morris
     RolePanelist: ''
-    RoleDebater: ''
-    RoleModerator: ''
-    RoleFacilitator: ''
+    RoleDebater: []
+    RoleModerator: []
+    RoleFacilitator: []
     Authors: ''
     RecordedVideoURL: ''
     SessionOrSub: Sub
@@ -4737,9 +4774,9 @@
     Speakers:
     - Cacho Wang
     RolePanelist: ''
-    RoleDebater: ''
-    RoleModerator: ''
-    RoleFacilitator: ''
+    RoleDebater: []
+    RoleModerator: []
+    RoleFacilitator: []
     Authors: ''
     RecordedVideoURL: ''
     SessionOrSub: Sub
@@ -4784,9 +4821,9 @@
     Speakers:
     - Elham Shayanfar
     RolePanelist: ''
-    RoleDebater: ''
-    RoleModerator: ''
-    RoleFacilitator: ''
+    RoleDebater: []
+    RoleModerator: []
+    RoleFacilitator: []
     Authors: ''
     RecordedVideoURL: ''
     SessionOrSub: Sub
@@ -4855,9 +4892,9 @@
     Speakers:
     - Gregory Giaimo
     RolePanelist: ''
-    RoleDebater: ''
-    RoleModerator: ''
-    RoleFacilitator: ''
+    RoleDebater: []
+    RoleModerator: []
+    RoleFacilitator: []
     Authors: ''
     RecordedVideoURL: ''
     SessionOrSub: Sub
@@ -4934,9 +4971,9 @@
     Speakers:
     - Vince Bernardin
     RolePanelist: ''
-    RoleDebater: ''
-    RoleModerator: ''
-    RoleFacilitator: ''
+    RoleDebater: []
+    RoleModerator: []
+    RoleFacilitator: []
     Authors: ''
     RecordedVideoURL: ''
     SessionOrSub: Sub
@@ -4975,9 +5012,9 @@
     Speakers:
     - Niels Bostrom
     RolePanelist: ''
-    RoleDebater: ''
-    RoleModerator: ''
-    RoleFacilitator: ''
+    RoleDebater: []
+    RoleModerator: []
+    RoleFacilitator: []
     Authors: ''
     RecordedVideoURL: ''
     SessionOrSub: Sub
@@ -4992,9 +5029,9 @@
     of Rolf Moeckel and Hani Mahmassani</strong></em></span></p>'
   Speakers: []
   RolePanelist: ''
-  RoleDebater: ''
-  RoleModerator: ''
-  RoleFacilitator: ''
+  RoleDebater: []
+  RoleModerator: []
+  RoleFacilitator: []
   Authors: ''
   RecordedVideoURL: ''
   SessionOrSub: Session
@@ -5027,9 +5064,9 @@
     Speakers:
     - Greg Erhardt
     RolePanelist: ''
-    RoleDebater: ''
-    RoleModerator: ''
-    RoleFacilitator: ''
+    RoleDebater: []
+    RoleModerator: []
+    RoleFacilitator: []
     Authors: ''
     RecordedVideoURL: ''
     SessionOrSub: Sub
@@ -5044,9 +5081,9 @@
     Speakers:
     - Xuesong (Simon) Zhou
     RolePanelist: ''
-    RoleDebater: ''
-    RoleModerator: ''
-    RoleFacilitator: ''
+    RoleDebater: []
+    RoleModerator: []
+    RoleFacilitator: []
     Authors: ''
     RecordedVideoURL: ''
     SessionOrSub: Sub
@@ -5071,9 +5108,9 @@
   - Xuesong (Simon) Zhou
   - Lisa Zorn
   RolePanelist: ''
-  RoleDebater: ''
-  RoleModerator: ''
-  RoleFacilitator: ''
+  RoleDebater: []
+  RoleModerator: []
+  RoleFacilitator: []
   Authors: ''
   RecordedVideoURL: ''
   SessionOrSub: Session
@@ -5106,9 +5143,11 @@
     policy.</p>'
   Speakers: []
   RolePanelist: ''
-  RoleDebater: ''
-  RoleModerator: Lisa Zorn
-  RoleFacilitator: Joe Ahrenholtz
+  RoleDebater: []
+  RoleModerator:
+  - Lisa Zorn
+  RoleFacilitator:
+  - Joe Ahrenholtz
   Authors: ''
   RecordedVideoURL: ''
   SessionOrSub: Session
@@ -5206,9 +5245,9 @@
     Speakers:
     - Peter Vovsha
     RolePanelist: ''
-    RoleDebater: ''
-    RoleModerator: ''
-    RoleFacilitator: ''
+    RoleDebater: []
+    RoleModerator: []
+    RoleFacilitator: []
     Authors: ''
     RecordedVideoURL: ''
     SessionOrSub: Sub
@@ -5264,9 +5303,9 @@
     Speakers:
     - Usman Ahmed
     RolePanelist: ''
-    RoleDebater: ''
-    RoleModerator: ''
-    RoleFacilitator: ''
+    RoleDebater: []
+    RoleModerator: []
+    RoleFacilitator: []
     Authors: ''
     RecordedVideoURL: ''
     SessionOrSub: Sub
@@ -5331,9 +5370,9 @@
     Speakers:
     - Gaurav Vyas
     RolePanelist: ''
-    RoleDebater: ''
-    RoleModerator: ''
-    RoleFacilitator: ''
+    RoleDebater: []
+    RoleModerator: []
+    RoleFacilitator: []
     Authors: ''
     RecordedVideoURL: ''
     SessionOrSub: Sub
@@ -5366,9 +5405,9 @@
     Speakers:
     - Chetan Joshi
     RolePanelist: ''
-    RoleDebater: ''
-    RoleModerator: ''
-    RoleFacilitator: ''
+    RoleDebater: []
+    RoleModerator: []
+    RoleFacilitator: []
     Authors: ''
     RecordedVideoURL: ''
     SessionOrSub: Sub
@@ -5384,9 +5423,9 @@
     - Vince Bernardin
     - Andrew Rohne
     RolePanelist: ''
-    RoleDebater: ''
-    RoleModerator: ''
-    RoleFacilitator: ''
+    RoleDebater: []
+    RoleModerator: []
+    RoleFacilitator: []
     Authors: ''
     RecordedVideoURL: ''
     SessionOrSub: Sub
@@ -5416,9 +5455,11 @@
     on how to use models to inform better, more robust decisions.</p>'
   Speakers: []
   RolePanelist: ''
-  RoleDebater: ''
-  RoleModerator: Marty Milkovits; Flavia Tsang
-  RoleFacilitator: ''
+  RoleDebater: []
+  RoleModerator:
+  - Flavia Tsang
+  - Marty Milkovits
+  RoleFacilitator: []
   Authors: ''
   RecordedVideoURL: ''
   SessionOrSub: Session
@@ -5444,9 +5485,11 @@
     supporting decision-making, and improving transportation system outcomes.</p>'
   Speakers: []
   RolePanelist: ''
-  RoleDebater: ''
-  RoleModerator: John Evans
-  RoleFacilitator: Bill Stein
+  RoleDebater: []
+  RoleModerator:
+  - John Evans
+  RoleFacilitator:
+  - Bill Stein
   Authors: ''
   RecordedVideoURL: ''
   SessionOrSub: Session
@@ -5514,9 +5557,9 @@
     Speakers:
     - Darren Conly
     RolePanelist: ''
-    RoleDebater: ''
-    RoleModerator: ''
-    RoleFacilitator: ''
+    RoleDebater: []
+    RoleModerator: []
+    RoleFacilitator: []
     Authors: ''
     RecordedVideoURL: ''
     SessionOrSub: Sub
@@ -5578,9 +5621,9 @@
     Speakers:
     - Adrita Islam
     RolePanelist: ''
-    RoleDebater: ''
-    RoleModerator: ''
-    RoleFacilitator: ''
+    RoleDebater: []
+    RoleModerator: []
+    RoleFacilitator: []
     Authors: ''
     RecordedVideoURL: ''
     SessionOrSub: Sub
@@ -5650,9 +5693,9 @@
     Speakers:
     - Zoey Li
     RolePanelist: ''
-    RoleDebater: ''
-    RoleModerator: ''
-    RoleFacilitator: ''
+    RoleDebater: []
+    RoleModerator: []
+    RoleFacilitator: []
     Authors: ''
     RecordedVideoURL: ''
     SessionOrSub: Sub
@@ -5715,9 +5758,9 @@
     Speakers:
     - Jonathan Avner
     RolePanelist: ''
-    RoleDebater: ''
-    RoleModerator: ''
-    RoleFacilitator: ''
+    RoleDebater: []
+    RoleModerator: []
+    RoleFacilitator: []
     Authors: ''
     RecordedVideoURL: ''
     SessionOrSub: Sub
@@ -5786,9 +5829,9 @@
     Speakers:
     - Raghu Sidharthan
     RolePanelist: ''
-    RoleDebater: ''
-    RoleModerator: ''
-    RoleFacilitator: ''
+    RoleDebater: []
+    RoleModerator: []
+    RoleFacilitator: []
     Authors: ''
     RecordedVideoURL: ''
     SessionOrSub: Sub
@@ -5802,9 +5845,9 @@
   Description: ''
   Speakers: []
   RolePanelist: ''
-  RoleDebater: ''
-  RoleModerator: ''
-  RoleFacilitator: ''
+  RoleDebater: []
+  RoleModerator: []
+  RoleFacilitator: []
   Authors: ''
   RecordedVideoURL: ''
   SessionOrSub: Session
@@ -5831,9 +5874,10 @@
     opportunities for smart growth.</span></p>'
   Speakers: []
   RolePanelist: ''
-  RoleDebater: ''
-  RoleModerator: Liya Rechtman
-  RoleFacilitator: ''
+  RoleDebater: []
+  RoleModerator:
+  - Liya Rechtman
+  RoleFacilitator: []
   Authors: ''
   RecordedVideoURL: ''
   SessionOrSub: Session
@@ -5859,9 +5903,9 @@
     Speakers:
     - Liya Rechtman
     RolePanelist: ''
-    RoleDebater: ''
-    RoleModerator: ''
-    RoleFacilitator: ''
+    RoleDebater: []
+    RoleModerator: []
+    RoleFacilitator: []
     Authors: ''
     RecordedVideoURL: ''
     SessionOrSub: Sub
@@ -5879,9 +5923,9 @@
     Speakers:
     - Greg Erhardt
     RolePanelist: ''
-    RoleDebater: ''
-    RoleModerator: ''
-    RoleFacilitator: ''
+    RoleDebater: []
+    RoleModerator: []
+    RoleFacilitator: []
     Authors: ''
     RecordedVideoURL: ''
     SessionOrSub: Sub
@@ -5944,9 +5988,9 @@
     Speakers:
     - Irfan Batur
     RolePanelist: ''
-    RoleDebater: ''
-    RoleModerator: ''
-    RoleFacilitator: ''
+    RoleDebater: []
+    RoleModerator: []
+    RoleFacilitator: []
     Authors: ''
     RecordedVideoURL: ''
     SessionOrSub: Sub
@@ -5996,9 +6040,9 @@
     Speakers:
     - Udit Molakatalla
     RolePanelist: ''
-    RoleDebater: ''
-    RoleModerator: ''
-    RoleFacilitator: ''
+    RoleDebater: []
+    RoleModerator: []
+    RoleFacilitator: []
     Authors: ''
     RecordedVideoURL: ''
     SessionOrSub: Sub
@@ -6015,9 +6059,9 @@
     Speakers:
     - Chris Berrens
     RolePanelist: ''
-    RoleDebater: ''
-    RoleModerator: ''
-    RoleFacilitator: ''
+    RoleDebater: []
+    RoleModerator: []
+    RoleFacilitator: []
     Authors: ''
     RecordedVideoURL: ''
     SessionOrSub: Sub
@@ -6042,9 +6086,11 @@
     to modeling results.</p>'
   Speakers: []
   RolePanelist: ''
-  RoleDebater: ''
-  RoleModerator: Zeina Wafa
-  RoleFacilitator: Sara Sohaee Urbina
+  RoleDebater: []
+  RoleModerator:
+  - Zeina Wafa
+  RoleFacilitator:
+  - Sara Sohaee Urbina
   Authors: ''
   RecordedVideoURL: ''
   SessionOrSub: Session
@@ -6096,9 +6142,9 @@
     Speakers:
     - Muhammad Salaha Uddin
     RolePanelist: ''
-    RoleDebater: ''
-    RoleModerator: ''
-    RoleFacilitator: ''
+    RoleDebater: []
+    RoleModerator: []
+    RoleFacilitator: []
     Authors: ''
     RecordedVideoURL: ''
     SessionOrSub: Sub
@@ -6159,9 +6205,9 @@
     Speakers:
     - Liming Wang
     RolePanelist: ''
-    RoleDebater: ''
-    RoleModerator: ''
-    RoleFacilitator: ''
+    RoleDebater: []
+    RoleModerator: []
+    RoleFacilitator: []
     Authors: ''
     RecordedVideoURL: ''
     SessionOrSub: Sub
@@ -6238,9 +6284,9 @@
     Speakers:
     - Daehyun You
     RolePanelist: ''
-    RoleDebater: ''
-    RoleModerator: ''
-    RoleFacilitator: ''
+    RoleDebater: []
+    RoleModerator: []
+    RoleFacilitator: []
     Authors: ''
     RecordedVideoURL: ''
     SessionOrSub: Sub
@@ -6299,9 +6345,9 @@
     Speakers:
     - Jawad Mahmud Hoque
     RolePanelist: ''
-    RoleDebater: ''
-    RoleModerator: ''
-    RoleFacilitator: ''
+    RoleDebater: []
+    RoleModerator: []
+    RoleFacilitator: []
     Authors: ''
     RecordedVideoURL: ''
     SessionOrSub: Sub
@@ -6387,9 +6433,9 @@
     Speakers:
     - Chandler Jong
     RolePanelist: ''
-    RoleDebater: ''
-    RoleModerator: ''
-    RoleFacilitator: ''
+    RoleDebater: []
+    RoleModerator: []
+    RoleFacilitator: []
     Authors: ''
     RecordedVideoURL: ''
     SessionOrSub: Sub
@@ -6410,9 +6456,11 @@
     to leveraging AI to support planning information development.&nbsp; &nbsp;</p>'
   Speakers: []
   RolePanelist: ''
-  RoleDebater: ''
-  RoleModerator: Steven Polzin
-  RoleFacilitator: Raj Roy
+  RoleDebater: []
+  RoleModerator:
+  - Steven Polzin
+  RoleFacilitator:
+  - Raj Roy
   Authors: ''
   RecordedVideoURL: ''
   SessionOrSub: Session
@@ -6459,9 +6507,9 @@
     Speakers:
     - Joshua Reynolds
     RolePanelist: ''
-    RoleDebater: ''
-    RoleModerator: ''
-    RoleFacilitator: ''
+    RoleDebater: []
+    RoleModerator: []
+    RoleFacilitator: []
     Authors: ''
     RecordedVideoURL: ''
     SessionOrSub: Sub
@@ -6657,9 +6705,9 @@
     Speakers:
     - Hua Yang
     RolePanelist: ''
-    RoleDebater: ''
-    RoleModerator: ''
-    RoleFacilitator: ''
+    RoleDebater: []
+    RoleModerator: []
+    RoleFacilitator: []
     Authors: ''
     RecordedVideoURL: ''
     SessionOrSub: Sub
@@ -6752,9 +6800,9 @@
     Speakers:
     - Deirdre Edward
     RolePanelist: ''
-    RoleDebater: ''
-    RoleModerator: ''
-    RoleFacilitator: ''
+    RoleDebater: []
+    RoleModerator: []
+    RoleFacilitator: []
     Authors: ''
     RecordedVideoURL: ''
     SessionOrSub: Sub
@@ -6798,9 +6846,9 @@
     Speakers:
     - Mariana Schwabacher
     RolePanelist: ''
-    RoleDebater: ''
-    RoleModerator: ''
-    RoleFacilitator: ''
+    RoleDebater: []
+    RoleModerator: []
+    RoleFacilitator: []
     Authors: ''
     RecordedVideoURL: ''
     SessionOrSub: Sub
@@ -6852,9 +6900,9 @@
     Speakers:
     - Shivang Shelat
     RolePanelist: ''
-    RoleDebater: ''
-    RoleModerator: ''
-    RoleFacilitator: ''
+    RoleDebater: []
+    RoleModerator: []
+    RoleFacilitator: []
     Authors: ''
     RecordedVideoURL: ''
     SessionOrSub: Sub
@@ -6892,9 +6940,9 @@
     Speakers:
     - Ayberk Kocatepe
     RolePanelist: ''
-    RoleDebater: ''
-    RoleModerator: ''
-    RoleFacilitator: ''
+    RoleDebater: []
+    RoleModerator: []
+    RoleFacilitator: []
     Authors: ''
     RecordedVideoURL: ''
     SessionOrSub: Sub
@@ -7003,9 +7051,14 @@
     Davis; David Ory, WSP</span></li></ul>'
   Speakers: []
   RolePanelist: ''
-  RoleDebater: Amanda Stathopoulos; Gregory Macfarlane; Susan Handy; David Ory
-  RoleModerator: Hailey Amundson
-  RoleFacilitator: ''
+  RoleDebater:
+  - David Ory
+  - Gregory Macfarlane
+  - Susan Handy
+  - Amanda Stathopoulos
+  RoleModerator:
+  - Hailey Amundson
+  RoleFacilitator: []
   Authors: ''
   RecordedVideoURL: ''
   SessionOrSub: Session
@@ -7031,9 +7084,11 @@
     lang="EN-CA">n.</span></span></p>'
   Speakers: []
   RolePanelist: ''
-  RoleDebater: ''
-  RoleModerator: Ilan Elgar
-  RoleFacilitator: Dennis Farmer
+  RoleDebater: []
+  RoleModerator:
+  - Ilan Elgar
+  RoleFacilitator:
+  - Dennis Farmer
   Authors: ''
   RecordedVideoURL: ''
   SessionOrSub: Session
@@ -7092,9 +7147,9 @@
     Speakers:
     - Steven Polzin
     RolePanelist: ''
-    RoleDebater: ''
-    RoleModerator: ''
-    RoleFacilitator: ''
+    RoleDebater: []
+    RoleModerator: []
+    RoleFacilitator: []
     Authors: ''
     RecordedVideoURL: ''
     SessionOrSub: Sub
@@ -7153,9 +7208,9 @@
     Speakers:
     - Amy Fong
     RolePanelist: ''
-    RoleDebater: ''
-    RoleModerator: ''
-    RoleFacilitator: ''
+    RoleDebater: []
+    RoleModerator: []
+    RoleFacilitator: []
     Authors: ''
     RecordedVideoURL: ''
     SessionOrSub: Sub
@@ -7176,9 +7231,9 @@
     - Geena Maskey
     - Edgar Millard
     RolePanelist: ''
-    RoleDebater: ''
-    RoleModerator: ''
-    RoleFacilitator: ''
+    RoleDebater: []
+    RoleModerator: []
+    RoleFacilitator: []
     Authors: ''
     RecordedVideoURL: ''
     SessionOrSub: Sub
@@ -7239,9 +7294,9 @@
     Speakers:
     - Kate Dannemiller
     RolePanelist: ''
-    RoleDebater: ''
-    RoleModerator: ''
-    RoleFacilitator: ''
+    RoleDebater: []
+    RoleModerator: []
+    RoleFacilitator: []
     Authors: ''
     RecordedVideoURL: ''
     SessionOrSub: Sub
@@ -7303,9 +7358,9 @@
     Speakers:
     - Spencer Aeschliman
     RolePanelist: ''
-    RoleDebater: ''
-    RoleModerator: ''
-    RoleFacilitator: ''
+    RoleDebater: []
+    RoleModerator: []
+    RoleFacilitator: []
     Authors: ''
     RecordedVideoURL: ''
     SessionOrSub: Sub
@@ -7330,9 +7385,11 @@
     and managing large datasets efficiently.&nbsp;</p>'
   Speakers: []
   RolePanelist: ''
-  RoleDebater: ''
-  RoleModerator: Kevin Hall
-  RoleFacilitator: Ohay Angah
+  RoleDebater: []
+  RoleModerator:
+  - Kevin Hall
+  RoleFacilitator:
+  - Ohay Angah
   Authors: ''
   RecordedVideoURL: ''
   SessionOrSub: Session
@@ -7383,9 +7440,9 @@
     Speakers:
     - Hao Pang
     RolePanelist: ''
-    RoleDebater: ''
-    RoleModerator: ''
-    RoleFacilitator: ''
+    RoleDebater: []
+    RoleModerator: []
+    RoleFacilitator: []
     Authors: ''
     RecordedVideoURL: ''
     SessionOrSub: Sub
@@ -7411,9 +7468,9 @@
     Speakers:
     - Christopher Day
     RolePanelist: ''
-    RoleDebater: ''
-    RoleModerator: ''
-    RoleFacilitator: ''
+    RoleDebater: []
+    RoleModerator: []
+    RoleFacilitator: []
     Authors: ''
     RecordedVideoURL: ''
     SessionOrSub: Sub
@@ -7490,9 +7547,9 @@
     Speakers:
     - Zihao Jin
     RolePanelist: ''
-    RoleDebater: ''
-    RoleModerator: ''
-    RoleFacilitator: ''
+    RoleDebater: []
+    RoleModerator: []
+    RoleFacilitator: []
     Authors: ''
     RecordedVideoURL: ''
     SessionOrSub: Sub
@@ -7529,9 +7586,9 @@
     Speakers:
     - Liz Roten
     RolePanelist: ''
-    RoleDebater: ''
-    RoleModerator: ''
-    RoleFacilitator: ''
+    RoleDebater: []
+    RoleModerator: []
+    RoleFacilitator: []
     Authors: ''
     RecordedVideoURL: ''
     SessionOrSub: Sub
@@ -7584,9 +7641,9 @@
     Speakers:
     - Joanne Lin
     RolePanelist: ''
-    RoleDebater: ''
-    RoleModerator: ''
-    RoleFacilitator: ''
+    RoleDebater: []
+    RoleModerator: []
+    RoleFacilitator: []
     Authors: ''
     RecordedVideoURL: ''
     SessionOrSub: Sub
@@ -7710,9 +7767,9 @@
     Speakers:
     - Susan Xu
     RolePanelist: ''
-    RoleDebater: ''
-    RoleModerator: ''
-    RoleFacilitator: ''
+    RoleDebater: []
+    RoleModerator: []
+    RoleFacilitator: []
     Authors: ''
     RecordedVideoURL: ''
     SessionOrSub: Sub
@@ -7740,9 +7797,9 @@
     - Suzie Swim
     - Bill Hereth
     RolePanelist: ''
-    RoleDebater: ''
-    RoleModerator: ''
-    RoleFacilitator: ''
+    RoleDebater: []
+    RoleModerator: []
+    RoleFacilitator: []
     Authors: ''
     RecordedVideoURL: ''
     SessionOrSub: Sub
@@ -7781,9 +7838,11 @@
     participate.</p><p>&nbsp;</p>'
   Speakers: []
   RolePanelist: ''
-  RoleDebater: ''
-  RoleModerator: Amanda Stathopoulos
-  RoleFacilitator: Deirdre Edward
+  RoleDebater: []
+  RoleModerator:
+  - Amanda Stathopoulos
+  RoleFacilitator:
+  - Deirdre Edward
   Authors: ''
   RecordedVideoURL: ''
   SessionOrSub: Session
@@ -7816,9 +7875,9 @@
     Speakers:
     - Cherry Liu
     RolePanelist: ''
-    RoleDebater: ''
-    RoleModerator: ''
-    RoleFacilitator: ''
+    RoleDebater: []
+    RoleModerator: []
+    RoleFacilitator: []
     Authors: ''
     RecordedVideoURL: ''
     SessionOrSub: Sub
@@ -7897,9 +7956,9 @@
     Speakers:
     - Kwangho Baek
     RolePanelist: ''
-    RoleDebater: ''
-    RoleModerator: ''
-    RoleFacilitator: ''
+    RoleDebater: []
+    RoleModerator: []
+    RoleFacilitator: []
     Authors: ''
     RecordedVideoURL: ''
     SessionOrSub: Sub
@@ -7963,9 +8022,9 @@
     Speakers:
     - Ray Saeidi
     RolePanelist: ''
-    RoleDebater: ''
-    RoleModerator: ''
-    RoleFacilitator: ''
+    RoleDebater: []
+    RoleModerator: []
+    RoleFacilitator: []
     Authors: ''
     RecordedVideoURL: ''
     SessionOrSub: Sub
@@ -7981,9 +8040,9 @@
     Speakers:
     - Sujith Rapolu
     RolePanelist: ''
-    RoleDebater: ''
-    RoleModerator: ''
-    RoleFacilitator: ''
+    RoleDebater: []
+    RoleModerator: []
+    RoleFacilitator: []
     Authors: ''
     RecordedVideoURL: ''
     SessionOrSub: Sub
@@ -7997,9 +8056,9 @@
   Description: ''
   Speakers: []
   RolePanelist: ''
-  RoleDebater: ''
-  RoleModerator: ''
-  RoleFacilitator: ''
+  RoleDebater: []
+  RoleModerator: []
+  RoleFacilitator: []
   Authors: ''
   RecordedVideoURL: ''
   SessionOrSub: Session
@@ -8022,9 +8081,11 @@
     the economic, environmental, and social benefits of transit.</p>'
   Speakers: []
   RolePanelist: ''
-  RoleDebater: ''
-  RoleModerator: Drew Cooper
-  RoleFacilitator: Neeco Beltran
+  RoleDebater: []
+  RoleModerator:
+  - Drew Cooper
+  RoleFacilitator:
+  - Neeco Beltran
   Authors: ''
   RecordedVideoURL: ''
   SessionOrSub: Session
@@ -8119,9 +8180,9 @@
     Speakers:
     - Taylor Reich
     RolePanelist: ''
-    RoleDebater: ''
-    RoleModerator: ''
-    RoleFacilitator: ''
+    RoleDebater: []
+    RoleModerator: []
+    RoleFacilitator: []
     Authors: ''
     RecordedVideoURL: ''
     SessionOrSub: Sub
@@ -8197,9 +8258,9 @@
     Speakers:
     - Scott Smith
     RolePanelist: ''
-    RoleDebater: ''
-    RoleModerator: ''
-    RoleFacilitator: ''
+    RoleDebater: []
+    RoleModerator: []
+    RoleFacilitator: []
     Authors: ''
     RecordedVideoURL: ''
     SessionOrSub: Sub
@@ -8263,9 +8324,9 @@
     Speakers:
     - Vijay Sivaraman
     RolePanelist: ''
-    RoleDebater: ''
-    RoleModerator: ''
-    RoleFacilitator: ''
+    RoleDebater: []
+    RoleModerator: []
+    RoleFacilitator: []
     Authors: ''
     RecordedVideoURL: ''
     SessionOrSub: Sub
@@ -8339,9 +8400,9 @@
     Speakers:
     - Adrita Islam
     RolePanelist: ''
-    RoleDebater: ''
-    RoleModerator: ''
-    RoleFacilitator: ''
+    RoleDebater: []
+    RoleModerator: []
+    RoleFacilitator: []
     Authors: ''
     RecordedVideoURL: ''
     SessionOrSub: Sub
@@ -8401,9 +8462,9 @@
     Speakers:
     - Dahai Han
     RolePanelist: ''
-    RoleDebater: ''
-    RoleModerator: ''
-    RoleFacilitator: ''
+    RoleDebater: []
+    RoleModerator: []
+    RoleFacilitator: []
     Authors: ''
     RecordedVideoURL: ''
     SessionOrSub: Sub
@@ -8431,9 +8492,9 @@
     Speakers:
     - Bryan Blanc
     RolePanelist: ''
-    RoleDebater: ''
-    RoleModerator: ''
-    RoleFacilitator: ''
+    RoleDebater: []
+    RoleModerator: []
+    RoleFacilitator: []
     Authors: ''
     RecordedVideoURL: ''
     SessionOrSub: Sub
@@ -8478,9 +8539,9 @@
     Speakers:
     - Maureen Paz de Araujo
     RolePanelist: ''
-    RoleDebater: ''
-    RoleModerator: ''
-    RoleFacilitator: ''
+    RoleDebater: []
+    RoleModerator: []
+    RoleFacilitator: []
     Authors: ''
     RecordedVideoURL: ''
     SessionOrSub: Sub
@@ -8508,9 +8569,11 @@
     standardization.</p>'
   Speakers: []
   RolePanelist: ''
-  RoleDebater: ''
-  RoleModerator: Brian Lee
-  RoleFacilitator: Suzanne Childress
+  RoleDebater: []
+  RoleModerator:
+  - Brian Lee
+  RoleFacilitator:
+  - Suzanne Childress
   Authors: ''
   RecordedVideoURL: ''
   SessionOrSub: Session
@@ -8529,9 +8592,9 @@
     Speakers:
     - Julia Glickman
     RolePanelist: ''
-    RoleDebater: ''
-    RoleModerator: ''
-    RoleFacilitator: ''
+    RoleDebater: []
+    RoleModerator: []
+    RoleFacilitator: []
     Authors: ''
     RecordedVideoURL: ''
     SessionOrSub: Sub
@@ -8589,9 +8652,9 @@
     Speakers:
     - David Ory
     RolePanelist: ''
-    RoleDebater: ''
-    RoleModerator: ''
-    RoleFacilitator: ''
+    RoleDebater: []
+    RoleModerator: []
+    RoleFacilitator: []
     Authors: ''
     RecordedVideoURL: ''
     SessionOrSub: Sub
@@ -8607,9 +8670,9 @@
     Speakers:
     - Flavia Tsang
     RolePanelist: ''
-    RoleDebater: ''
-    RoleModerator: ''
-    RoleFacilitator: ''
+    RoleDebater: []
+    RoleModerator: []
+    RoleFacilitator: []
     Authors: ''
     RecordedVideoURL: ''
     SessionOrSub: Sub
@@ -8636,9 +8699,11 @@
     of these innovations and guide future policy and planning.&nbsp;</p>'
   Speakers: []
   RolePanelist: ''
-  RoleDebater: ''
-  RoleModerator: Leta Huntsinger
-  RoleFacilitator: Joe Flood
+  RoleDebater: []
+  RoleModerator:
+  - Leta Huntsinger
+  RoleFacilitator:
+  - Joe Flood
   Authors: ''
   RecordedVideoURL: ''
   SessionOrSub: Session
@@ -8688,9 +8753,9 @@
     Speakers:
     - Fatemeh Ahmadipour
     RolePanelist: ''
-    RoleDebater: ''
-    RoleModerator: ''
-    RoleFacilitator: ''
+    RoleDebater: []
+    RoleModerator: []
+    RoleFacilitator: []
     Authors: ''
     RecordedVideoURL: ''
     SessionOrSub: Sub
@@ -8753,9 +8818,9 @@
     Speakers:
     - Kathy Yu
     RolePanelist: ''
-    RoleDebater: ''
-    RoleModerator: ''
-    RoleFacilitator: ''
+    RoleDebater: []
+    RoleModerator: []
+    RoleFacilitator: []
     Authors: ''
     RecordedVideoURL: ''
     SessionOrSub: Sub
@@ -8840,9 +8905,9 @@
     Speakers:
     - Helia Mohammadi Mavi
     RolePanelist: ''
-    RoleDebater: ''
-    RoleModerator: ''
-    RoleFacilitator: ''
+    RoleDebater: []
+    RoleModerator: []
+    RoleFacilitator: []
     Authors: ''
     RecordedVideoURL: ''
     SessionOrSub: Sub
@@ -8896,9 +8961,9 @@
     Speakers:
     - Sara Sohaee Urbina
     RolePanelist: ''
-    RoleDebater: ''
-    RoleModerator: ''
-    RoleFacilitator: ''
+    RoleDebater: []
+    RoleModerator: []
+    RoleFacilitator: []
     Authors: ''
     RecordedVideoURL: ''
     SessionOrSub: Sub
@@ -8925,9 +8990,9 @@
     Speakers:
     - Si Shi
     RolePanelist: ''
-    RoleDebater: ''
-    RoleModerator: ''
-    RoleFacilitator: ''
+    RoleDebater: []
+    RoleModerator: []
+    RoleFacilitator: []
     Authors: ''
     RecordedVideoURL: ''
     SessionOrSub: Sub
@@ -8963,9 +9028,9 @@
     1.2 mile from McNamara</li><li>Google Price Range: $10-$20</li></ul></li></ul>'
   Speakers: []
   RolePanelist: ''
-  RoleDebater: ''
-  RoleModerator: ''
-  RoleFacilitator: ''
+  RoleDebater: []
+  RoleModerator: []
+  RoleFacilitator: []
   Authors: ''
   RecordedVideoURL: ''
   SessionOrSub: Session
@@ -8982,9 +9047,10 @@
     Hockey -Oh my!</strong></em></span></p>'
   Speakers: []
   RolePanelist: ''
-  RoleDebater: ''
-  RoleModerator: Jonathan Ehrlich
-  RoleFacilitator: ''
+  RoleDebater: []
+  RoleModerator:
+  - Jonathan Ehrlich
+  RoleFacilitator: []
   Authors: ''
   RecordedVideoURL: ''
   SessionOrSub: Session
@@ -9012,9 +9078,9 @@
     Speakers:
     - Shirley Liu
     RolePanelist: ''
-    RoleDebater: ''
-    RoleModerator: ''
-    RoleFacilitator: ''
+    RoleDebater: []
+    RoleModerator: []
+    RoleFacilitator: []
     Authors: ''
     RecordedVideoURL: ''
     SessionOrSub: Sub
@@ -9058,9 +9124,9 @@
     Speakers:
     - Alireza Khani
     RolePanelist: ''
-    RoleDebater: ''
-    RoleModerator: ''
-    RoleFacilitator: ''
+    RoleDebater: []
+    RoleModerator: []
+    RoleFacilitator: []
     Authors: ''
     RecordedVideoURL: ''
     SessionOrSub: Sub
@@ -9086,9 +9152,11 @@
     support multimodal investment decisions.</div>'
   Speakers: []
   RolePanelist: ''
-  RoleDebater: ''
-  RoleModerator: Ray Saeidi
-  RoleFacilitator: Grant Gibson
+  RoleDebater: []
+  RoleModerator:
+  - Ray Saeidi
+  RoleFacilitator:
+  - Grant Gibson
   Authors: ''
   RecordedVideoURL: ''
   SessionOrSub: Session
@@ -9168,9 +9236,9 @@
     Speakers:
     - Rick Curry
     RolePanelist: ''
-    RoleDebater: ''
-    RoleModerator: ''
-    RoleFacilitator: ''
+    RoleDebater: []
+    RoleModerator: []
+    RoleFacilitator: []
     Authors: ''
     RecordedVideoURL: ''
     SessionOrSub: Sub
@@ -9201,9 +9269,9 @@
     Speakers:
     - Joe Broach
     RolePanelist: ''
-    RoleDebater: ''
-    RoleModerator: ''
-    RoleFacilitator: ''
+    RoleDebater: []
+    RoleModerator: []
+    RoleFacilitator: []
     Authors: ''
     RecordedVideoURL: ''
     SessionOrSub: Sub
@@ -9272,9 +9340,9 @@
     Speakers:
     - Joe Flood
     RolePanelist: ''
-    RoleDebater: ''
-    RoleModerator: ''
-    RoleFacilitator: ''
+    RoleDebater: []
+    RoleModerator: []
+    RoleFacilitator: []
     Authors: ''
     RecordedVideoURL: ''
     SessionOrSub: Sub
@@ -9299,9 +9367,11 @@
     models.</span></p>'
   Speakers: []
   RolePanelist: ''
-  RoleDebater: ''
-  RoleModerator: Krishnan Viswanathan
-  RoleFacilitator: Kathy Yu
+  RoleDebater: []
+  RoleModerator:
+  - Krishnan Viswanathan
+  RoleFacilitator:
+  - Kathy Yu
   Authors: ''
   RecordedVideoURL: ''
   SessionOrSub: Session
@@ -9336,9 +9406,9 @@
     Speakers:
     - Monique Stinson
     RolePanelist: ''
-    RoleDebater: ''
-    RoleModerator: ''
-    RoleFacilitator: ''
+    RoleDebater: []
+    RoleModerator: []
+    RoleFacilitator: []
     Authors: ''
     RecordedVideoURL: ''
     SessionOrSub: Sub
@@ -9458,9 +9528,9 @@
     Speakers:
     - Kaveh Shabani
     RolePanelist: ''
-    RoleDebater: ''
-    RoleModerator: ''
-    RoleFacilitator: ''
+    RoleDebater: []
+    RoleModerator: []
+    RoleFacilitator: []
     Authors: ''
     RecordedVideoURL: ''
     SessionOrSub: Sub
@@ -9515,9 +9585,9 @@
     Speakers:
     - David Ory
     RolePanelist: ''
-    RoleDebater: ''
-    RoleModerator: ''
-    RoleFacilitator: ''
+    RoleDebater: []
+    RoleModerator: []
+    RoleFacilitator: []
     Authors: ''
     RecordedVideoURL: ''
     SessionOrSub: Sub
@@ -9581,9 +9651,9 @@
     Speakers:
     - Fatemeh Ranaiefar
     RolePanelist: ''
-    RoleDebater: ''
-    RoleModerator: ''
-    RoleFacilitator: ''
+    RoleDebater: []
+    RoleModerator: []
+    RoleFacilitator: []
     Authors: ''
     RecordedVideoURL: ''
     SessionOrSub: Sub
@@ -9634,9 +9704,9 @@
     Speakers:
     - John Gliebe
     RolePanelist: ''
-    RoleDebater: ''
-    RoleModerator: ''
-    RoleFacilitator: ''
+    RoleDebater: []
+    RoleModerator: []
+    RoleFacilitator: []
     Authors: ''
     RecordedVideoURL: ''
     SessionOrSub: Sub
@@ -9738,9 +9808,9 @@
     Speakers:
     - Katie Asmussen
     RolePanelist: ''
-    RoleDebater: ''
-    RoleModerator: ''
-    RoleFacilitator: ''
+    RoleDebater: []
+    RoleModerator: []
+    RoleFacilitator: []
     Authors: ''
     RecordedVideoURL: ''
     SessionOrSub: Sub
@@ -9788,9 +9858,9 @@
     Speakers:
     - Daehyun You
     RolePanelist: ''
-    RoleDebater: ''
-    RoleModerator: ''
-    RoleFacilitator: ''
+    RoleDebater: []
+    RoleModerator: []
+    RoleFacilitator: []
     Authors: ''
     RecordedVideoURL: ''
     SessionOrSub: Sub
@@ -9864,9 +9934,9 @@
     Speakers:
     - John Gliebe
     RolePanelist: ''
-    RoleDebater: ''
-    RoleModerator: ''
-    RoleFacilitator: ''
+    RoleDebater: []
+    RoleModerator: []
+    RoleFacilitator: []
     Authors: ''
     RecordedVideoURL: ''
     SessionOrSub: Sub
@@ -9998,9 +10068,12 @@
     pre-wrap;">________</span></p><p>&nbsp;</p>'
   Speakers: []
   RolePanelist: ''
-  RoleDebater: ''
-  RoleModerator: Suzanne Childress; Vivek Yadav
-  RoleFacilitator: Si Shi
+  RoleDebater: []
+  RoleModerator:
+  - Vivek Yadav
+  - Suzanne Childress
+  RoleFacilitator:
+  - Si Shi
   Authors: ''
   RecordedVideoURL: ''
   SessionOrSub: Session
@@ -10015,9 +10088,9 @@
   Description: ''
   Speakers: []
   RolePanelist: ''
-  RoleDebater: ''
-  RoleModerator: ''
-  RoleFacilitator: ''
+  RoleDebater: []
+  RoleModerator: []
+  RoleFacilitator: []
   Authors: ''
   RecordedVideoURL: ''
   SessionOrSub: Session
@@ -10042,9 +10115,11 @@
     the Metropolitan Washington region through sensitivity testing.</p>'
   Speakers: []
   RolePanelist: ''
-  RoleDebater: ''
-  RoleModerator: John Gliebe
-  RoleFacilitator: Joanne Lin
+  RoleDebater: []
+  RoleModerator:
+  - John Gliebe
+  RoleFacilitator:
+  - Joanne Lin
   Authors: ''
   RecordedVideoURL: ''
   SessionOrSub: Session
@@ -10115,9 +10190,9 @@
     Speakers:
     - Xueting (Sherry) Chen
     RolePanelist: ''
-    RoleDebater: ''
-    RoleModerator: ''
-    RoleFacilitator: ''
+    RoleDebater: []
+    RoleModerator: []
+    RoleFacilitator: []
     Authors: ''
     RecordedVideoURL: ''
     SessionOrSub: Sub
@@ -10178,9 +10253,9 @@
     Speakers:
     - David Ory
     RolePanelist: ''
-    RoleDebater: ''
-    RoleModerator: ''
-    RoleFacilitator: ''
+    RoleDebater: []
+    RoleModerator: []
+    RoleFacilitator: []
     Authors: ''
     RecordedVideoURL: ''
     SessionOrSub: Sub
@@ -10310,9 +10385,9 @@
     Speakers:
     - John Gibb
     RolePanelist: ''
-    RoleDebater: ''
-    RoleModerator: ''
-    RoleFacilitator: ''
+    RoleDebater: []
+    RoleModerator: []
+    RoleFacilitator: []
     Authors: ''
     RecordedVideoURL: ''
     SessionOrSub: Sub
@@ -10363,9 +10438,9 @@
     Speakers:
     - Ray Ngo
     RolePanelist: ''
-    RoleDebater: ''
-    RoleModerator: ''
-    RoleFacilitator: ''
+    RoleDebater: []
+    RoleModerator: []
+    RoleFacilitator: []
     Authors: ''
     RecordedVideoURL: ''
     SessionOrSub: Sub
@@ -10386,9 +10461,11 @@
     as and help us wrap up the conference with some great discussion on ML and AI!</p>'
   Speakers: []
   RolePanelist: ''
-  RoleDebater: ''
-  RoleModerator: Vince Bernardin
-  RoleFacilitator: Aichong Sun
+  RoleDebater: []
+  RoleModerator:
+  - Vince Bernardin
+  RoleFacilitator:
+  - Aichong Sun
   Authors: ''
   RecordedVideoURL: ''
   SessionOrSub: Session
@@ -10458,9 +10535,9 @@
     Speakers:
     - Jorge Diaz-Gutierrez
     RolePanelist: ''
-    RoleDebater: ''
-    RoleModerator: ''
-    RoleFacilitator: ''
+    RoleDebater: []
+    RoleModerator: []
+    RoleFacilitator: []
     Authors: ''
     RecordedVideoURL: ''
     SessionOrSub: Sub
@@ -10506,9 +10583,9 @@
     Speakers:
     - Jeffrey Hood
     RolePanelist: ''
-    RoleDebater: ''
-    RoleModerator: ''
-    RoleFacilitator: ''
+    RoleDebater: []
+    RoleModerator: []
+    RoleFacilitator: []
     Authors: ''
     RecordedVideoURL: ''
     SessionOrSub: Sub
@@ -10576,9 +10653,9 @@
     Speakers:
     - Xuesong (Simon) Zhou
     RolePanelist: ''
-    RoleDebater: ''
-    RoleModerator: ''
-    RoleFacilitator: ''
+    RoleDebater: []
+    RoleModerator: []
+    RoleFacilitator: []
     Authors: ''
     RecordedVideoURL: ''
     SessionOrSub: Sub
@@ -10602,9 +10679,11 @@
     presenters of community needs, followed by a Q&amp;A with session attendees.&nbsp;</span></p>
   Speakers: []
   RolePanelist: ''
-  RoleDebater: ''
-  RoleModerator: Joe Castiglione
-  RoleFacilitator: Tammye Fontenot
+  RoleDebater: []
+  RoleModerator:
+  - Joe Castiglione
+  RoleFacilitator:
+  - Tammye Fontenot
   Authors: ''
   RecordedVideoURL: ''
   SessionOrSub: Session
@@ -10632,9 +10711,9 @@
     Speakers:
     - Matthew W Bhagat-Conway
     RolePanelist: ''
-    RoleDebater: ''
-    RoleModerator: ''
-    RoleFacilitator: ''
+    RoleDebater: []
+    RoleModerator: []
+    RoleFacilitator: []
     Authors: ''
     RecordedVideoURL: ''
     SessionOrSub: Sub
@@ -10693,9 +10772,9 @@
     Speakers:
     - Hao Pang
     RolePanelist: ''
-    RoleDebater: ''
-    RoleModerator: ''
-    RoleFacilitator: ''
+    RoleDebater: []
+    RoleModerator: []
+    RoleFacilitator: []
     Authors: ''
     RecordedVideoURL: ''
     SessionOrSub: Sub
@@ -10860,9 +10939,9 @@
     Speakers:
     - Erik Verroen
     RolePanelist: ''
-    RoleDebater: ''
-    RoleModerator: ''
-    RoleFacilitator: ''
+    RoleDebater: []
+    RoleModerator: []
+    RoleFacilitator: []
     Authors: ''
     RecordedVideoURL: ''
     SessionOrSub: Sub
@@ -10877,9 +10956,9 @@
     Speakers:
     - Jeremy Raw
     RolePanelist: ''
-    RoleDebater: ''
-    RoleModerator: ''
-    RoleFacilitator: ''
+    RoleDebater: []
+    RoleModerator: []
+    RoleFacilitator: []
     Authors: ''
     RecordedVideoURL: ''
     SessionOrSub: Sub
@@ -10904,9 +10983,9 @@
   - Michelle Bina
   - Peter Bosa
   RolePanelist: ''
-  RoleDebater: ''
-  RoleModerator: ''
-  RoleFacilitator: ''
+  RoleDebater: []
+  RoleModerator: []
+  RoleFacilitator: []
   Authors: ''
   RecordedVideoURL: ''
   SessionOrSub: Session
@@ -10922,9 +11001,9 @@
     Speakers:
     - Jeremy Raw
     RolePanelist: ''
-    RoleDebater: ''
-    RoleModerator: ''
-    RoleFacilitator: ''
+    RoleDebater: []
+    RoleModerator: []
+    RoleFacilitator: []
     Authors: ''
     RecordedVideoURL: ''
     SessionOrSub: Sub
@@ -10945,9 +11024,9 @@
     - Xinbo Mi
     - Bill Hereth
     RolePanelist: ''
-    RoleDebater: ''
-    RoleModerator: ''
-    RoleFacilitator: ''
+    RoleDebater: []
+    RoleModerator: []
+    RoleFacilitator: []
     Authors: ''
     RecordedVideoURL: ''
     SessionOrSub: Sub
@@ -10962,9 +11041,9 @@
     Speakers:
     - Marty Milkovits
     RolePanelist: ''
-    RoleDebater: ''
-    RoleModerator: ''
-    RoleFacilitator: ''
+    RoleDebater: []
+    RoleModerator: []
+    RoleFacilitator: []
     Authors: ''
     RecordedVideoURL: ''
     SessionOrSub: Sub
@@ -10984,9 +11063,10 @@
   Speakers:
   - Rebekah Straub
   RolePanelist: ''
-  RoleDebater: ''
-  RoleModerator: Michelle Bina
-  RoleFacilitator: ''
+  RoleDebater: []
+  RoleModerator:
+  - Michelle Bina
+  RoleFacilitator: []
   Authors: ''
   RecordedVideoURL: ''
   SessionOrSub: Session

@@ -46,19 +46,24 @@ for k, v in gid.items():
         # write individual speaker pages
         speakers = df.to_dict(orient="records")
         for i, speaker in enumerate(speakers):
+            speaker["id"] = i
             yaml_string = yaml.dump(speaker, sort_keys=False)
             md = f"---\n{yaml_string}---\n"
             with open(f"./content/{YEAR}/speakers/{i}.md", "w") as f:
                 f.write(md)
 
-        # Convert the DataFrame to a list of dictionaries (one dict per row)
-        records = df.to_dict(orient="records")
-
         # Write the list of dictionaries to a YAML file
-        with open(f"./data/{k}.yaml", "w") as f:
+        with open(f"./data/speakers.yaml", "w") as f:
             # sort_keys=False preserves column order
-            # json.dump(records, f, sort_keys=False, indent=2)
-            yaml.dump(records, f, sort_keys=False)
+            yaml.dump(speakers, f, sort_keys=False)
+
+        # Also create a lookup by speaker name
+        speaker_lookup = {}
+        for speaker in speakers:
+            speaker_lookup[speaker["Name"]] = speaker
+        with open(f"./data/speakerlookup.yaml", "w") as f:
+            # sort_keys=False preserves column order
+            yaml.dump(speaker_lookup, f, sort_keys=False)
 
     if k == "agenda":
 
@@ -90,6 +95,21 @@ for k, v in gid.items():
                 if len(event["Speakers"]) > 0:
                     speakers = [a.strip() for a in sorted(event["Speakers"].split(";"))]
                 event["Speakers"] = speakers
+
+                s = []
+                if len(event["RoleModerator"]) > 0:
+                    s = [a.strip() for a in sorted(event["RoleModerator"].split(";"))]
+                event["RoleModerator"] = s
+
+                s = []
+                if len(event["RoleFacilitator"]) > 0:
+                    s = [a.strip() for a in sorted(event["RoleFacilitator"].split(";"))]
+                event["RoleFacilitator"] = s
+
+                s = []
+                if len(event["RoleDebater"]) > 0:
+                    s = [a.strip() for a in sorted(event["RoleDebater"].split(";"))]
+                event["RoleDebater"] = s
 
                 tracks = []
                 if len(event["Tracks"]) > 0:

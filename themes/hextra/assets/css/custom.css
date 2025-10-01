@@ -84,7 +84,7 @@
   color: white;
   font-size: 0.8rem;
   font-weight: bold;
-  background-color: rgb(137, 74, 209);
+  background-color: rgb(47, 199, 148);
   margin-right: 2px;
   padding: 0px 5px 1px 5px;
   display: inline-block;
@@ -92,6 +92,18 @@
 .session-desc {
   margin-top: 1rem;
   line-height: 1.4rem;
+}
+.session-people {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fill, minmax(96px, 1fr));
+  margin-top: 0.5rem;
+  margin-right: 1rem;
+
+  a {
+    color: #333;
+    text-decoration: none;
+  }
 }
 
 @-moz-document url-prefix() {
@@ -123,4 +135,35 @@
 .sub-speaker {
   margin-top: -0.25rem;
   font-weight: bold;
+  a {
+    color: #444;
+    text-decoration: none;
+  }
+  a:hover {
+    color: #44c;
+  }
+}
+
+.person-mini-card {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 120px;
+  font-size: 0.9rem;
+  line-height: 1rem;
+  padding: 4px 4px;
+
+  img {
+    display: block;
+    width: 84px;
+    height: 84px;
+    object-fit:cover;
+    border-radius: 42px;
+    margin: 0.5rem auto 0.25rem auto;
+  }
+}
+
+.person-mini-card:hover {
+  background-color: #f4f4f4;
+  filter: drop-shadow(0px 2px 2px #0002);
 }

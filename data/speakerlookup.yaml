@@ -1,4 +1,5 @@
-- Name: Spencer Aeschliman
+Spencer Aeschliman:
+  Name: Spencer Aeschliman
   FirstName: Spencer
   LastName: Aeschliman
   Email: spenceraeschliman2026@u.northwestern.edu
@@ -13,7 +14,8 @@
   type: speakers
   layout: speakers
   id: 0
-- Name: Fatemeh Ahmadipour
+Fatemeh Ahmadipour:
+  Name: Fatemeh Ahmadipour
   FirstName: Fatemeh
   LastName: Ahmadipour
   Email: fatemeh.ahmadipour@ucdenver.edu
@@ -29,7 +31,8 @@
   type: speakers
   layout: speakers
   id: 1
-- Name: Usman Ahmed
+Usman Ahmed:
+  Name: Usman Ahmed
   FirstName: Usman
   LastName: Ahmed
   Email: uahmed@utk.edu
@@ -41,7 +44,8 @@
   type: speakers
   layout: speakers
   id: 2
-- Name: Joe Ahrenholtz
+Joe Ahrenholtz:
+  Name: Joe Ahrenholtz
   FirstName: Joe
   LastName: Ahrenholtz
   Email: jahrenholtz@bayareametro.gov
@@ -60,7 +64,8 @@
   type: speakers
   layout: speakers
   id: 3
-- Name: Hailey Amundson
+Hailey Amundson:
+  Name: Hailey Amundson
   FirstName: Hailey
   LastName: Amundson
   Email: hailey.amundson@insighttcinc.com
@@ -79,7 +84,8 @@
   type: speakers
   layout: speakers
   id: 4
-- Name: Ohay Angah
+Ohay Angah:
+  Name: Ohay Angah
   FirstName: Ohay
   LastName: Angah
   Email: oangah@bellevuewa.gov
@@ -91,7 +97,8 @@
   type: speakers
   layout: speakers
   id: 5
-- Name: Ashley Asmus
+Ashley Asmus:
+  Name: Ashley Asmus
   FirstName: Ashley
   LastName: Asmus
   Email: ashley.asmus@rsginc.com
@@ -103,7 +110,8 @@
   type: speakers
   layout: speakers
   id: 6
-- Name: Katie Asmussen
+Katie Asmussen:
+  Name: Katie Asmussen
   FirstName: Katie
   LastName: Asmussen
   Email: kasmusse@utk.edu
@@ -115,7 +123,8 @@
   type: speakers
   layout: speakers
   id: 7
-- Name: Jonathan Avner
+Jonathan Avner:
+  Name: Jonathan Avner
   FirstName: Jonathan
   LastName: Avner
   Email: javner@wrallp.com
@@ -127,7 +136,8 @@
   type: speakers
   layout: speakers
   id: 8
-- Name: Kwangho Baek
+Kwangho Baek:
+  Name: Kwangho Baek
   FirstName: Kwangho
   LastName: Baek
   Email: baek0040@umn.edu
@@ -146,7 +156,8 @@
   type: speakers
   layout: speakers
   id: 9
-- Name: Berrien Barks
+Berrien Barks:
+  Name: Berrien Barks
   FirstName: Berrien
   LastName: Barks
   Email: bbarks@nctcog.org
@@ -163,7 +174,8 @@
   type: speakers
   layout: speakers
   id: 10
-- Name: Irfan Batur
+Irfan Batur:
+  Name: Irfan Batur
   FirstName: Irfan
   LastName: Batur
   Email: ibatur@asu.edu
@@ -184,7 +196,8 @@
   type: speakers
   layout: speakers
   id: 11
-- Name: Neeco Beltran
+Neeco Beltran:
+  Name: Neeco Beltran
   FirstName: Neeco
   LastName: Beltran
   Email: neeco.beltran@uky.edu
@@ -200,7 +213,8 @@
   type: speakers
   layout: speakers
   id: 12
-- Name: Vince Bernardin
+Vince Bernardin:
+  Name: Vince Bernardin
   FirstName: Vince
   LastName: Bernardin
   Email: vince@caliper.com
@@ -219,7 +233,8 @@
   type: speakers
   layout: speakers
   id: 13
-- Name: Chris Berrens
+Chris Berrens:
+  Name: Chris Berrens
   FirstName: Chris
   LastName: Berrens
   Email: chris.berrens@state.mn.us
@@ -231,7 +246,8 @@
   type: speakers
   layout: speakers
   id: 14
-- Name: Matthew W Bhagat-Conway
+Matthew W Bhagat-Conway:
+  Name: Matthew W Bhagat-Conway
   FirstName: Matthew
   LastName: Bhagat-Conway
   Email: mwbc@unc.edu
@@ -248,7 +264,8 @@
   type: speakers
   layout: speakers
   id: 15
-- Name: Michelle Bina
+Michelle Bina:
+  Name: Michelle Bina
   FirstName: Michelle
   LastName: Bina
   Email: michelle.bina@wsp.com
@@ -260,7 +277,8 @@
   type: speakers
   layout: speakers
   id: 16
-- Name: Bryan Blanc
+Bryan Blanc:
+  Name: Bryan Blanc
   FirstName: Bryan
   LastName: Blanc
   Email: bryan.blanc@oregonmetro.gov
@@ -278,7 +296,8 @@
   type: speakers
   layout: speakers
   id: 17
-- Name: Sophie Blumenstein
+Sophie Blumenstein:
+  Name: Sophie Blumenstein
   FirstName: Sophie
   LastName: Blumenstein
   Email: sophie.blumenstein@illinois.gov
@@ -290,7 +309,8 @@
   type: speakers
   layout: speakers
   id: 18
-- Name: Peter Bosa
+Peter Bosa:
+  Name: Peter Bosa
   FirstName: Peter
   LastName: Bosa
   Email: peter.bosa@oregonmetro.gov
@@ -310,7 +330,8 @@
   type: speakers
   layout: speakers
   id: 19
-- Name: Niels Bostrom
+Niels Bostrom:
+  Name: Niels Bostrom
   FirstName: Niels
   LastName: Bostrom
   Email: bostromnr@cdmsmith.com
@@ -322,7 +343,8 @@
   type: speakers
   layout: speakers
   id: 20
-- Name: Mark Bradley
+Mark Bradley:
+  Name: Mark Bradley
   FirstName: Mark
   LastName: Bradley
   Email: markbradleysb@gmail.com
@@ -341,7 +363,8 @@
   type: speakers
   layout: speakers
   id: 21
-- Name: Joe Broach
+Joe Broach:
+  Name: Joe Broach
   FirstName: Joe
   LastName: Broach
   Email: joe.broach@oregonmetro.gov
@@ -355,7 +378,8 @@
   type: speakers
   layout: speakers
   id: 22
-- Name: Andre Carrel
+Andre Carrel:
+  Name: Andre Carrel
   FirstName: Andre
   LastName: Carrel
   Email: carrel.20@osu.edu
@@ -378,7 +402,8 @@
   type: speakers
   layout: speakers
   id: 23
-- Name: Joe Castiglione
+Joe Castiglione:
+  Name: Joe Castiglione
   FirstName: Joe
   LastName: Castiglione
   Email: joe@joecastiglione.com
@@ -390,7 +415,8 @@
   type: speakers
   layout: speakers
   id: 24
-- Name: Paris Charitatos
+Paris Charitatos:
+  Name: Paris Charitatos
   FirstName: Paris
   LastName: Charitatos
   Email: pcharitatos@ctps.org
@@ -408,7 +434,8 @@
   type: speakers
   layout: speakers
   id: 25
-- Name: Billy Charlton
+Billy Charlton:
+  Name: Billy Charlton
   FirstName: Billy
   LastName: Charlton
   Email: mail@billyc.cc
@@ -422,7 +449,8 @@
   type: speakers
   layout: speakers
   id: 26
-- Name: Xueting (Sherry) Chen
+Xueting (Sherry) Chen:
+  Name: Xueting (Sherry) Chen
   FirstName: Xueting (Sherry)
   LastName: Chen
   Email: ''
@@ -437,7 +465,8 @@
   type: speakers
   layout: speakers
   id: 27
-- Name: Cynthia Chen
+Cynthia Chen:
+  Name: Cynthia Chen
   FirstName: Cynthia
   LastName: Chen
   Email: qzchen@uw.edu
@@ -468,7 +497,8 @@
   type: speakers
   layout: speakers
   id: 28
-- Name: Suzanne Childress
+Suzanne Childress:
+  Name: Suzanne Childress
   FirstName: Suzanne
   LastName: Childress
   Email: schildress@bayareametro.gov
@@ -494,7 +524,8 @@
   type: speakers
   layout: speakers
   id: 29
-- Name: Jon Commers
+Jon Commers:
+  Name: Jon Commers
   FirstName: Jon
   LastName: Commers
   Email: jcommers@srfconsulting.com
@@ -514,7 +545,8 @@
   type: speakers
   layout: speakers
   id: 30
-- Name: Darren Conly
+Darren Conly:
+  Name: Darren Conly
   FirstName: Darren
   LastName: Conly
   Email: dconly@sacog.org
@@ -532,7 +564,8 @@
   type: speakers
   layout: speakers
   id: 31
-- Name: Drew Cooper
+Drew Cooper:
+  Name: Drew Cooper
   FirstName: Drew
   LastName: Cooper
   Email: drew.cooper@sfcta.org
@@ -547,7 +580,8 @@
   type: speakers
   layout: speakers
   id: 32
-- Name: Rick Curry
+Rick Curry:
+  Name: Rick Curry
   FirstName: Rick
   LastName: Curry
   Email: rick.curry@wsp.com
@@ -564,7 +598,8 @@
   type: speakers
   layout: speakers
   id: 33
-- Name: Kate Dannemiller
+Kate Dannemiller:
+  Name: Kate Dannemiller
   FirstName: Kate
   LastName: Dannemiller
   Email: kdannemiller@camsys.com
@@ -580,7 +615,8 @@
   type: speakers
   layout: speakers
   id: 34
-- Name: Nancy Daubenberger
+Nancy Daubenberger:
+  Name: Nancy Daubenberger
   FirstName: Nancy
   LastName: Daubenberger
   Email: ''
@@ -609,7 +645,8 @@
   type: speakers
   layout: speakers
   id: 35
-- Name: Christopher Day
+Christopher Day:
+  Name: Christopher Day
   FirstName: Christopher
   LastName: Day
   Email: cday@wfrc.org
@@ -623,7 +660,8 @@
   type: speakers
   layout: speakers
   id: 36
-- Name: Jorge Diaz-Gutierrez
+Jorge Diaz-Gutierrez:
+  Name: Jorge Diaz-Gutierrez
   FirstName: Jorge
   LastName: Diaz-Gutierrez
   Email: jmd7722@psu.edu
@@ -643,7 +681,8 @@
   type: speakers
   layout: speakers
   id: 37
-- Name: Tara Diba
+Tara Diba:
+  Name: Tara Diba
   FirstName: Tara
   LastName: Diba
   Email: tdiba@candm-associates.com
@@ -660,7 +699,8 @@
   type: speakers
   layout: speakers
   id: 38
-- Name: Deirdre Edward
+Deirdre Edward:
+  Name: Deirdre Edward
   FirstName: Deirdre
   LastName: Edward
   Email: deirdreedward2027@u.northwestern.edu
@@ -676,7 +716,8 @@
   type: speakers
   layout: speakers
   id: 39
-- Name: Jonathan Ehrlich
+Jonathan Ehrlich:
+  Name: Jonathan Ehrlich
   FirstName: Jonathan
   LastName: Ehrlich
   Email: jonathan.ehrlich@metc.state.mn.us
@@ -688,7 +729,8 @@
   type: speakers
   layout: speakers
   id: 40
-- Name: Ilan Elgar
+Ilan Elgar:
+  Name: Ilan Elgar
   FirstName: Ilan
   LastName: Elgar
   Email: ilan.elgar@translink.ca
@@ -704,7 +746,8 @@
   type: speakers
   layout: speakers
   id: 41
-- Name: Greg Erhardt
+Greg Erhardt:
+  Name: Greg Erhardt
   FirstName: Greg
   LastName: Erhardt
   Email: greg.erhardt@uky.edu
@@ -716,7 +759,8 @@
   type: speakers
   layout: speakers
   id: 42
-- Name: John Evans
+John Evans:
+  Name: John Evans
   FirstName: John
   LastName: Evans
   Email: jay.evans@rsginc.com
@@ -734,7 +778,8 @@
   type: speakers
   layout: speakers
   id: 43
-- Name: Dennis Farmer
+Dennis Farmer:
+  Name: Dennis Farmer
   FirstName: Dennis
   LastName: Farmer
   Email: dennis.farmer@metc.state.mn.us
@@ -751,7 +796,8 @@
   type: speakers
   layout: speakers
   id: 44
-- Name: Joe Flood
+Joe Flood:
+  Name: Joe Flood
   FirstName: Joe
   LastName: Flood
   Email: joe.flood@sandag.org
@@ -767,7 +813,8 @@
   type: speakers
   layout: speakers
   id: 45
-- Name: Daniel Florian
+Daniel Florian:
+  Name: Daniel Florian
   FirstName: Daniel
   LastName: Florian
   Email: daniel.florian@bentley.com
@@ -785,7 +832,8 @@
   type: speakers
   layout: speakers
   id: 46
-- Name: Amy Fong
+Amy Fong:
+  Name: Amy Fong
   FirstName: Amy
   LastName: Fong
   Email: amyzfong@umich.edu
@@ -801,7 +849,8 @@
   type: speakers
   layout: speakers
   id: 47
-- Name: Tammye Fontenot
+Tammye Fontenot:
+  Name: Tammye Fontenot
   FirstName: Tammye
   LastName: Fontenot
   Email: tammye.fontenot@txdot.gov
@@ -822,7 +871,8 @@
   type: speakers
   layout: speakers
   id: 48
-- Name: William Friedrichs
+William Friedrichs:
+  Name: William Friedrichs
   FirstName: William
   LastName: Friedrichs
   Email: wfriedrichs@dvrpc.org
@@ -834,7 +884,8 @@
   type: speakers
   layout: speakers
   id: 49
-- Name: Rhett Fussell
+Rhett Fussell:
+  Name: Rhett Fussell
   FirstName: Rhett
   LastName: Fussell
   Email: rhett.fussell@wsp.com
@@ -853,7 +904,8 @@
   type: speakers
   layout: speakers
   id: 50
-- Name: Matthew Gates
+Matthew Gates:
+  Name: Matthew Gates
   FirstName: Matthew
   LastName: Gates
   Email: mgates@dvrpc.org
@@ -873,7 +925,8 @@
   type: speakers
   layout: speakers
   id: 51
-- Name: Subid Ghimire
+Subid Ghimire:
+  Name: Subid Ghimire
   FirstName: Subid
   LastName: Ghimire
   Email: sghimire@nctcog.org
@@ -890,7 +943,8 @@
   type: speakers
   layout: speakers
   id: 52
-- Name: Gregory Giaimo
+Gregory Giaimo:
+  Name: Gregory Giaimo
   FirstName: Gregory
   LastName: Giaimo
   Email: gregory.giaimo@wsp.com
@@ -911,7 +965,8 @@
   type: speakers
   layout: speakers
   id: 53
-- Name: John Gibb
+John Gibb:
+  Name: John Gibb
   FirstName: John
   LastName: Gibb
   Email: jag@dksassociates.com
@@ -928,7 +983,8 @@
   type: speakers
   layout: speakers
   id: 54
-- Name: Grant Gibson
+Grant Gibson:
+  Name: Grant Gibson
   FirstName: Grant
   LastName: Gibson
   Email: ggibson@psrc.org
@@ -940,7 +996,8 @@
   type: speakers
   layout: speakers
   id: 55
-- Name: Julia Glickman
+Julia Glickman:
+  Name: Julia Glickman
   FirstName: Julia
   LastName: Glickman
   Email: jglickman@aashto.org
@@ -952,7 +1009,8 @@
   type: speakers
   layout: speakers
   id: 56
-- Name: John Gliebe
+John Gliebe:
+  Name: John Gliebe
   FirstName: John
   LastName: Gliebe
   Email: jpgpdx@gmail.com
@@ -964,7 +1022,8 @@
   type: speakers
   layout: speakers
   id: 57
-- Name: Allen Greenberg
+Allen Greenberg:
+  Name: Allen Greenberg
   FirstName: Allen
   LastName: Greenberg
   Email: allen.greenberg@dot.gov
@@ -989,7 +1048,8 @@
   type: speakers
   layout: speakers
   id: 58
-- Name: Chris Gregerson
+Chris Gregerson:
+  Name: Chris Gregerson
   FirstName: Chris
   LastName: Gregerson
   Email: chris.gregerson@kimley-horn.com
@@ -1009,7 +1069,8 @@
   type: speakers
   layout: speakers
   id: 59
-- Name: Kevin Hall
+Kevin Hall:
+  Name: Kevin Hall
   FirstName: Kevin
   LastName: Hall
   Email: k-hall@tti.tamu.edu
@@ -1028,7 +1089,8 @@
   type: speakers
   layout: speakers
   id: 60
-- Name: Dahai Han
+Dahai Han:
+  Name: Dahai Han
   FirstName: Dahai
   LastName: Han
   Email: dhan@ctps.org
@@ -1044,7 +1106,8 @@
   type: speakers
   layout: speakers
   id: 61
-- Name: Susan Handy
+Susan Handy:
+  Name: Susan Handy
   FirstName: Susan
   LastName: Handy
   Email: slhandy@ucdavis.edu
@@ -1060,7 +1123,8 @@
   type: speakers
   layout: speakers
   id: 62
-- Name: Mithila Hasan
+Mithila Hasan:
+  Name: Mithila Hasan
   FirstName: Mithila
   LastName: Hasan
   Email: mithila.hasan@hdrinc.com
@@ -1072,7 +1136,8 @@
   type: speakers
   layout: speakers
   id: 63
-- Name: Bill Hereth
+Bill Hereth:
+  Name: Bill Hereth
   FirstName: Bill
   LastName: Hereth
   Email: ''
@@ -1094,7 +1159,8 @@
   type: speakers
   layout: speakers
   id: 64
-- Name: Jim Hicks
+Jim Hicks:
+  Name: Jim Hicks
   FirstName: Jim
   LastName: Hicks
   Email: jim.hicks@bentley.com
@@ -1106,7 +1172,8 @@
   type: speakers
   layout: speakers
   id: 65
-- Name: Jeffrey Hood
+Jeffrey Hood:
+  Name: Jeffrey Hood
   FirstName: Jeffrey
   LastName: Hood
   Email: jeffrey.hood@oregonmetro.gov
@@ -1121,7 +1188,8 @@
   type: speakers
   layout: speakers
   id: 66
-- Name: Jawad Mahmud Hoque
+Jawad Mahmud Hoque:
+  Name: Jawad Mahmud Hoque
   FirstName: Jawad Mahmud
   LastName: Hoque
   Email: jawadmahmud.hoque@wsp.com
@@ -1133,7 +1201,8 @@
   type: speakers
   layout: speakers
   id: 67
-- Name: Jiangchuan Hu
+Jiangchuan Hu:
+  Name: Jiangchuan Hu
   FirstName: Jiangchuan
   LastName: Hu
   Email: jhu@gfnet.com
@@ -1147,7 +1216,8 @@
   type: speakers
   layout: speakers
   id: 68
-- Name: Leta Huntsinger
+Leta Huntsinger:
+  Name: Leta Huntsinger
   FirstName: Leta
   LastName: Huntsinger
   Email: leta.huntsinger@wsp.com
@@ -1163,7 +1233,8 @@
   type: speakers
   layout: speakers
   id: 69
-- Name: Adrita Islam
+Adrita Islam:
+  Name: Adrita Islam
   FirstName: Adrita
   LastName: Islam
   Email: a.islam@fehrandpeers.com
@@ -1180,7 +1251,8 @@
   type: speakers
   layout: speakers
   id: 70
-- Name: Weimin Jin
+Weimin Jin:
+  Name: Weimin Jin
   FirstName: Weimin
   LastName: Jin
   Email: weimin.jin@arcadis.com
@@ -1196,7 +1268,8 @@
   type: speakers
   layout: speakers
   id: 71
-- Name: Zihao Jin
+Zihao Jin:
+  Name: Zihao Jin
   FirstName: Zihao
   LastName: Jin
   Email: zjin@ctps.org
@@ -1208,7 +1281,8 @@
   type: speakers
   layout: speakers
   id: 72
-- Name: Chandler Jong
+Chandler Jong:
+  Name: Chandler Jong
   FirstName: Chandler
   LastName: Jong
   Email: cjong@ctps.org
@@ -1225,7 +1299,8 @@
   type: speakers
   layout: speakers
   id: 73
-- Name: Chetan Joshi
+Chetan Joshi:
+  Name: Chetan Joshi
   FirstName: Chetan
   LastName: Joshi
   Email: chetan.joshi@ptvgroup.com
@@ -1244,7 +1319,8 @@
   type: speakers
   layout: speakers
   id: 74
-- Name: Bishoy Kelleny
+Bishoy Kelleny:
+  Name: Bishoy Kelleny
   FirstName: Bishoy
   LastName: Kelleny
   Email: bishoy.kelleny@rsginc.com
@@ -1256,7 +1332,8 @@
   type: speakers
   layout: speakers
   id: 75
-- Name: Alireza Khani
+Alireza Khani:
+  Name: Alireza Khani
   FirstName: Alireza
   LastName: Khani
   Email: akhani@umn.edu
@@ -1280,7 +1357,8 @@
   type: speakers
   layout: speakers
   id: 76
-- Name: Ayberk Kocatepe
+Ayberk Kocatepe:
+  Name: Ayberk Kocatepe
   FirstName: Ayberk
   LastName: Kocatepe
   Email: ayberk.kocatepe@kimley-horn.com
@@ -1296,7 +1374,8 @@
   type: speakers
   layout: speakers
   id: 77
-- Name: Chi Lam
+Chi Lam:
+  Name: Chi Lam
   FirstName: Chi
   LastName: Lam
   Email: lamc@cdmsmith.com
@@ -1308,7 +1387,8 @@
   type: speakers
   layout: speakers
   id: 78
-- Name: Stephen Lawe
+Stephen Lawe:
+  Name: Stephen Lawe
   FirstName: Stephen
   LastName: Lawe
   Email: stephen.lawe@rsginc.com
@@ -1328,7 +1408,8 @@
   type: speakers
   layout: speakers
   id: 79
-- Name: Brian Lee
+Brian Lee:
+  Name: Brian Lee
   FirstName: Brian
   LastName: Lee
   Email: blee@psrc.org
@@ -1340,7 +1421,8 @@
   type: speakers
   layout: speakers
   id: 80
-- Name: Zoey Li
+Zoey Li:
+  Name: Zoey Li
   FirstName: Zoey
   LastName: Li
   Email: zoeyli2046@gmail.com
@@ -1352,7 +1434,8 @@
   type: speakers
   layout: speakers
   id: 81
-- Name: Joanne Lin
+Joanne Lin:
+  Name: Joanne Lin
   FirstName: Joanne
   LastName: Lin
   Email: jlin@psrc.org
@@ -1364,7 +1447,8 @@
   type: speakers
   layout: speakers
   id: 82
-- Name: Eric Lind
+Eric Lind:
+  Name: Eric Lind
   FirstName: Eric
   LastName: Lind
   Email: elind@umn.edu
@@ -1376,7 +1460,8 @@
   type: speakers
   layout: speakers
   id: 83
-- Name: Shirley Liu
+Shirley Liu:
+  Name: Shirley Liu
   FirstName: Shirley
   LastName: Liu
   Email: ssliu@umn.edu
@@ -1395,7 +1480,8 @@
   type: speakers
   layout: speakers
   id: 84
-- Name: Like Liu
+Like Liu:
+  Name: Like Liu
   FirstName: Like
   LastName: Liu
   Email: lliu@kittelson.com
@@ -1413,7 +1499,8 @@
   type: speakers
   layout: speakers
   id: 85
-- Name: Tianming Liu
+Tianming Liu:
+  Name: Tianming Liu
   FirstName: Tianming
   LastName: Liu
   Email: tianmliu@umich.edu
@@ -1430,7 +1517,8 @@
   type: speakers
   layout: speakers
   id: 86
-- Name: Feng Liu
+Feng Liu:
+  Name: Feng Liu
   FirstName: Feng
   LastName: Liu
   Email: fliu@camsys.com
@@ -1449,7 +1537,8 @@
   type: speakers
   layout: speakers
   id: 87
-- Name: Cherry Liu
+Cherry Liu:
+  Name: Cherry Liu
   FirstName: Cherry
   LastName: Liu
   Email: cliu@semcog.org
@@ -1470,7 +1559,8 @@
   type: speakers
   layout: speakers
   id: 88
-- Name: Vladimir Livshits
+Vladimir Livshits:
+  Name: Vladimir Livshits
   FirstName: Vladimir
   LastName: Livshits
   Email: v-livshits@tti.tamu.edu
@@ -1482,7 +1572,8 @@
   type: speakers
   layout: speakers
   id: 89
-- Name: Gregory Macfarlane
+Gregory Macfarlane:
+  Name: Gregory Macfarlane
   FirstName: Gregory
   LastName: Macfarlane
   Email: gregmacfarlane@byu.edu
@@ -1509,7 +1600,8 @@
   type: speakers
   layout: speakers
   id: 90
-- Name: Tassio Magassy
+Tassio Magassy:
+  Name: Tassio Magassy
   FirstName: Tassio
   LastName: Magassy
   Email: tassio.magassy@wsp.com
@@ -1527,7 +1619,8 @@
   type: speakers
   layout: speakers
   id: 91
-- Name: Michael Mahut
+Michael Mahut:
+  Name: Michael Mahut
   FirstName: Michael
   LastName: Mahut
   Email: michael.mahut@bentley.com
@@ -1539,7 +1632,8 @@
   type: speakers
   layout: speakers
   id: 92
-- Name: Geena Maskey
+Geena Maskey:
+  Name: Geena Maskey
   FirstName: Geena
   LastName: Maskey
   Email: geena.maskey@txdot.gov
@@ -1557,7 +1651,8 @@
   type: speakers
   layout: speakers
   id: 93
-- Name: Sean McAtee
+Sean McAtee:
+  Name: Sean McAtee
   FirstName: Sean
   LastName: McAtee
   Email: smcatee@camsys.com
@@ -1569,7 +1664,8 @@
   type: speakers
   layout: speakers
   id: 94
-- Name: Xinbo Mi
+Xinbo Mi:
+  Name: Xinbo Mi
   FirstName: Xinbo
   LastName: Mi
   Email: xmi@camsys.com
@@ -1587,7 +1683,8 @@
   type: speakers
   layout: speakers
   id: 95
-- Name: Marty Milkovits
+Marty Milkovits:
+  Name: Marty Milkovits
   FirstName: Marty
   LastName: Milkovits
   Email: mmilkovits@ctps.org
@@ -1599,7 +1696,8 @@
   type: speakers
   layout: speakers
   id: 96
-- Name: Edgar Millard
+Edgar Millard:
+  Name: Edgar Millard
   FirstName: Edgar
   LastName: Millard
   Email: e-millard@tti.tamu.edu
@@ -1614,7 +1712,8 @@
   type: speakers
   layout: speakers
   id: 97
-- Name: Helia Mohammadi Mavi
+Helia Mohammadi Mavi:
+  Name: Helia Mohammadi Mavi
   FirstName: Helia
   LastName: Mohammadi Mavi
   Email: hmm5965@psu.edu
@@ -1633,7 +1732,8 @@
   type: speakers
   layout: speakers
   id: 98
-- Name: Udit Molakatalla
+Udit Molakatalla:
+  Name: Udit Molakatalla
   FirstName: Udit
   LastName: Molakatalla
   Email: udit.molakatalla@dksassociates.com
@@ -1645,7 +1745,8 @@
   type: speakers
   layout: speakers
   id: 99
-- Name: Mark Moran
+Mark Moran:
+  Name: Mark Moran
   FirstName: Mark
   LastName: Moran
   Email: mmoran@mwcog.org
@@ -1658,7 +1759,8 @@
   type: speakers
   layout: speakers
   id: 100
-- Name: Paul Morris
+Paul Morris:
+  Name: Paul Morris
   FirstName: Paul
   LastName: Morris
   Email: pmorris@srfconsulting.com
@@ -1675,7 +1777,8 @@
   type: speakers
   layout: speakers
   id: 101
-- Name: Kotpati Yugesh Naidu
+Kotpati Yugesh Naidu:
+  Name: Kotpati Yugesh Naidu
   FirstName: Kotpati Yugesh
   LastName: Naidu
   Email: ynaidu@candm-associates.com
@@ -1695,7 +1798,8 @@
   type: speakers
   layout: speakers
   id: 102
-- Name: Benjamin Nault
+Benjamin Nault:
+  Name: Benjamin Nault
   FirstName: Benjamin
   LastName: Nault
   Email: ben.nault@bentley.com
@@ -1711,7 +1815,8 @@
   type: speakers
   layout: speakers
   id: 103
-- Name: Eric Nava
+Eric Nava:
+  Name: Eric Nava
   FirstName: Eric
   LastName: Nava
   Email: e-nava@tti.tamu.edu
@@ -1723,7 +1828,8 @@
   type: speakers
   layout: speakers
   id: 104
-- Name: Florence Ngai
+Florence Ngai:
+  Name: Florence Ngai
   FirstName: Florence
   LastName: Ngai
   Email: fngai@srfconsulting.com
@@ -1740,7 +1846,8 @@
   type: speakers
   layout: speakers
   id: 105
-- Name: Ray Ngo
+Ray Ngo:
+  Name: Ray Ngo
   FirstName: Ray
   LastName: Ngo
   Email: rngo@mwcog.org
@@ -1757,7 +1864,8 @@
   type: speakers
   layout: speakers
   id: 106
-- Name: Thomas Orgren
+Thomas Orgren:
+  Name: Thomas Orgren
   FirstName: Thomas
   LastName: Orgren
   Email: torgren@foursquareitp.com
@@ -1778,7 +1886,8 @@
   type: speakers
   layout: speakers
   id: 107
-- Name: David Ory
+David Ory:
+  Name: David Ory
   FirstName: David
   LastName: Ory
   Email: david.ory@wsp.com
@@ -1790,7 +1899,8 @@
   type: speakers
   layout: speakers
   id: 108
-- Name: Hao Pang
+Hao Pang:
+  Name: Hao Pang
   FirstName: Hao
   LastName: Pang
   Email: h-pang@tti.tamu.edu
@@ -1824,7 +1934,8 @@
   type: speakers
   layout: speakers
   id: 109
-- Name: JJ Paul
+JJ Paul:
+  Name: JJ Paul
   FirstName: Jj
   LastName: Paul
   Email: jpaul@srfconsulting.com
@@ -1840,7 +1951,8 @@
   type: speakers
   layout: speakers
   id: 110
-- Name: Maureen Paz de Araujo
+Maureen Paz de Araujo:
+  Name: Maureen Paz de Araujo
   FirstName: Maureen
   LastName: Paz de Araujo
   Email: maureen.pazdearaujo@wilsonco.com
@@ -1861,7 +1973,8 @@
   type: speakers
   layout: speakers
   id: 111
-- Name: Yongzhao Peng
+Yongzhao Peng:
+  Name: Yongzhao Peng
   FirstName: Yongzhao
   LastName: Peng
   Email: ypeng@azmag.gov
@@ -1873,7 +1986,8 @@
   type: speakers
   layout: speakers
   id: 112
-- Name: Rosella Picado
+Rosella Picado:
+  Name: Rosella Picado
   FirstName: Rosella
   LastName: Picado
   Email: rosella.picado@wsp.com
@@ -1885,7 +1999,8 @@
   type: speakers
   layout: speakers
   id: 113
-- Name: Jeff Pierson
+Jeff Pierson:
+  Name: Jeff Pierson
   FirstName: Jeff
   LastName: Pierson
   Email: j.pierson@fehrandpeers.com
@@ -1897,7 +2012,8 @@
   type: speakers
   layout: speakers
   id: 114
-- Name: Steven Polzin
+Steven Polzin:
+  Name: Steven Polzin
   FirstName: Steven
   LastName: Polzin
   Email: sepolzin@asu.edu
@@ -1928,7 +2044,8 @@
   type: speakers
   layout: speakers
   id: 115
-- Name: Randolph Pullen
+Randolph Pullen:
+  Name: Randolph Pullen
   FirstName: Randolph
   LastName: Pullen
   Email: rpullen@chattanooga.gov
@@ -1945,7 +2062,8 @@
   type: speakers
   layout: speakers
   id: 116
-- Name: Mark Radovic
+Mark Radovic:
+  Name: Mark Radovic
   FirstName: Mark
   LastName: Radovic
   Email: mradovic@mdot.state.md.us
@@ -1957,7 +2075,8 @@
   type: speakers
   layout: speakers
   id: 117
-- Name: Fatemeh Ranaiefar
+Fatemeh Ranaiefar:
+  Name: Fatemeh Ranaiefar
   FirstName: Fatemeh
   LastName: Ranaiefar
   Email: f.ranaiefar@fehrandpeers.com
@@ -1969,7 +2088,8 @@
   type: speakers
   layout: speakers
   id: 118
-- Name: Sujith Rapolu
+Sujith Rapolu:
+  Name: Sujith Rapolu
   FirstName: Sujith
   LastName: Rapolu
   Email: sujith.rapolu@insighttcinc.com
@@ -1985,7 +2105,8 @@
   type: speakers
   layout: speakers
   id: 119
-- Name: Jeremy Raw
+Jeremy Raw:
+  Name: Jeremy Raw
   FirstName: Jeremy
   LastName: Raw
   Email: jeremy@jeremyraw.com
@@ -1997,7 +2118,8 @@
   type: speakers
   layout: speakers
   id: 120
-- Name: Liya Rechtman
+Liya Rechtman:
+  Name: Liya Rechtman
   FirstName: Liya
   LastName: Rechtman
   Email: liya@evergreenaction.com
@@ -2019,7 +2141,8 @@
   type: speakers
   layout: speakers
   id: 121
-- Name: Taylor Reich
+Taylor Reich:
+  Name: Taylor Reich
   FirstName: Taylor
   LastName: Reich
   Email: dtr@ives.st
@@ -2037,7 +2160,8 @@
   type: speakers
   layout: speakers
   id: 122
-- Name: Joshua Reynolds
+Joshua Reynolds:
+  Name: Joshua Reynolds
   FirstName: Joshua
   LastName: Reynolds
   Email: josh.reynolds@wfrc.utah.gov
@@ -2055,7 +2179,8 @@
   type: speakers
   layout: speakers
   id: 123
-- Name: Ali Riahi Samani
+Ali Riahi Samani:
+  Name: Ali Riahi Samani
   FirstName: Ali
   LastName: Riahi Samani
   Email: riahi.ali.samani@gmail.com
@@ -2075,7 +2200,8 @@
   type: speakers
   layout: speakers
   id: 124
-- Name: Mary Richards
+Mary Richards:
+  Name: Mary Richards
   FirstName: Mary
   LastName: Richards
   Email: mrichards@psrc.org
@@ -2087,7 +2213,8 @@
   type: speakers
   layout: speakers
   id: 125
-- Name: Andrew Rohne
+Andrew Rohne:
+  Name: Andrew Rohne
   FirstName: Andrew
   LastName: Rohne
   Email: andrew@siliconcreek.net
@@ -2101,7 +2228,8 @@
   type: speakers
   layout: speakers
   id: 126
-- Name: Liz Roten
+Liz Roten:
+  Name: Liz Roten
   FirstName: Liz
   LastName: Roten
   Email: liz.roten@metc.state.mn.us
@@ -2116,7 +2244,8 @@
   type: speakers
   layout: speakers
   id: 127
-- Name: Guy Rousseau
+Guy Rousseau:
+  Name: Guy Rousseau
   FirstName: Guy
   LastName: Rousseau
   Email: grousseau@atlantaregional.org
@@ -2128,7 +2257,8 @@
   type: speakers
   layout: speakers
   id: 128
-- Name: Raj Roy
+Raj Roy:
+  Name: Raj Roy
   FirstName: Raj
   LastName: Roy
   Email: rroy@morpc.org
@@ -2149,7 +2279,8 @@
   type: speakers
   layout: speakers
   id: 129
-- Name: Ray Saeidi
+Ray Saeidi:
+  Name: Ray Saeidi
   FirstName: Ray
   LastName: Saeidi
   Email: rsaeidi@camsys.com
@@ -2174,7 +2305,8 @@
   type: speakers
   layout: speakers
   id: 130
-- Name: Elizabeth Sall
+Elizabeth Sall:
+  Name: Elizabeth Sall
   FirstName: Elizabeth
   LastName: Sall
   Email: elizabeth@urbanlabs.io
@@ -2186,7 +2318,8 @@
   type: speakers
   layout: speakers
   id: 131
-- Name: Grant Saunders
+Grant Saunders:
+  Name: Grant Saunders
   FirstName: Grant
   LastName: Saunders
   Email: gsaunders@atlantaregional.org
@@ -2198,7 +2331,8 @@
   type: speakers
   layout: speakers
   id: 132
-- Name: Rob Schiffer
+Rob Schiffer:
+  Name: Rob Schiffer
   FirstName: Rob
   LastName: Schiffer
   Email: rob.schiffer@futureplan.us
@@ -2210,7 +2344,8 @@
   type: speakers
   layout: speakers
   id: 133
-- Name: David Schmitt
+David Schmitt:
+  Name: David Schmitt
   FirstName: David
   LastName: Schmitt
   Email: david.schmitt@insighttcinc.com
@@ -2229,7 +2364,8 @@
   type: speakers
   layout: speakers
   id: 134
-- Name: Kyle Schroeckenthaler, PMP
+Kyle Schroeckenthaler, PMP:
+  Name: Kyle Schroeckenthaler, PMP
   FirstName: Kyle
   LastName: Schroeckenthaler, PMP
   Email: kyle.schroeckenthaler@ebp-us.com
@@ -2248,7 +2384,8 @@
   type: speakers
   layout: speakers
   id: 135
-- Name: Mariana Schwabacher
+Mariana Schwabacher:
+  Name: Mariana Schwabacher
   FirstName: Mariana
   LastName: Schwabacher
   Email: mschwabacher@gfnet.com
@@ -2260,7 +2397,8 @@
   type: speakers
   layout: speakers
   id: 136
-- Name: Kaveh Shabani
+Kaveh Shabani:
+  Name: Kaveh Shabani
   FirstName: Kaveh
   LastName: Shabani
   Email: kshabani@camsys.com
@@ -2272,7 +2410,8 @@
   type: speakers
   layout: speakers
   id: 137
-- Name: Shaghayegh Shabanian
+Shaghayegh Shabanian:
+  Name: Shaghayegh Shabanian
   FirstName: Shaghayegh
   LastName: Shabanian
   Email: shaghaiegh.shabaanian@gmail.com
@@ -2284,7 +2423,8 @@
   type: speakers
   layout: speakers
   id: 138
-- Name: Elham Shayanfar
+Elham Shayanfar:
+  Name: Elham Shayanfar
   FirstName: Elham
   LastName: Shayanfar
   Email: eshayanfar@mdot.state.md.us
@@ -2304,7 +2444,8 @@
   type: speakers
   layout: speakers
   id: 139
-- Name: Shivang Shelat
+Shivang Shelat:
+  Name: Shivang Shelat
   FirstName: Shivang
   LastName: Shelat
   Email: shivang.shelat@wsp.com
@@ -2316,7 +2457,8 @@
   type: speakers
   layout: speakers
   id: 140
-- Name: Si Shi
+Si Shi:
+  Name: Si Shi
   FirstName: Si
   LastName: Shi
   Email: sshi7@ncsu.edu
@@ -2328,7 +2470,8 @@
   type: speakers
   layout: speakers
   id: 141
-- Name: Raghu Sidharthan
+Raghu Sidharthan:
+  Name: Raghu Sidharthan
   FirstName: Raghu
   LastName: Sidharthan
   Email: r.sidharthan@wsp.com
@@ -2346,7 +2489,8 @@
   type: speakers
   layout: speakers
   id: 142
-- Name: Jonathan Silverberg
+Jonathan Silverberg:
+  Name: Jonathan Silverberg
   FirstName: Jonathan
   LastName: Silverberg
   Email: jsilverberg@airsage.com
@@ -2362,7 +2506,8 @@
   type: speakers
   layout: speakers
   id: 143
-- Name: Vijay Sivaraman
+Vijay Sivaraman:
+  Name: Vijay Sivaraman
   FirstName: Vijay
   LastName: Sivaraman
   Email: v-sivaraman@tti.tamu.edu
@@ -2381,7 +2526,8 @@
   type: speakers
   layout: speakers
   id: 144
-- Name: Scott Smith
+Scott Smith:
+  Name: Scott Smith
   FirstName: Scott
   LastName: Smith
   Email: scott.smith@dot.gov
@@ -2393,7 +2539,8 @@
   type: speakers
   layout: speakers
   id: 145
-- Name: Sara Sohaee Urbina
+Sara Sohaee Urbina:
+  Name: Sara Sohaee Urbina
   FirstName: Sara
   LastName: Sohaee Urbina
   Email: ''
@@ -2405,7 +2552,8 @@
   type: speakers
   layout: speakers
   id: 146
-- Name: Parsa Soleyman Farahani
+Parsa Soleyman Farahani:
+  Name: Parsa Soleyman Farahani
   FirstName: Parsa
   LastName: Soleyman Farahani
   Email: parsa.soleymanfarahani@ucdenver.edu
@@ -2421,7 +2569,8 @@
   type: speakers
   layout: speakers
   id: 147
-- Name: Amanda Stathopoulos
+Amanda Stathopoulos:
+  Name: Amanda Stathopoulos
   FirstName: Amanda
   LastName: Stathopoulos
   Email: a-stathopoulos@northwestern.edu
@@ -2445,7 +2594,8 @@
   type: speakers
   layout: speakers
   id: 148
-- Name: Bill Stein
+Bill Stein:
+  Name: Bill Stein
   FirstName: Bill
   LastName: Stein
   Email: bill.stein@oregonmetro.gov
@@ -2461,7 +2611,8 @@
   type: speakers
   layout: speakers
   id: 149
-- Name: Monique Stinson
+Monique Stinson:
+  Name: Monique Stinson
   FirstName: Monique
   LastName: Stinson
   Email: monique.stinson@dot.gov
@@ -2487,7 +2638,8 @@
   type: speakers
   layout: speakers
   id: 150
-- Name: Rebekah Straub
+Rebekah Straub:
+  Name: Rebekah Straub
   FirstName: Rebekah
   LastName: Straub
   Email: rebekah.straub@dot.ohio.gov
@@ -2499,7 +2651,8 @@
   type: speakers
   layout: speakers
   id: 151
-- Name: James Sullivan
+James Sullivan:
+  Name: James Sullivan
   FirstName: James
   LastName: Sullivan
   Email: james.sullivan@rsginc.com
@@ -2520,7 +2673,8 @@
   type: speakers
   layout: speakers
   id: 152
-- Name: Aichong Sun
+Aichong Sun:
+  Name: Aichong Sun
   FirstName: Aichong
   LastName: Sun
   Email: a-sun@tti.tamu.edu
@@ -2532,7 +2686,8 @@
   type: speakers
   layout: speakers
   id: 153
-- Name: Suzie Swim
+Suzie Swim:
+  Name: Suzie Swim
   FirstName: Suzie
   LastName: Swim
   Email: sswim@wfrc.org
@@ -2555,7 +2710,8 @@
   type: speakers
   layout: speakers
   id: 154
-- Name: Daniel Tempesta
+Daniel Tempesta:
+  Name: Daniel Tempesta
   FirstName: Daniel
   LastName: Tempesta
   Email: dtempesta@camsys.com
@@ -2574,7 +2730,8 @@
   type: speakers
   layout: speakers
   id: 155
-- Name: Dan Tischler
+Dan Tischler:
+  Name: Dan Tischler
   FirstName: Dan
   LastName: Tischler
   Email: dan.tischler@sfcta.org
@@ -2586,7 +2743,8 @@
   type: speakers
   layout: speakers
   id: 156
-- Name: Francisco Torres
+Francisco Torres:
+  Name: Francisco Torres
   FirstName: Francisco
   LastName: Torres
   Email: ftorres@nctcog.org
@@ -2607,7 +2765,8 @@
   type: speakers
   layout: speakers
   id: 157
-- Name: Flavia Tsang
+Flavia Tsang:
+  Name: Flavia Tsang
   FirstName: Flavia
   LastName: Tsang
   Email: ftsang@bayareametro.gov
@@ -2619,7 +2778,8 @@
   type: speakers
   layout: speakers
   id: 158
-- Name: Muhammad Salaha Uddin
+Muhammad Salaha Uddin:
+  Name: Muhammad Salaha Uddin
   FirstName: Muhammad Salaha
   LastName: Uddin
   Email: muhammad.uddin@utsa.edu
@@ -2637,7 +2797,8 @@
   type: speakers
   layout: speakers
   id: 159
-- Name: Kazi Ullah
+Kazi Ullah:
+  Name: Kazi Ullah
   FirstName: Kazi
   LastName: Ullah
   Email: kaziullah97@gmail.com
@@ -2684,7 +2845,8 @@
   type: speakers
   layout: speakers
   id: 160
-- Name: Erik Verroen
+Erik Verroen:
+  Name: Erik Verroen
   FirstName: Erik
   LastName: Verroen
   Email: erik.verroen@rws.nl
@@ -2711,7 +2873,8 @@
   type: speakers
   layout: speakers
   id: 161
-- Name: Krishnan Viswanathan
+Krishnan Viswanathan:
+  Name: Krishnan Viswanathan
   FirstName: Krishnan
   LastName: Viswanathan
   Email: kviswanathan@wrallp.com
@@ -2725,7 +2888,8 @@
   type: speakers
   layout: speakers
   id: 162
-- Name: Peter Vovsha
+Peter Vovsha:
+  Name: Peter Vovsha
   FirstName: Peter
   LastName: Vovsha
   Email: peter.vovsha@bentley.com
@@ -2737,7 +2901,8 @@
   type: speakers
   layout: speakers
   id: 163
-- Name: Gaurav Vyas
+Gaurav Vyas:
+  Name: Gaurav Vyas
   FirstName: Gaurav
   LastName: Vyas
   Email: gaurav.vyas@bentley.com
@@ -2752,7 +2917,8 @@
   type: speakers
   layout: speakers
   id: 164
-- Name: Zeina Wafa
+Zeina Wafa:
+  Name: Zeina Wafa
   FirstName: Zeina
   LastName: Wafa
   Email: zwafa@camsys.com
@@ -2764,7 +2930,8 @@
   type: speakers
   layout: speakers
   id: 165
-- Name: Cacho Wang
+Cacho Wang:
+  Name: Cacho Wang
   FirstName: Cacho
   LastName: Wang
   Email: cacho.w827@gmail.com
@@ -2785,7 +2952,8 @@
   type: speakers
   layout: speakers
   id: 166
-- Name: Liming Wang
+Liming Wang:
+  Name: Liming Wang
   FirstName: Liming
   LastName: Wang
   Email: lmwang@pdx.edu
@@ -2799,7 +2967,8 @@
   type: speakers
   layout: speakers
   id: 167
-- Name: Sijia Wang
+Sijia Wang:
+  Name: Sijia Wang
   FirstName: Sijia
   LastName: Wang
   Email: sijia.wang@wsp.com
@@ -2813,7 +2982,8 @@
   type: speakers
   layout: speakers
   id: 168
-- Name: Scott Weber
+Scott Weber:
+  Name: Scott Weber
   FirstName: Scott
   LastName: Weber
   Email: sweber@nirpc.org
@@ -2825,7 +2995,8 @@
   type: speakers
   layout: speakers
   id: 169
-- Name: Eric Wilke
+Eric Wilke:
+  Name: Eric Wilke
   FirstName: Eric
   LastName: Wilke
   Email: eric.wilke@hdrinc.com
@@ -2844,7 +3015,8 @@
   type: speakers
   layout: speakers
   id: 170
-- Name: Susan Xu
+Susan Xu:
+  Name: Susan Xu
   FirstName: Susan
   LastName: Xu
   Email: susan.xu@sandag.org
@@ -2859,7 +3031,8 @@
   type: speakers
   layout: speakers
   id: 171
-- Name: Vivek Yadav
+Vivek Yadav:
+  Name: Vivek Yadav
   FirstName: Vivek
   LastName: Yadav
   Email: vyadav@camsys.com
@@ -2871,7 +3044,8 @@
   type: speakers
   layout: speakers
   id: 172
-- Name: Hua Yang
+Hua Yang:
+  Name: Hua Yang
   FirstName: Hua
   LastName: Yang
   Email: hyang@nctcog.org
@@ -2895,7 +3069,8 @@
   type: speakers
   layout: speakers
   id: 173
-- Name: Daehyun You
+Daehyun You:
+  Name: Daehyun You
   FirstName: Daehyun
   LastName: You
   Email: dyou@azmag.gov
@@ -2912,7 +3087,8 @@
   type: speakers
   layout: speakers
   id: 174
-- Name: Kathy Yu
+Kathy Yu:
+  Name: Kathy Yu
   FirstName: Kathy
   LastName: Yu
   Email: kyu@nctcog.org
@@ -2924,7 +3100,8 @@
   type: speakers
   layout: speakers
   id: 175
-- Name: Xuesong (Simon) Zhou
+Xuesong (Simon) Zhou:
+  Name: Xuesong (Simon) Zhou
   FirstName: Xuesong (Simon)
   LastName: Zhou
   Email: xzhou74@asu.edu
@@ -2936,7 +3113,8 @@
   type: speakers
   layout: speakers
   id: 176
-- Name: Henan Zhu
+Henan Zhu:
+  Name: Henan Zhu
   FirstName: Henan
   LastName: Zhu
   Email: henanzhu@asu.edu
@@ -2953,7 +3131,8 @@
   type: speakers
   layout: speakers
   id: 177
-- Name: Lisa Zorn
+Lisa Zorn:
+  Name: Lisa Zorn
   FirstName: Lisa
   LastName: Zorn
   Email: lzorn@bayareametro.gov
