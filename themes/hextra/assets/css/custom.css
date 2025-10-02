@@ -167,3 +167,18 @@
   background-color: #f4f4f4;
   filter: drop-shadow(0px 2px 2px #0002);
 }
+
+.sub-preso {
+  background-color: rgb(255, 115, 0);
+  color: white;
+  text-decoration: none;
+  font-size: 0.9rem;
+  padding: 1px 4px;
+  opacity: 0.9;
+  text-transform: uppercase;
+}
+
+.sub-preso a:hover {
+  opacity: 1.0;
+}
+

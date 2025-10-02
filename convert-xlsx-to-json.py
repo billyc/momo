@@ -91,30 +91,16 @@ for k, v in gid.items():
                     current_session["subs"].append(event)
 
                 # split things up nicely
-                speakers = []
-                if len(event["Speakers"]) > 0:
-                    speakers = [a.strip() for a in sorted(event["Speakers"].split(";"))]
-                event["Speakers"] = speakers
+                for col in ["Speakers", "RoleModerator","RoleFacilitator","RoleDebater","Tracks"]:
+                    s = []
+                    if len(event[col]) > 0:
+                        s = [a.strip() for a in sorted(event[col].split(";"))]
+                    event[col] = s
 
                 s = []
-                if len(event["RoleModerator"]) > 0:
-                    s = [a.strip() for a in sorted(event["RoleModerator"].split(";"))]
-                event["RoleModerator"] = s
-
-                s = []
-                if len(event["RoleFacilitator"]) > 0:
-                    s = [a.strip() for a in sorted(event["RoleFacilitator"].split(";"))]
-                event["RoleFacilitator"] = s
-
-                s = []
-                if len(event["RoleDebater"]) > 0:
-                    s = [a.strip() for a in sorted(event["RoleDebater"].split(";"))]
-                event["RoleDebater"] = s
-
-                tracks = []
-                if len(event["Tracks"]) > 0:
-                    tracks = [a.strip() for a in sorted(event["Tracks"].split(";"))]
-                event["Tracks"] = tracks
+                if len(event["Presentations"]) > 0:
+                    s = [f"./2025/{a.strip()}" for a in sorted(event["Presentations"].split(","))]
+                event["Presentations"] = s
 
             # all done with today's events
             todays_sessions.append(current_session)

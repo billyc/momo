@@ -87,7 +87,15 @@
   <div class="sub-speaker"><a href="../speakers/{{$sp.id}}">{{ . }}</a></div>
   {{end}}
   {{ end }}
-  <div class="sub-desc">{{ .SessionDescription }}</div>
+
+  {{ if gt (len .Presentations) 0 }}
+  {{range .Presentations}}
+  {{ $ext := replaceRE `^\.` "" (path.Ext . ) }}
+  <div title="{{ . }}"><a class="sub-preso" href="../../presentations/{{ . }}">Get {{ $ext }}</a></div>
+  {{end}}
+  {{ end }}
+
+  <!-- <div class="sub-desc">{{ .Description }}</div> -->
 </div>
 {{ end }}
 {{ end }}

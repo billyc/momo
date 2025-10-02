@@ -33,6 +33,7 @@
   RecordedVideoURL: ''
   SessionOrSub: Session
   Tags: ''
+  Presentations: []
   subs: []
 - Date: 09/14/2025
   TimeStart: 01:30 PM
@@ -73,6 +74,7 @@
   RecordedVideoURL: ''
   SessionOrSub: Session
   Tags: ''
+  Presentations: []
   subs: []
 - Date: 09/14/2025
   TimeStart: 03:00 PM
@@ -90,6 +92,7 @@
   RecordedVideoURL: ''
   SessionOrSub: Session
   Tags: ''
+  Presentations: []
   subs: []
 - Date: 09/14/2025
   TimeStart: 03:30 PM
@@ -122,6 +125,7 @@
   RecordedVideoURL: ''
   SessionOrSub: Session
   Tags: ''
+  Presentations: []
   subs:
   - Date: 09/14/2025
     TimeStart: 03:30 PM
@@ -190,6 +194,7 @@
     RecordedVideoURL: ''
     SessionOrSub: Sub
     Tags: ''
+    Presentations: []
   - Date: 09/14/2025
     TimeStart: 03:30 PM
     TimeEnd: 05:00 PM
@@ -334,6 +339,7 @@
     RecordedVideoURL: ''
     SessionOrSub: Sub
     Tags: ''
+    Presentations: []
   - Date: 09/14/2025
     TimeStart: 03:30 PM
     TimeEnd: 05:00 PM
@@ -374,6 +380,7 @@
     RecordedVideoURL: ''
     SessionOrSub: Sub
     Tags: ''
+    Presentations: []
   - Date: 09/14/2025
     TimeStart: 03:30 PM
     TimeEnd: 05:00 PM
@@ -443,6 +450,7 @@
     RecordedVideoURL: ''
     SessionOrSub: Sub
     Tags: ''
+    Presentations: []
   - Date: 09/14/2025
     TimeStart: 03:30 PM
     TimeEnd: 05:00 PM
@@ -490,6 +498,7 @@
     RecordedVideoURL: ''
     SessionOrSub: Sub
     Tags: ''
+    Presentations: []
   - Date: 09/14/2025
     TimeStart: 03:30 PM
     TimeEnd: 05:00 PM
@@ -542,6 +551,7 @@
     RecordedVideoURL: ''
     SessionOrSub: Sub
     Tags: ''
+    Presentations: []
 - Date: 09/14/2025
   TimeStart: 03:30 PM
   TimeEnd: 05:00 PM
@@ -586,6 +596,7 @@
   RecordedVideoURL: ''
   SessionOrSub: Session
   Tags: ''
+  Presentations: []
   subs: []
 - Date: 09/14/2025
   TimeStart: 03:30 PM
@@ -669,6 +680,7 @@
   RecordedVideoURL: ''
   SessionOrSub: Session
   Tags: ''
+  Presentations: []
   subs: []
 - Date: 09/14/2025
   TimeStart: 05:15 PM
@@ -695,6 +707,7 @@
   RecordedVideoURL: ''
   SessionOrSub: Session
   Tags: ''
+  Presentations: []
   subs: []
 09/15/2025:
 - Date: 09/15/2025
@@ -719,6 +732,7 @@
   RecordedVideoURL: ''
   SessionOrSub: Session
   Tags: ''
+  Presentations: []
   subs:
   - Date: 09/15/2025
     TimeStart: 07:30 AM
@@ -736,6 +750,7 @@
     RecordedVideoURL: ''
     SessionOrSub: Sub
     Tags: ''
+    Presentations: []
 - Date: 09/15/2025
   TimeStart: 08:30 AM
   TimeEnd: 10:00 AM
@@ -769,6 +784,7 @@
   RecordedVideoURL: ''
   SessionOrSub: Session
   Tags: ''
+  Presentations: []
   subs:
   - Date: 09/15/2025
     TimeStart: 08:30 AM
@@ -837,6 +853,7 @@
     RecordedVideoURL: ''
     SessionOrSub: Sub
     Tags: ''
+    Presentations: []
   - Date: 09/15/2025
     TimeStart: 08:30 AM
     TimeEnd: 10:00 AM
@@ -871,6 +888,7 @@
     RecordedVideoURL: ''
     SessionOrSub: Sub
     Tags: ''
+    Presentations: []
   - Date: 09/15/2025
     TimeStart: 08:30 AM
     TimeEnd: 10:00 AM
@@ -930,6 +948,7 @@
     RecordedVideoURL: ''
     SessionOrSub: Sub
     Tags: ''
+    Presentations: []
   - Date: 09/15/2025
     TimeStart: 08:30 AM
     TimeEnd: 10:00 AM
@@ -990,6 +1009,7 @@
     RecordedVideoURL: ''
     SessionOrSub: Sub
     Tags: ''
+    Presentations: []
   - Date: 09/15/2025
     TimeStart: 08:30 AM
     TimeEnd: 10:00 AM
@@ -1019,6 +1039,7 @@
     RecordedVideoURL: ''
     SessionOrSub: Sub
     Tags: ''
+    Presentations: []
   - Date: 09/15/2025
     TimeStart: 08:30 AM
     TimeEnd: 10:00 AM
@@ -1048,6 +1069,7 @@
     RecordedVideoURL: ''
     SessionOrSub: Sub
     Tags: ''
+    Presentations: []
   - Date: 09/15/2025
     TimeStart: 08:30 AM
     TimeEnd: 10:00 AM
@@ -1081,6 +1103,7 @@
     RecordedVideoURL: ''
     SessionOrSub: Sub
     Tags: ''
+    Presentations: []
   - Date: 09/15/2025
     TimeStart: 08:30 AM
     TimeEnd: 10:00 AM
@@ -1099,6 +1122,7 @@
     RecordedVideoURL: ''
     SessionOrSub: Sub
     Tags: ''
+    Presentations: []
   - Date: 09/15/2025
     TimeStart: 08:30 AM
     TimeEnd: 10:00 AM
@@ -1166,6 +1190,7 @@
     RecordedVideoURL: ''
     SessionOrSub: Sub
     Tags: ''
+    Presentations: []
 - Date: 09/15/2025
   TimeStart: 08:30 AM
   TimeEnd: 10:00 AM
@@ -1194,6 +1219,7 @@
   RecordedVideoURL: ''
   SessionOrSub: Session
   Tags: ''
+  Presentations: []
   subs:
   - Date: 09/15/2025
     TimeStart: 08:30 AM
@@ -1223,6 +1249,7 @@
     RecordedVideoURL: ''
     SessionOrSub: Sub
     Tags: ''
+    Presentations: []
   - Date: 09/15/2025
     TimeStart: 08:30 AM
     TimeEnd: 10:00 AM
@@ -1272,6 +1299,7 @@
     RecordedVideoURL: ''
     SessionOrSub: Sub
     Tags: ''
+    Presentations: []
   - Date: 09/15/2025
     TimeStart: 08:30 AM
     TimeEnd: 10:00 AM
@@ -1354,6 +1382,7 @@
     RecordedVideoURL: ''
     SessionOrSub: Sub
     Tags: ''
+    Presentations: []
   - Date: 09/15/2025
     TimeStart: 08:30 AM
     TimeEnd: 10:00 AM
@@ -1416,6 +1445,7 @@
     RecordedVideoURL: ''
     SessionOrSub: Sub
     Tags: ''
+    Presentations: []
 - Date: 09/15/2025
   TimeStart: 08:30 AM
   TimeEnd: 10:00 AM
@@ -1446,6 +1476,7 @@
   RecordedVideoURL: ''
   SessionOrSub: Session
   Tags: ''
+  Presentations: []
   subs:
   - Date: 09/15/2025
     TimeStart: 08:30 AM
@@ -1484,6 +1515,9 @@
     RecordedVideoURL: ''
     SessionOrSub: Sub
     Tags: ''
+    Presentations:
+    - ./2025/./Monday/8_30-10_00/Travel Behavior Trends/Bradley Untangling ageing
+      and age cohort effects.pptx
   - Date: 09/15/2025
     TimeStart: 08:30 AM
     TimeEnd: 10:00 AM
@@ -1581,6 +1615,8 @@
     RecordedVideoURL: ''
     SessionOrSub: Sub
     Tags: ''
+    Presentations:
+    - ./2025/./Monday/8_30-10_00/Travel Behavior Trends/Post-Pandemic_Charitatos_MoMo.pptx
   - Date: 09/15/2025
     TimeStart: 08:30 AM
     TimeEnd: 10:00 AM
@@ -1600,6 +1636,9 @@
     RecordedVideoURL: ''
     SessionOrSub: Sub
     Tags: ''
+    Presentations:
+    - ./2025/./Monday/8_30-10_00/Travel Behavior Trends/Post-Pandemic Travel Demand
+      Modeling and Forecasting 20250915.pptx
   - Date: 09/15/2025
     TimeStart: 08:30 AM
     TimeEnd: 10:00 AM
@@ -1677,6 +1716,9 @@
     RecordedVideoURL: ''
     SessionOrSub: Sub
     Tags: ''
+    Presentations:
+    - ./2025/./Monday/8_30-10_00/Travel Behavior Trends/COVID & Telecommuting-induced
+      Changes in Individual Activity and Travel Patterns - BHYL.pptx
 - Date: 09/15/2025
   TimeStart: 10:00 AM
   TimeEnd: 10:30 AM
@@ -1693,6 +1735,7 @@
   RecordedVideoURL: ''
   SessionOrSub: Session
   Tags: ''
+  Presentations: []
   subs: []
 - Date: 09/15/2025
   TimeStart: 10:30 AM
@@ -1732,6 +1775,7 @@
   RecordedVideoURL: ''
   SessionOrSub: Session
   Tags: ''
+  Presentations: []
   subs:
   - Date: 09/15/2025
     TimeStart: 10:30 AM
@@ -1792,6 +1836,8 @@
     RecordedVideoURL: ''
     SessionOrSub: Sub
     Tags: ''
+    Presentations:
+    - ./2025/./Monday/10_30-12_00/AI Support in Planning/1_ModelingMobility-HighDemandCorridorIdentification.pptx.pdf
   - Date: 09/15/2025
     TimeStart: 10:30 AM
     TimeEnd: 12:00 PM
@@ -1822,6 +1868,8 @@
     RecordedVideoURL: ''
     SessionOrSub: Sub
     Tags: ''
+    Presentations:
+    - ./2025/./Monday/10_30-12_00/AI Support in Planning/2_20250916_AEEMAT_V3_ATLggeditpagenumbers.pptx.pdf
   - Date: 09/15/2025
     TimeStart: 10:30 AM
     TimeEnd: 12:00 PM
@@ -1961,6 +2009,8 @@
     RecordedVideoURL: ''
     SessionOrSub: Sub
     Tags: ''
+    Presentations:
+    - ./2025/./Monday/10_30-12_00/AI Support in Planning/3_Property_Prices_Presentation.pdf
   - Date: 09/15/2025
     TimeStart: 10:30 AM
     TimeEnd: 12:00 PM
@@ -2046,6 +2096,8 @@
     RecordedVideoURL: ''
     SessionOrSub: Sub
     Tags: ''
+    Presentations:
+    - ./2025/./Monday/10_30-12_00/AI Support in Planning/4_MoMo_hybridgraphtransformer.pptx.pdf
 - Date: 09/15/2025
   TimeStart: 10:30 AM
   TimeEnd: 12:00 PM
@@ -2097,6 +2149,7 @@
   RecordedVideoURL: ''
   SessionOrSub: Session
   Tags: ''
+  Presentations: []
   subs:
   - Date: 09/15/2025
     TimeStart: 10:30 AM
@@ -2157,6 +2210,8 @@
     RecordedVideoURL: ''
     SessionOrSub: Sub
     Tags: ''
+    Presentations:
+    - ./2025/./Monday/10_30-12_00/DTA/1_MOMO_Shabaanian.pdf
   - Date: 09/15/2025
     TimeStart: 10:30 AM
     TimeEnd: 12:00 PM
@@ -2269,6 +2324,8 @@
     RecordedVideoURL: ''
     SessionOrSub: Sub
     Tags: ''
+    Presentations:
+    - ./2025/./Monday/10_30-12_00/DTA/2_MOMO 2025 Weimin Jin-9-14.pdf
   - Date: 09/15/2025
     TimeStart: 10:30 AM
     TimeEnd: 12:00 PM
@@ -2331,6 +2388,8 @@
     RecordedVideoURL: ''
     SessionOrSub: Sub
     Tags: ''
+    Presentations:
+    - ./2025/./Monday/10_30-12_00/DTA/3_MOMO Distributed VOT in AgDTA 2025_09_13.pdf
   - Date: 09/15/2025
     TimeStart: 10:30 AM
     TimeEnd: 12:00 PM
@@ -2394,6 +2453,8 @@
     RecordedVideoURL: ''
     SessionOrSub: Sub
     Tags: ''
+    Presentations:
+    - ./2025/./Monday/10_30-12_00/DTA/4_MoMo Accelerating DTA 2025_09_15.pdf
   - Date: 09/15/2025
     TimeStart: 10:30 AM
     TimeEnd: 12:00 PM
@@ -2413,6 +2474,8 @@
     RecordedVideoURL: ''
     SessionOrSub: Sub
     Tags: ''
+    Presentations:
+    - ./2025/./Monday/10_30-12_00/DTA/5_MoMo_2025_DTA_Pierson.pdf
 - Date: 09/15/2025
   TimeStart: 10:30 AM
   TimeEnd: 12:00 PM
@@ -2446,6 +2509,7 @@
   RecordedVideoURL: ''
   SessionOrSub: Session
   Tags: ''
+  Presentations: []
   subs:
   - Date: 09/15/2025
     TimeStart: 10:30 AM
@@ -2532,6 +2596,7 @@
     RecordedVideoURL: ''
     SessionOrSub: Sub
     Tags: ''
+    Presentations: []
   - Date: 09/15/2025
     TimeStart: 10:30 AM
     TimeEnd: 12:00 PM
@@ -2603,6 +2668,7 @@
     RecordedVideoURL: ''
     SessionOrSub: Sub
     Tags: ''
+    Presentations: []
   - Date: 09/15/2025
     TimeStart: 10:30 AM
     TimeEnd: 12:00 PM
@@ -2719,6 +2785,7 @@
     RecordedVideoURL: ''
     SessionOrSub: Sub
     Tags: ''
+    Presentations: []
   - Date: 09/15/2025
     TimeStart: 10:30 AM
     TimeEnd: 12:00 PM
@@ -2783,6 +2850,7 @@
     RecordedVideoURL: ''
     SessionOrSub: Sub
     Tags: ''
+    Presentations: []
   - Date: 09/15/2025
     TimeStart: 10:30 AM
     TimeEnd: 12:00 PM
@@ -2856,6 +2924,7 @@
     RecordedVideoURL: ''
     SessionOrSub: Sub
     Tags: ''
+    Presentations: []
 - Date: 09/15/2025
   TimeStart: 12:00 PM
   TimeEnd: 01:30 PM
@@ -2888,6 +2957,7 @@
   RecordedVideoURL: ''
   SessionOrSub: Session
   Tags: ''
+  Presentations: []
   subs:
   - Date: 09/15/2025
     TimeStart: 12:00 PM
@@ -2910,6 +2980,7 @@
     RecordedVideoURL: ''
     SessionOrSub: Sub
     Tags: ''
+    Presentations: []
   - Date: 09/15/2025
     TimeStart: 12:00 PM
     TimeEnd: 01:30 PM
@@ -2927,6 +2998,7 @@
     RecordedVideoURL: ''
     SessionOrSub: Sub
     Tags: ''
+    Presentations: []
   - Date: 09/15/2025
     TimeStart: 12:00 PM
     TimeEnd: 01:30 PM
@@ -2944,6 +3016,7 @@
     RecordedVideoURL: ''
     SessionOrSub: Sub
     Tags: ''
+    Presentations: []
 - Date: 09/15/2025
   TimeStart: 01:30 PM
   TimeEnd: 03:00 PM
@@ -2974,6 +3047,7 @@
   RecordedVideoURL: ''
   SessionOrSub: Session
   Tags: ''
+  Presentations: []
   subs:
   - Date: 09/15/2025
     TimeStart: 01:30 PM
@@ -3048,6 +3122,7 @@
     RecordedVideoURL: ''
     SessionOrSub: Sub
     Tags: ''
+    Presentations: []
   - Date: 09/15/2025
     TimeStart: 01:30 PM
     TimeEnd: 03:00 PM
@@ -3111,6 +3186,7 @@
     RecordedVideoURL: ''
     SessionOrSub: Sub
     Tags: ''
+    Presentations: []
   - Date: 09/15/2025
     TimeStart: 01:30 PM
     TimeEnd: 03:00 PM
@@ -3175,6 +3251,7 @@
     RecordedVideoURL: ''
     SessionOrSub: Sub
     Tags: ''
+    Presentations: []
   - Date: 09/15/2025
     TimeStart: 01:30 PM
     TimeEnd: 03:00 PM
@@ -3267,6 +3344,7 @@
     RecordedVideoURL: ''
     SessionOrSub: Sub
     Tags: ''
+    Presentations: []
   - Date: 09/15/2025
     TimeStart: 01:30 PM
     TimeEnd: 03:00 PM
@@ -3368,6 +3446,7 @@
     RecordedVideoURL: ''
     SessionOrSub: Sub
     Tags: ''
+    Presentations: []
 - Date: 09/15/2025
   TimeStart: 01:30 PM
   TimeEnd: 03:00 PM
@@ -3400,6 +3479,7 @@
   RecordedVideoURL: ''
   SessionOrSub: Session
   Tags: ''
+  Presentations: []
   subs:
   - Date: 09/15/2025
     TimeStart: 01:30 PM
@@ -3478,6 +3558,7 @@
     RecordedVideoURL: ''
     SessionOrSub: Sub
     Tags: ''
+    Presentations: []
   - Date: 09/15/2025
     TimeStart: 01:30 PM
     TimeEnd: 03:00 PM
@@ -3543,6 +3624,7 @@
     RecordedVideoURL: ''
     SessionOrSub: Sub
     Tags: ''
+    Presentations: []
   - Date: 09/15/2025
     TimeStart: 01:30 PM
     TimeEnd: 03:00 PM
@@ -3622,6 +3704,7 @@
     RecordedVideoURL: ''
     SessionOrSub: Sub
     Tags: ''
+    Presentations: []
   - Date: 09/15/2025
     TimeStart: 01:30 PM
     TimeEnd: 01:30 PM
@@ -3675,6 +3758,7 @@
     RecordedVideoURL: ''
     SessionOrSub: Sub
     Tags: ''
+    Presentations: []
   - Date: 09/15/2025
     TimeStart: 01:30 PM
     TimeEnd: 03:00 PM
@@ -3747,6 +3831,7 @@
     RecordedVideoURL: ''
     SessionOrSub: Sub
     Tags: ''
+    Presentations: []
 - Date: 09/15/2025
   TimeStart: 01:30 PM
   TimeEnd: 03:00 PM
@@ -3775,6 +3860,7 @@
   RecordedVideoURL: ''
   SessionOrSub: Session
   Tags: ''
+  Presentations: []
   subs:
   - Date: 09/15/2025
     TimeStart: 01:30 PM
@@ -3802,6 +3888,7 @@
     RecordedVideoURL: ''
     SessionOrSub: Sub
     Tags: ''
+    Presentations: []
   - Date: 09/15/2025
     TimeStart: 01:30 PM
     TimeEnd: 03:00 PM
@@ -3835,6 +3922,7 @@
     RecordedVideoURL: ''
     SessionOrSub: Sub
     Tags: ''
+    Presentations: []
   - Date: 09/15/2025
     TimeStart: 01:30 PM
     TimeEnd: 03:00 PM
@@ -3900,6 +3988,7 @@
     RecordedVideoURL: ''
     SessionOrSub: Sub
     Tags: ''
+    Presentations: []
   - Date: 09/15/2025
     TimeStart: 01:30 PM
     TimeEnd: 03:00 PM
@@ -3945,6 +4034,7 @@
     RecordedVideoURL: ''
     SessionOrSub: Sub
     Tags: ''
+    Presentations: []
 - Date: 09/15/2025
   TimeStart: 03:00 PM
   TimeEnd: 03:30 PM
@@ -3961,6 +4051,7 @@
   RecordedVideoURL: ''
   SessionOrSub: Session
   Tags: ''
+  Presentations: []
   subs: []
 - Date: 09/15/2025
   TimeStart: 03:30 PM
@@ -3989,6 +4080,7 @@
   RecordedVideoURL: ''
   SessionOrSub: Session
   Tags: ''
+  Presentations: []
   subs:
   - Date: 09/15/2025
     TimeStart: 03:30 PM
@@ -4040,6 +4132,7 @@
     RecordedVideoURL: ''
     SessionOrSub: Sub
     Tags: ''
+    Presentations: []
   - Date: 09/15/2025
     TimeStart: 03:30 PM
     TimeEnd: 05:00 PM
@@ -4168,6 +4261,7 @@
     RecordedVideoURL: ''
     SessionOrSub: Sub
     Tags: ''
+    Presentations: []
   - Date: 09/15/2025
     TimeStart: 03:30 PM
     TimeEnd: 05:00 PM
@@ -4235,6 +4329,7 @@
     RecordedVideoURL: ''
     SessionOrSub: Sub
     Tags: ''
+    Presentations: []
   - Date: 09/15/2025
     TimeStart: 03:30 PM
     TimeEnd: 05:00 PM
@@ -4318,6 +4413,7 @@
     RecordedVideoURL: ''
     SessionOrSub: Sub
     Tags: ''
+    Presentations: []
   - Date: 09/15/2025
     TimeStart: 03:30 PM
     TimeEnd: 05:00 PM
@@ -4359,6 +4455,7 @@
     RecordedVideoURL: ''
     SessionOrSub: Sub
     Tags: ''
+    Presentations: []
 - Date: 09/15/2025
   TimeStart: 03:30 PM
   TimeEnd: 05:00 PM
@@ -4389,6 +4486,7 @@
   RecordedVideoURL: ''
   SessionOrSub: Session
   Tags: ''
+  Presentations: []
   subs:
   - Date: 09/15/2025
     TimeStart: 03:30 PM
@@ -4433,6 +4531,8 @@
     RecordedVideoURL: ''
     SessionOrSub: Sub
     Tags: ''
+    Presentations:
+    - ./2025/./Monday/3_30-5_00/Metrics and Planning/StateTranspReprice_MoMo_Conf_2025-09-15_REV2.pptx
   - Date: 09/15/2025
     TimeStart: 03:30 PM
     TimeEnd: 05:00 PM
@@ -4482,6 +4582,9 @@
     RecordedVideoURL: ''
     SessionOrSub: Sub
     Tags: ''
+    Presentations:
+    - ./2025/./Monday/3_30-5_00/Metrics and Planning/MoMo Conference 2025 ILSTDM Emissions
+      Ranking FINALDRAFT.pptx
   - Date: 09/15/2025
     TimeStart: 03:30 PM
     TimeEnd: 05:00 PM
@@ -4517,6 +4620,8 @@
     RecordedVideoURL: ''
     SessionOrSub: Sub
     Tags: ''
+    Presentations:
+    - ./2025/./Monday/3_30-5_00/Metrics and Planning/MoMoSRF.pdf
   - Date: 09/15/2025
     TimeStart: 03:30 PM
     TimeEnd: 05:00 PM
@@ -4555,6 +4660,8 @@
     RecordedVideoURL: ''
     SessionOrSub: Sub
     Tags: ''
+    Presentations:
+    - ./2025/./Monday/3_30-5_00/Metrics and Planning/Gregerson_Presentation_ModelingMobility_082225.pptx
   - Date: 09/15/2025
     TimeStart: 03:30 PM
     TimeEnd: 05:00 PM
@@ -4623,6 +4730,8 @@
     RecordedVideoURL: ''
     SessionOrSub: Sub
     Tags: ''
+    Presentations:
+    - ./2025/./Monday/3_30-5_00/Metrics and Planning/LUT MOMO 20205.pptx
   - Date: 09/15/2025
     TimeStart: 03:30 PM
     TimeEnd: 05:00 PM
@@ -4661,6 +4770,9 @@
     RecordedVideoURL: ''
     SessionOrSub: Sub
     Tags: ''
+    Presentations:
+    - ./2025/./Monday/3_30-5_00/Metrics and Planning/User Profiles with GPS-Based
+      Survey Data.pptx
 - Date: 09/15/2025
   TimeStart: 03:30 PM
   TimeEnd: 05:00 PM
@@ -4688,6 +4800,7 @@
   RecordedVideoURL: ''
   SessionOrSub: Session
   Tags: ''
+  Presentations: []
   subs:
   - Date: 09/15/2025
     TimeStart: 03:30 PM
@@ -4737,6 +4850,8 @@
     RecordedVideoURL: ''
     SessionOrSub: Sub
     Tags: ''
+    Presentations:
+    - ./2025/./Monday/3_30-5_00/Statewide Modeling/1_MoMo 2025_MN Statewide Model_PMorris.pdf
   - Date: 09/15/2025
     TimeStart: 03:30 PM
     TimeEnd: 05:00 PM
@@ -4781,6 +4896,9 @@
     RecordedVideoURL: ''
     SessionOrSub: Sub
     Tags: ''
+    Presentations:
+    - ./2025/./Monday/3_30-5_00/Statewide Modeling/2_MoMo_The Role of Trip-Based Models
+      in Statewide Travel Demand Modeling.pdf
   - Date: 09/15/2025
     TimeStart: 03:30 PM
     TimeEnd: 05:00 PM
@@ -4828,6 +4946,9 @@
     RecordedVideoURL: ''
     SessionOrSub: Sub
     Tags: ''
+    Presentations:
+    - ./2025/./Monday/3_30-5_00/Statewide Modeling/3_MOMO conference presentation
+      Maryland.pdf
   - Date: 09/15/2025
     TimeStart: 03:30 PM
     TimeEnd: 05:00 PM
@@ -4899,6 +5020,8 @@
     RecordedVideoURL: ''
     SessionOrSub: Sub
     Tags: ''
+    Presentations:
+    - ./2025/./Monday/3_30-5_00/Statewide Modeling/4_new_long_distance_visitor_models_with_big_data.pdf
   - Date: 09/15/2025
     TimeStart: 03:30 PM
     TimeEnd: 05:00 PM
@@ -4978,6 +5101,8 @@
     RecordedVideoURL: ''
     SessionOrSub: Sub
     Tags: ''
+    Presentations:
+    - ./2025/./Monday/3_30-5_00/Statewide Modeling/5_NCSTM5_MoMo.pdf
   - Date: 09/15/2025
     TimeStart: 03:30 PM
     TimeEnd: 05:00 PM
@@ -5019,6 +5144,8 @@
     RecordedVideoURL: ''
     SessionOrSub: Sub
     Tags: ''
+    Presentations:
+    - ./2025/./Monday/3_30-5_00/Statewide Modeling/6_2025 MOMO TREDIS 9-2-25.pdf
 - Date: 09/15/2025
   TimeStart: 05:30 PM
   TimeEnd: 06:30 PM
@@ -5036,6 +5163,7 @@
   RecordedVideoURL: ''
   SessionOrSub: Session
   Tags: ''
+  Presentations: []
   subs:
   - Date: 09/15/2025
     TimeStart: 05:30 PM
@@ -5071,6 +5199,7 @@
     RecordedVideoURL: ''
     SessionOrSub: Sub
     Tags: ''
+    Presentations: []
   - Date: 09/15/2025
     TimeStart: 05:30 PM
     TimeEnd: 06:30 PM
@@ -5088,6 +5217,7 @@
     RecordedVideoURL: ''
     SessionOrSub: Sub
     Tags: ''
+    Presentations: []
 09/16/2025:
 - Date: 09/16/2025
   TimeStart: 07:30 AM
@@ -5115,6 +5245,7 @@
   RecordedVideoURL: ''
   SessionOrSub: Session
   Tags: ''
+  Presentations: []
   subs: []
 - Date: 09/16/2025
   TimeStart: 08:30 AM
@@ -5152,6 +5283,7 @@
   RecordedVideoURL: ''
   SessionOrSub: Session
   Tags: ''
+  Presentations: []
   subs:
   - Date: 09/16/2025
     TimeStart: 08:30 AM
@@ -5252,6 +5384,7 @@
     RecordedVideoURL: ''
     SessionOrSub: Sub
     Tags: ''
+    Presentations: []
   - Date: 09/16/2025
     TimeStart: 08:30 AM
     TimeEnd: 10:00 AM
@@ -5310,6 +5443,7 @@
     RecordedVideoURL: ''
     SessionOrSub: Sub
     Tags: ''
+    Presentations: []
   - Date: 09/16/2025
     TimeStart: 08:30 AM
     TimeEnd: 10:00 AM
@@ -5377,6 +5511,7 @@
     RecordedVideoURL: ''
     SessionOrSub: Sub
     Tags: ''
+    Presentations: []
   - Date: 09/16/2025
     TimeStart: 08:30 AM
     TimeEnd: 10:00 AM
@@ -5412,6 +5547,7 @@
     RecordedVideoURL: ''
     SessionOrSub: Sub
     Tags: ''
+    Presentations: []
   - Date: 09/16/2025
     TimeStart: 08:30 AM
     TimeEnd: 10:00 AM
@@ -5430,6 +5566,7 @@
     RecordedVideoURL: ''
     SessionOrSub: Sub
     Tags: ''
+    Presentations: []
 - Date: 09/16/2025
   TimeStart: 08:30 AM
   TimeEnd: 10:00 AM
@@ -5464,6 +5601,9 @@
   RecordedVideoURL: ''
   SessionOrSub: Session
   Tags: ''
+  Presentations:
+  - ./2025/./Tuesday/8_30-10_00/DMDU/Decisions for the decade at MoMo.pdf
+  - ./2025/./Tuesday/8_30-10_00/DMDU/MoMo_DMDU_Share.pdf
   subs: []
 - Date: 09/16/2025
   TimeStart: 08:30 AM
@@ -5494,6 +5634,7 @@
   RecordedVideoURL: ''
   SessionOrSub: Session
   Tags: ''
+  Presentations: []
   subs:
   - Date: 09/16/2025
     TimeStart: 08:30 AM
@@ -5564,6 +5705,8 @@
     RecordedVideoURL: ''
     SessionOrSub: Sub
     Tags: ''
+    Presentations:
+    - ./2025/./Tuesday/8_30-10_00/Performance-based Metrics and Planning/1_SACOG-CPM-presentation-for-MoMo-2025.pdf
   - Date: 09/16/2025
     TimeStart: 08:30 AM
     TimeEnd: 10:00 AM
@@ -5628,6 +5771,8 @@
     RecordedVideoURL: ''
     SessionOrSub: Sub
     Tags: ''
+    Presentations:
+    - ./2025/./Tuesday/8_30-10_00/Performance-based Metrics and Planning/2_Enhancing-Project-Level-ABM-Application-by-asking-the-right-questions_AdritaIslam.pdf
   - Date: 09/16/2025
     TimeStart: 08:30 AM
     TimeEnd: 10:00 AM
@@ -5700,6 +5845,8 @@
     RecordedVideoURL: ''
     SessionOrSub: Sub
     Tags: ''
+    Presentations:
+    - ./2025/./Tuesday/8_30-10_00/Performance-based Metrics and Planning/3_Zoey-Li-Modeling-at-the-Crossroads-Presentation-MoMo-2025.pdf
   - Date: 09/16/2025
     TimeStart: 08:30 AM
     TimeEnd: 10:00 AM
@@ -5765,6 +5912,8 @@
     RecordedVideoURL: ''
     SessionOrSub: Sub
     Tags: ''
+    Presentations:
+    - ./2025/./Tuesday/8_30-10_00/Performance-based Metrics and Planning/4_MoMo_Ohio-Statewide-Model-Applications.pdf
   - Date: 09/16/2025
     TimeStart: 08:30 AM
     TimeEnd: 10:00 AM
@@ -5836,6 +5985,7 @@
     RecordedVideoURL: ''
     SessionOrSub: Sub
     Tags: ''
+    Presentations: []
 - Date: 09/16/2025
   TimeStart: 10:00 AM
   TimeEnd: 10:30 AM
@@ -5852,6 +6002,7 @@
   RecordedVideoURL: ''
   SessionOrSub: Session
   Tags: ''
+  Presentations: []
   subs: []
 - Date: 09/16/2025
   TimeStart: 10:30 AM
@@ -5882,6 +6033,7 @@
   RecordedVideoURL: ''
   SessionOrSub: Session
   Tags: ''
+  Presentations: []
   subs:
   - Date: 09/16/2025
     TimeStart: 10:30 AM
@@ -5910,6 +6062,7 @@
     RecordedVideoURL: ''
     SessionOrSub: Sub
     Tags: ''
+    Presentations: []
   - Date: 09/16/2025
     TimeStart: 10:30 AM
     TimeEnd: 12:00 PM
@@ -5930,6 +6083,7 @@
     RecordedVideoURL: ''
     SessionOrSub: Sub
     Tags: ''
+    Presentations: []
   - Date: 09/16/2025
     TimeStart: 10:30 AM
     TimeEnd: 12:00 PM
@@ -5995,6 +6149,7 @@
     RecordedVideoURL: ''
     SessionOrSub: Sub
     Tags: ''
+    Presentations: []
   - Date: 09/16/2025
     TimeStart: 10:30 AM
     TimeEnd: 12:00 PM
@@ -6047,6 +6202,7 @@
     RecordedVideoURL: ''
     SessionOrSub: Sub
     Tags: ''
+    Presentations: []
   - Date: 09/16/2025
     TimeStart: 10:30 AM
     TimeEnd: 12:00 PM
@@ -6066,6 +6222,7 @@
     RecordedVideoURL: ''
     SessionOrSub: Sub
     Tags: ''
+    Presentations: []
 - Date: 09/16/2025
   TimeStart: 10:30 AM
   TimeEnd: 12:00 PM
@@ -6095,6 +6252,7 @@
   RecordedVideoURL: ''
   SessionOrSub: Session
   Tags: ''
+  Presentations: []
   subs:
   - Date: 09/16/2025
     TimeStart: 10:30 AM
@@ -6149,6 +6307,7 @@
     RecordedVideoURL: ''
     SessionOrSub: Sub
     Tags: ''
+    Presentations: []
   - Date: 09/16/2025
     TimeStart: 10:30 AM
     TimeEnd: 12:00 PM
@@ -6212,6 +6371,7 @@
     RecordedVideoURL: ''
     SessionOrSub: Sub
     Tags: ''
+    Presentations: []
   - Date: 09/16/2025
     TimeStart: 10:30 AM
     TimeEnd: 12:00 PM
@@ -6291,6 +6451,7 @@
     RecordedVideoURL: ''
     SessionOrSub: Sub
     Tags: ''
+    Presentations: []
   - Date: 09/16/2025
     TimeStart: 10:30 AM
     TimeEnd: 12:00 PM
@@ -6352,6 +6513,7 @@
     RecordedVideoURL: ''
     SessionOrSub: Sub
     Tags: ''
+    Presentations: []
   - Date: 09/16/2025
     TimeStart: 10:30 AM
     TimeEnd: 12:00 PM
@@ -6440,6 +6602,7 @@
     RecordedVideoURL: ''
     SessionOrSub: Sub
     Tags: ''
+    Presentations: []
 - Date: 09/16/2025
   TimeStart: 10:30 AM
   TimeEnd: 12:00 PM
@@ -6465,6 +6628,7 @@
   RecordedVideoURL: ''
   SessionOrSub: Session
   Tags: ''
+  Presentations: []
   subs:
   - Date: 09/16/2025
     TimeStart: 10:30 AM
@@ -6514,6 +6678,7 @@
     RecordedVideoURL: ''
     SessionOrSub: Sub
     Tags: ''
+    Presentations: []
   - Date: 09/16/2025
     TimeStart: 10:30 AM
     TimeEnd: 12:00 PM
@@ -6712,6 +6877,7 @@
     RecordedVideoURL: ''
     SessionOrSub: Sub
     Tags: ''
+    Presentations: []
   - Date: 09/16/2025
     TimeStart: 10:30 AM
     TimeEnd: 12:00 PM
@@ -6807,6 +6973,7 @@
     RecordedVideoURL: ''
     SessionOrSub: Sub
     Tags: ''
+    Presentations: []
   - Date: 09/16/2025
     TimeStart: 10:30 AM
     TimeEnd: 12:00 PM
@@ -6853,6 +7020,7 @@
     RecordedVideoURL: ''
     SessionOrSub: Sub
     Tags: ''
+    Presentations: []
   - Date: 09/16/2025
     TimeStart: 10:30 AM
     TimeEnd: 12:00 PM
@@ -6907,6 +7075,7 @@
     RecordedVideoURL: ''
     SessionOrSub: Sub
     Tags: ''
+    Presentations: []
   - Date: 09/16/2025
     TimeStart: 10:30 AM
     TimeEnd: 12:00 PM
@@ -6947,6 +7116,7 @@
     RecordedVideoURL: ''
     SessionOrSub: Sub
     Tags: ''
+    Presentations: []
 - Date: 09/16/2025
   TimeStart: 12:00 PM
   TimeEnd: 01:30 PM
@@ -7063,6 +7233,7 @@
   RecordedVideoURL: ''
   SessionOrSub: Session
   Tags: ''
+  Presentations: []
   subs: []
 - Date: 09/16/2025
   TimeStart: 01:30 PM
@@ -7093,6 +7264,7 @@
   RecordedVideoURL: ''
   SessionOrSub: Session
   Tags: ''
+  Presentations: []
   subs:
   - Date: 09/16/2025
     TimeStart: 01:30 PM
@@ -7154,6 +7326,7 @@
     RecordedVideoURL: ''
     SessionOrSub: Sub
     Tags: ''
+    Presentations: []
   - Date: 09/16/2025
     TimeStart: 01:30 PM
     TimeEnd: 03:00 PM
@@ -7215,6 +7388,7 @@
     RecordedVideoURL: ''
     SessionOrSub: Sub
     Tags: ''
+    Presentations: []
   - Date: 09/16/2025
     TimeStart: 01:30 PM
     TimeEnd: 03:00 PM
@@ -7238,6 +7412,7 @@
     RecordedVideoURL: ''
     SessionOrSub: Sub
     Tags: ''
+    Presentations: []
   - Date: 09/16/2025
     TimeStart: 01:30 PM
     TimeEnd: 03:00 PM
@@ -7301,6 +7476,7 @@
     RecordedVideoURL: ''
     SessionOrSub: Sub
     Tags: ''
+    Presentations: []
   - Date: 09/16/2025
     TimeStart: 01:30 PM
     TimeEnd: 03:00 PM
@@ -7365,6 +7541,7 @@
     RecordedVideoURL: ''
     SessionOrSub: Sub
     Tags: ''
+    Presentations: []
 - Date: 09/16/2025
   TimeStart: 01:30 PM
   TimeEnd: 03:00 PM
@@ -7394,6 +7571,7 @@
   RecordedVideoURL: ''
   SessionOrSub: Session
   Tags: ''
+  Presentations: []
   subs:
   - Date: 09/16/2025
     TimeStart: 01:30 PM
@@ -7447,6 +7625,7 @@
     RecordedVideoURL: ''
     SessionOrSub: Sub
     Tags: ''
+    Presentations: []
   - Date: 09/16/2025
     TimeStart: 01:30 PM
     TimeEnd: 03:00 PM
@@ -7475,6 +7654,7 @@
     RecordedVideoURL: ''
     SessionOrSub: Sub
     Tags: ''
+    Presentations: []
   - Date: 09/16/2025
     TimeStart: 01:30 PM
     TimeEnd: 03:00 PM
@@ -7554,6 +7734,7 @@
     RecordedVideoURL: ''
     SessionOrSub: Sub
     Tags: ''
+    Presentations: []
   - Date: 09/16/2025
     TimeStart: 01:30 PM
     TimeEnd: 03:00 PM
@@ -7593,6 +7774,7 @@
     RecordedVideoURL: ''
     SessionOrSub: Sub
     Tags: ''
+    Presentations: []
   - Date: 09/16/2025
     TimeStart: 01:30 PM
     TimeEnd: 03:00 PM
@@ -7648,6 +7830,7 @@
     RecordedVideoURL: ''
     SessionOrSub: Sub
     Tags: ''
+    Presentations: []
   - Date: 09/16/2025
     TimeStart: 01:30 PM
     TimeEnd: 03:00 PM
@@ -7774,6 +7957,7 @@
     RecordedVideoURL: ''
     SessionOrSub: Sub
     Tags: ''
+    Presentations: []
   - Date: 09/16/2025
     TimeStart: 01:30 PM
     TimeEnd: 03:00 PM
@@ -7804,6 +7988,7 @@
     RecordedVideoURL: ''
     SessionOrSub: Sub
     Tags: ''
+    Presentations: []
 - Date: 09/16/2025
   TimeStart: 01:30 PM
   TimeEnd: 03:00 PM
@@ -7847,6 +8032,7 @@
   RecordedVideoURL: ''
   SessionOrSub: Session
   Tags: ''
+  Presentations: []
   subs:
   - Date: 09/16/2025
     TimeStart: 01:30 PM
@@ -7882,6 +8068,7 @@
     RecordedVideoURL: ''
     SessionOrSub: Sub
     Tags: ''
+    Presentations: []
   - Date: 09/16/2025
     TimeStart: 01:30 PM
     TimeEnd: 03:00 PM
@@ -7963,6 +8150,7 @@
     RecordedVideoURL: ''
     SessionOrSub: Sub
     Tags: ''
+    Presentations: []
   - Date: 09/16/2025
     TimeStart: 01:30 PM
     TimeEnd: 03:00 PM
@@ -8029,6 +8217,7 @@
     RecordedVideoURL: ''
     SessionOrSub: Sub
     Tags: ''
+    Presentations: []
   - Date: 09/16/2025
     TimeStart: 01:30 PM
     TimeEnd: 03:00 PM
@@ -8047,6 +8236,7 @@
     RecordedVideoURL: ''
     SessionOrSub: Sub
     Tags: ''
+    Presentations: []
 - Date: 09/16/2025
   TimeStart: 03:00 PM
   TimeEnd: 03:30 PM
@@ -8063,6 +8253,7 @@
   RecordedVideoURL: ''
   SessionOrSub: Session
   Tags: ''
+  Presentations: []
   subs: []
 - Date: 09/16/2025
   TimeStart: 03:30 PM
@@ -8090,6 +8281,7 @@
   RecordedVideoURL: ''
   SessionOrSub: Session
   Tags: ''
+  Presentations: []
   subs:
   - Date: 09/16/2025
     TimeStart: 03:30 PM
@@ -8187,6 +8379,7 @@
     RecordedVideoURL: ''
     SessionOrSub: Sub
     Tags: ''
+    Presentations: []
   - Date: 09/16/2025
     TimeStart: 03:30 PM
     TimeEnd: 05:00 PM
@@ -8265,6 +8458,7 @@
     RecordedVideoURL: ''
     SessionOrSub: Sub
     Tags: ''
+    Presentations: []
   - Date: 09/16/2025
     TimeStart: 03:30 PM
     TimeEnd: 05:00 PM
@@ -8331,6 +8525,7 @@
     RecordedVideoURL: ''
     SessionOrSub: Sub
     Tags: ''
+    Presentations: []
   - Date: 09/16/2025
     TimeStart: 03:30 PM
     TimeEnd: 05:00 PM
@@ -8407,6 +8602,7 @@
     RecordedVideoURL: ''
     SessionOrSub: Sub
     Tags: ''
+    Presentations: []
   - Date: 09/16/2025
     TimeStart: 03:30 PM
     TimeEnd: 05:00 PM
@@ -8469,6 +8665,7 @@
     RecordedVideoURL: ''
     SessionOrSub: Sub
     Tags: ''
+    Presentations: []
   - Date: 09/16/2025
     TimeStart: 03:30 PM
     TimeEnd: 05:00 PM
@@ -8499,6 +8696,7 @@
     RecordedVideoURL: ''
     SessionOrSub: Sub
     Tags: ''
+    Presentations: []
   - Date: 09/16/2025
     TimeStart: 03:30 PM
     TimeEnd: 05:00 PM
@@ -8546,6 +8744,7 @@
     RecordedVideoURL: ''
     SessionOrSub: Sub
     Tags: ''
+    Presentations: []
 - Date: 09/16/2025
   TimeStart: 03:30 PM
   TimeEnd: 05:00 PM
@@ -8578,6 +8777,7 @@
   RecordedVideoURL: ''
   SessionOrSub: Session
   Tags: ''
+  Presentations: []
   subs:
   - Date: 09/16/2025
     TimeStart: 03:30 PM
@@ -8599,6 +8799,7 @@
     RecordedVideoURL: ''
     SessionOrSub: Sub
     Tags: ''
+    Presentations: []
   - Date: 09/16/2025
     TimeStart: 03:30 PM
     TimeEnd: 05:00 PM
@@ -8659,6 +8860,7 @@
     RecordedVideoURL: ''
     SessionOrSub: Sub
     Tags: ''
+    Presentations: []
   - Date: 09/16/2025
     TimeStart: 03:30 PM
     TimeEnd: 05:00 PM
@@ -8677,6 +8879,7 @@
     RecordedVideoURL: ''
     SessionOrSub: Sub
     Tags: ''
+    Presentations: []
 - Date: 09/16/2025
   TimeStart: 03:30 PM
   TimeEnd: 05:00 PM
@@ -8708,6 +8911,7 @@
   RecordedVideoURL: ''
   SessionOrSub: Session
   Tags: ''
+  Presentations: []
   subs:
   - Date: 09/16/2025
     TimeStart: 03:30 PM
@@ -8760,6 +8964,8 @@
     RecordedVideoURL: ''
     SessionOrSub: Sub
     Tags: ''
+    Presentations:
+    - ./2025/./Tuesday/3_30-5_00/1-MOMO_FatemehAhmadipour.pdf
   - Date: 09/16/2025
     TimeStart: 03:30 PM
     TimeEnd: 05:00 PM
@@ -8825,6 +9031,8 @@
     RecordedVideoURL: ''
     SessionOrSub: Sub
     Tags: ''
+    Presentations:
+    - ./2025/./Tuesday/3_30-5_00/2-kyu_MobilityOnDemandSurvey_DFW_091625_Final.pdf
   - Date: 09/16/2025
     TimeStart: 03:30 PM
     TimeEnd: 05:00 PM
@@ -8912,6 +9120,8 @@
     RecordedVideoURL: ''
     SessionOrSub: Sub
     Tags: ''
+    Presentations:
+    - ./2025/./Tuesday/3_30-5_00/3-Helia_MoMo - CVRP.pdf
   - Date: 09/16/2025
     TimeStart: 03:30 PM
     TimeEnd: 05:00 PM
@@ -8968,6 +9178,8 @@
     RecordedVideoURL: ''
     SessionOrSub: Sub
     Tags: ''
+    Presentations:
+    - ./2025/./Tuesday/3_30-5_00/4-Sara Urbina.pdf
   - Date: 09/16/2025
     TimeStart: 03:30 PM
     TimeEnd: 05:00 PM
@@ -8997,6 +9209,8 @@
     RecordedVideoURL: ''
     SessionOrSub: Sub
     Tags: ''
+    Presentations:
+    - ./2025/./Tuesday/3_30-5_00/5-MOMO_SiShi.pdf
 - Date: 09/16/2025
   TimeStart: 05:30 PM
   TimeEnd: 07:30 PM
@@ -9035,6 +9249,7 @@
   RecordedVideoURL: ''
   SessionOrSub: Session
   Tags: ''
+  Presentations: []
   subs: []
 09/17/2025:
 - Date: 09/17/2025
@@ -9055,6 +9270,8 @@
   RecordedVideoURL: ''
   SessionOrSub: Session
   Tags: ''
+  Presentations:
+  - ./2025/./Wednesday/Breakfast Plenary/1- MOMO.CTS.pptx
   subs:
   - Date: 09/17/2025
     TimeStart: 07:30 AM
@@ -9085,6 +9302,8 @@
     RecordedVideoURL: ''
     SessionOrSub: Sub
     Tags: ''
+    Presentations:
+    - ./2025/./Wednesday/Breakfast Plenary/2- Liu-Rural-Access-to-Essential-Services.pptx
   - Date: 09/17/2025
     TimeStart: 07:30 AM
     TimeEnd: 08:30 AM
@@ -9131,6 +9350,8 @@
     RecordedVideoURL: ''
     SessionOrSub: Sub
     Tags: ''
+    Presentations:
+    - ./2025/./Wednesday/Breakfast Plenary/Khani - MoMo- 20250917.pdf
 - Date: 09/17/2025
   TimeStart: 08:30 AM
   TimeEnd: 10:00 AM
@@ -9161,6 +9382,7 @@
   RecordedVideoURL: ''
   SessionOrSub: Session
   Tags: ''
+  Presentations: []
   subs:
   - Date: 09/17/2025
     TimeStart: 08:30 AM
@@ -9243,6 +9465,7 @@
     RecordedVideoURL: ''
     SessionOrSub: Sub
     Tags: ''
+    Presentations: []
   - Date: 09/17/2025
     TimeStart: 08:30 AM
     TimeEnd: 10:00 AM
@@ -9276,6 +9499,7 @@
     RecordedVideoURL: ''
     SessionOrSub: Sub
     Tags: ''
+    Presentations: []
   - Date: 09/17/2025
     TimeStart: 08:30 AM
     TimeEnd: 10:00 AM
@@ -9347,6 +9571,7 @@
     RecordedVideoURL: ''
     SessionOrSub: Sub
     Tags: ''
+    Presentations: []
 - Date: 09/17/2025
   TimeStart: 08:30 AM
   TimeEnd: 10:00 AM
@@ -9376,6 +9601,7 @@
   RecordedVideoURL: ''
   SessionOrSub: Session
   Tags: ''
+  Presentations: []
   subs:
   - Date: 09/17/2025
     TimeStart: 08:30 AM
@@ -9413,6 +9639,7 @@
     RecordedVideoURL: ''
     SessionOrSub: Sub
     Tags: ''
+    Presentations: []
   - Date: 09/17/2025
     TimeStart: 08:30 AM
     TimeEnd: 10:00 AM
@@ -9535,6 +9762,7 @@
     RecordedVideoURL: ''
     SessionOrSub: Sub
     Tags: ''
+    Presentations: []
   - Date: 09/17/2025
     TimeStart: 08:30 AM
     TimeEnd: 10:00 AM
@@ -9592,6 +9820,7 @@
     RecordedVideoURL: ''
     SessionOrSub: Sub
     Tags: ''
+    Presentations: []
   - Date: 09/17/2025
     TimeStart: 08:30 AM
     TimeEnd: 08:30 AM
@@ -9658,6 +9887,7 @@
     RecordedVideoURL: ''
     SessionOrSub: Sub
     Tags: ''
+    Presentations: []
   - Date: 09/17/2025
     TimeStart: 08:30 AM
     TimeEnd: 10:00 AM
@@ -9711,6 +9941,7 @@
     RecordedVideoURL: ''
     SessionOrSub: Sub
     Tags: ''
+    Presentations: []
   - Date: 09/17/2025
     TimeStart: 08:30 AM
     TimeEnd: 10:00 AM
@@ -9815,6 +10046,7 @@
     RecordedVideoURL: ''
     SessionOrSub: Sub
     Tags: ''
+    Presentations: []
   - Date: 09/17/2025
     TimeStart: 08:30 AM
     TimeEnd: 10:00 AM
@@ -9865,6 +10097,7 @@
     RecordedVideoURL: ''
     SessionOrSub: Sub
     Tags: ''
+    Presentations: []
   - Date: 09/17/2025
     TimeStart: 08:30 AM
     TimeEnd: 10:00 AM
@@ -9941,6 +10174,7 @@
     RecordedVideoURL: ''
     SessionOrSub: Sub
     Tags: ''
+    Presentations: []
 - Date: 09/17/2025
   TimeStart: 08:30 AM
   TimeEnd: 10:00 AM
@@ -10078,6 +10312,7 @@
   RecordedVideoURL: ''
   SessionOrSub: Session
   Tags: ''
+  Presentations: []
   subs: []
 - Date: 09/17/2025
   TimeStart: 10:00 AM
@@ -10095,6 +10330,7 @@
   RecordedVideoURL: ''
   SessionOrSub: Session
   Tags: ''
+  Presentations: []
   subs: []
 - Date: 09/17/2025
   TimeStart: 10:30 AM
@@ -10124,6 +10360,7 @@
   RecordedVideoURL: ''
   SessionOrSub: Session
   Tags: ''
+  Presentations: []
   subs:
   - Date: 09/17/2025
     TimeStart: 10:30 AM
@@ -10197,6 +10434,7 @@
     RecordedVideoURL: ''
     SessionOrSub: Sub
     Tags: ''
+    Presentations: []
   - Date: 09/17/2025
     TimeStart: 10:30 AM
     TimeEnd: 12:00 PM
@@ -10260,6 +10498,7 @@
     RecordedVideoURL: ''
     SessionOrSub: Sub
     Tags: ''
+    Presentations: []
   - Date: 09/17/2025
     TimeStart: 10:30 AM
     TimeEnd: 12:00 PM
@@ -10392,6 +10631,7 @@
     RecordedVideoURL: ''
     SessionOrSub: Sub
     Tags: ''
+    Presentations: []
   - Date: 09/17/2025
     TimeStart: 10:30 AM
     TimeEnd: 12:00 PM
@@ -10445,6 +10685,7 @@
     RecordedVideoURL: ''
     SessionOrSub: Sub
     Tags: ''
+    Presentations: []
 - Date: 09/17/2025
   TimeStart: 10:30 AM
   TimeEnd: 12:00 PM
@@ -10470,6 +10711,7 @@
   RecordedVideoURL: ''
   SessionOrSub: Session
   Tags: ''
+  Presentations: []
   subs:
   - Date: 09/17/2025
     TimeStart: 10:30 AM
@@ -10542,6 +10784,7 @@
     RecordedVideoURL: ''
     SessionOrSub: Sub
     Tags: ''
+    Presentations: []
   - Date: 09/17/2025
     TimeStart: 10:30 AM
     TimeEnd: 12:00 PM
@@ -10590,6 +10833,7 @@
     RecordedVideoURL: ''
     SessionOrSub: Sub
     Tags: ''
+    Presentations: []
   - Date: 09/17/2025
     TimeStart: 10:30 AM
     TimeEnd: 12:00 PM
@@ -10660,6 +10904,7 @@
     RecordedVideoURL: ''
     SessionOrSub: Sub
     Tags: ''
+    Presentations: []
 - Date: 09/17/2025
   TimeStart: 10:30 AM
   TimeEnd: 12:00 PM
@@ -10688,6 +10933,7 @@
   RecordedVideoURL: ''
   SessionOrSub: Session
   Tags: ''
+  Presentations: []
   subs:
   - Date: 09/17/2025
     TimeStart: 10:30 AM
@@ -10718,6 +10964,7 @@
     RecordedVideoURL: ''
     SessionOrSub: Sub
     Tags: ''
+    Presentations: []
   - Date: 09/17/2025
     TimeStart: 10:30 AM
     TimeEnd: 12:00 PM
@@ -10779,6 +11026,7 @@
     RecordedVideoURL: ''
     SessionOrSub: Sub
     Tags: ''
+    Presentations: []
   - Date: 09/17/2025
     TimeStart: 10:30 AM
     TimeEnd: 12:00 PM
@@ -10946,6 +11194,7 @@
     RecordedVideoURL: ''
     SessionOrSub: Sub
     Tags: ''
+    Presentations: []
   - Date: 09/17/2025
     TimeStart: 10:30 AM
     TimeEnd: 12:00 PM
@@ -10963,6 +11212,7 @@
     RecordedVideoURL: ''
     SessionOrSub: Sub
     Tags: ''
+    Presentations: []
 - Date: 09/17/2025
   TimeStart: 12:00 PM
   TimeEnd: 01:00 PM
@@ -10990,6 +11240,7 @@
   RecordedVideoURL: ''
   SessionOrSub: Session
   Tags: ''
+  Presentations: []
   subs:
   - Date: 09/17/2025
     TimeStart: 12:00 PM
@@ -11008,6 +11259,7 @@
     RecordedVideoURL: ''
     SessionOrSub: Sub
     Tags: ''
+    Presentations: []
   - Date: 09/17/2025
     TimeStart: 12:00 PM
     TimeEnd: 01:30 PM
@@ -11031,6 +11283,7 @@
     RecordedVideoURL: ''
     SessionOrSub: Sub
     Tags: ''
+    Presentations: []
   - Date: 09/17/2025
     TimeStart: 12:00 PM
     TimeEnd: 01:30 PM
@@ -11048,6 +11301,7 @@
     RecordedVideoURL: ''
     SessionOrSub: Sub
     Tags: ''
+    Presentations: []
 - Date: 09/17/2025
   TimeStart: 01:00 PM
   TimeEnd: 02:00 PM
@@ -11071,4 +11325,5 @@
   RecordedVideoURL: ''
   SessionOrSub: Session
   Tags: ''
+  Presentations: []
   subs: []
