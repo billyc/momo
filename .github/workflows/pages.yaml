@@ -4,7 +4,7 @@ name: Deploy Hugo site to Pages
 on:
   # Runs on pushes targeting the default branch
   push:
-    branches: ["main"]
+    branches: ['main']
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -18,7 +18,7 @@ permissions:
 # Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
 # However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
 concurrency:
-  group: "pages"
+  group: 'pages'
   cancel-in-progress: false
 
 # Default to bash
@@ -36,12 +36,16 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0  # fetch all history for .GitInfo and .Lastmod
+          fetch-depth: 0 # fetch all history for .GitInfo and .Lastmod
           submodules: recursive
       - name: Setup Go
         uses: actions/setup-go@v5
         with:
           go-version: '1.24'
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v4
@@ -49,6 +53,16 @@ jobs:
         run: |
           wget -O ${{ runner.temp }}/hugo.deb https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb \
           && sudo dpkg -i ${{ runner.temp }}/hugo.deb
+
+      - name: Setup uv
+        run: |
+          pip install uv
+          uv sync
+
+      - name: Convert xls sheet to json
+        run: |
+          uv run ./convert-xlsx-to-json.py
+
       - name: Build with Hugo
         env:
           # For maximum backward compatibility with Hugo modules
