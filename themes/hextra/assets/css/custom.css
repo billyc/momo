@@ -1,3 +1,7 @@
+.content {
+  font-family: "Raleway", Arial, Helvetica, sans-serif;
+}
+
 a {
   color: var(--momo-blue-2) !important;
   text-decoration: none !important;
@@ -238,9 +242,27 @@ a:hover {
   }
 }
 
+.home-past-conferences {
+  background-color: var(--momo-blue-1) !important;
+  margin: 3rem 0 3rem 0;
+  font-size: 2.4rem;
+  font-weight: 200;
+  padding: 1rem;
+  border-radius: 24px;
+
+  h2 {
+    color: var(--momo-blue-3);
+    text-align: center;
+    margin: 0 auto;
+    border: none;
+    font-weight: 200;
+  }
+}
+
 .conference-cards {
   display: grid;
-  gap: 1rem;
+  gap: 2rem;
+  padding: 0 1rem;
   grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
 }
 
@@ -255,6 +277,7 @@ a:hover {
     object-fit: cover;
     height: 200px;
     width: 100%;
+    border-radius: 12px !important;
     filter: brightness(0.9);
   }
 

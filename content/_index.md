@@ -10,9 +10,13 @@ The **Modeling Mobility Conference** is the premier forum for professionals work
 
 This conference emphasizes advancing analytical support for real-world transportation decisions and fostering a strong community through interactive workshops, sessions, and networking opportunities.
 
+<div class="home-past-conferences">
+
 ## Past Conferences
 
 {{< conferencelist >}}
+
+</div>
 
 ## New and noteworthy
 
