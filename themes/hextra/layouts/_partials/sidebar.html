@@ -1,6 +1,6 @@
 {{- $context := .context -}}
 
-{{- $disableSidebar := .disableSidebar | default false -}}
+{{- $disableSidebar := .disableSidebar | default true -}}
 {{- $displayPlaceholder := .displayPlaceholder | default false -}}
 
 {{- $navRoot := cond (eq site.Home.Type "docs") site.Home $context.FirstSection -}}

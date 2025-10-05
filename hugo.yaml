@@ -20,14 +20,14 @@ markup:
 
 menu:
   main:
-    # - name: Docs
-    #   pageRef: /docs
-    #   weight: 1
-    - name: About
+    - name: About MoMo
       pageRef: /about
+      weight: 1
+    - name: News
+      pageRef: /news
       weight: 2
     - name: Zephyr↗
-      url: "https://zephyrtransport.org"
+      url: 'https://zephyrtransport.org'
       weight: 3
     - name: Search
       weight: 4
@@ -45,9 +45,13 @@ menu:
     #     icon: x-twitter
 
 params:
+  theme:
+    default: light
+    displayToggle: false
+
   editURL:
     enable: false
-    base: "https://github.com/imfing/hextra-starter-template/edit/main/content"
+    base: 'https://github.com/imfing/hextra-starter-template/edit/main/content'
 
   footer:
     displayCopyright: true
@@ -57,15 +61,15 @@ params:
     displayTitle: false
     displayLogo: true
     logo:
-      path: "assets/images/momo2025.png"
+      path: 'assets/images/momo2025.png'
       width: 200
 
   search:
     enable: true
     index_content: true
-    index_sections: ["2025", "speakers", "posts", "docs"]
+    index_sections: ['2025', 'speakers', 'posts', 'docs', 'news']
 
   outputs:
-    home: ["HTML", "JSON"]
-    speakers: ["HTML", "JSON"]
-    section: ["HTML", "JSON"]
+    home: ['HTML', 'JSON']
+    speakers: ['HTML', 'JSON']
+    section: ['HTML', 'JSON']

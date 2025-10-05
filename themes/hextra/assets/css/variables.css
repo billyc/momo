@@ -15,6 +15,11 @@
   --hextra-max-page-width: {{ $maxPageWidth }};
   --hextra-max-navbar-width: {{ $maxNavbarWidth }};
   --hextra-max-footer-width: {{ $maxFooterWidth }};
+  --momo-blue-1: #83cae6;
+  --momo-blue-2: #219ebc;
+  --momo-blue-3: #023047;
+  --momo-orange-1: #ffb703;
+  --momo-orange-2: #fb8500;
 }
 
 .hextra-max-page-width {
@@ -28,3 +33,5 @@
 .hextra-max-footer-width {
   max-width: var(--hextra-max-footer-width);
 }
+
+

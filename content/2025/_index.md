@@ -1,6 +1,5 @@
 ---
 title: MoMo 2025
-type: single
 ---
 
 Join us on September 14-17, 2025, in Minneapolis, Minnesota at the beautiful McNamara Alumni Center on the University of Minnesota (Twin Cities) campus.

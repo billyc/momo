@@ -1,0 +1,16 @@
+{{ $conf := index site.Data.conferences }}
+
+<div class="conference-cards">
+
+{{ range $conf }}
+
+{{ $img := resources.Get .image }}
+{{ $thumb := $img.Fit "400x300" }}
+
+<a class="conference-card" href="{{ .link }}">
+  <img src="{{ $thumb.RelPermalink }}">
+  <p>{{ .title }}</p>
+</a>
+{{ end }}
+
+</div>
