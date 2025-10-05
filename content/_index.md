@@ -8,7 +8,7 @@ The **Modeling Mobility Conference** is the premier forum for professionals work
 
 </div>
 
-This conference emphasizes advancing analytical support for real-world transportation decisions and fostering a strong community through interactive workshops, sessions, and networking opportunities.
+Welcome to MoMo! This conference emphasizes advancing analytical support for real-world transportation decisions and fostering a strong community through interactive workshops, sessions, and networking opportunities.
 
 <div class="home-past-conferences">
 
