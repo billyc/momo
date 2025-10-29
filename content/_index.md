@@ -4,7 +4,7 @@ toc: false
 
 <div class="home-hero">
 
-![MoMo](/momo/assets/images/justMomo-trimmed.png)
+![MoMo](/assets/images/justMomo-trimmed.png)
 
 The **Modeling Mobility Conference** is the premier forum for professionals working with travel models, transportation data, and quantitative analysis.
 
