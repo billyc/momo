@@ -7,7 +7,6 @@ import unicodedata
 
 YEAR = "2025"
 
-
 def make_filename_safe(name: str) -> str:
     # Normalize Unicode (e.g., é → e)
     name = unicodedata.normalize("NFKD", name)
@@ -74,6 +73,8 @@ for k, v in gid.items():
             "09/17/2025": [],
         }
 
+        numSession = 0
+
         for date in days.keys():
             todays_sessions = []
 
@@ -85,6 +86,16 @@ for k, v in gid.items():
                 if event["SessionOrSub"] == "Session":
                     if current_session != None:
                         todays_sessions.append(current_session)
+                        numSession += 1
+                        current_session["id"] = numSession
+                        current_session["type"] = "agenda"
+                        current_session["title"] = current_session["SessionTitle"]
+                        d = current_session["Date"]
+                        current_session["Date"] = f"{d[6:]}-{d[0:2]}-{d[3:5]}"
+                        yaml_string = yaml.dump(current_session, sort_keys=False)
+                        md = f"---\n{yaml_string}---\n"
+                        with open(f"./content/{YEAR}/agenda/{numSession}.md", "w") as f:
+                            f.write(md)
                     current_session = event
                     current_session["subs"] = []
                 else:
@@ -104,6 +115,17 @@ for k, v in gid.items():
 
             # all done with today's events
             todays_sessions.append(current_session)
+            numSession += 1
+            current_session["id"] = numSession
+            current_session["type"] = "agenda"
+            current_session["title"] = current_session["SessionTitle"]
+            d = current_session["Date"]
+            current_session["Date"] = f"{d[6:]}-{d[0:2]}-{d[3:5]}"
+            yaml_string = yaml.dump(current_session, sort_keys=False)
+            md = f"---\n{yaml_string}---\n"
+            with open(f"./content/{YEAR}/agenda/{numSession}.md", "w") as f:
+                f.write(md)
+
             days[date] = todays_sessions
             print(date)
             print([session["SessionTitle"] for session in todays_sessions])

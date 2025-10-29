@@ -1,5 +1,5 @@
 09/14/2025:
-- Date: 09/14/2025
+- Date: '2025-09-14'
   TimeStart: 01:30 PM
   TimeEnd: 03:00 PM
   Tracks:
@@ -35,7 +35,10 @@
   Tags: ''
   Presentations: []
   subs: []
-- Date: 09/14/2025
+  id: 1
+  type: agenda
+  title: 'Model Calibration: Panel'
+- Date: '2025-09-14'
   TimeStart: 01:30 PM
   TimeEnd: 03:00 PM
   Tracks:
@@ -76,7 +79,10 @@
   Tags: ''
   Presentations: []
   subs: []
-- Date: 09/14/2025
+  id: 2
+  type: agenda
+  title: 'GMNS: Workshop'
+- Date: '2025-09-14'
   TimeStart: 03:00 PM
   TimeEnd: 03:30 PM
   Tracks: []
@@ -94,7 +100,10 @@
   Tags: ''
   Presentations: []
   subs: []
-- Date: 09/14/2025
+  id: 3
+  type: agenda
+  title: Snacks and Beverages
+- Date: '2025-09-14'
   TimeStart: 03:30 PM
   TimeEnd: 05:00 PM
   Tracks:
@@ -552,7 +561,10 @@
     SessionOrSub: Sub
     Tags: ''
     Presentations: []
-- Date: 09/14/2025
+  id: 4
+  type: agenda
+  title: 'Exploring Post-Pandemic Travel Modeling: Panel'
+- Date: '2025-09-14'
   TimeStart: 03:30 PM
   TimeEnd: 05:00 PM
   Tracks:
@@ -598,7 +610,10 @@
   Tags: ''
   Presentations: []
   subs: []
-- Date: 09/14/2025
+  id: 5
+  type: agenda
+  title: ActivitySim
+- Date: '2025-09-14'
   TimeStart: 03:30 PM
   TimeEnd: 05:00 PM
   Tracks:
@@ -682,7 +697,11 @@
   Tags: ''
   Presentations: []
   subs: []
-- Date: 09/14/2025
+  id: 6
+  type: agenda
+  title: 'VisionEval Workshop: The role of VisionEval within the transportation modeling
+    toolkit'
+- Date: '2025-09-14'
   TimeStart: 05:15 PM
   TimeEnd: 06:00 PM
   Tracks: []
@@ -709,8 +728,11 @@
   Tags: ''
   Presentations: []
   subs: []
+  id: 7
+  type: agenda
+  title: Speed Data-ing for Reals! (aka speed networking)
 09/15/2025:
-- Date: 09/15/2025
+- Date: '2025-09-15'
   TimeStart: 07:30 AM
   TimeEnd: 08:30 AM
   Tracks: []
@@ -751,7 +773,10 @@
     SessionOrSub: Sub
     Tags: ''
     Presentations: []
-- Date: 09/15/2025
+  id: 8
+  type: agenda
+  title: 'Breakfast Plenary: Future of Travel Forecasting'
+- Date: '2025-09-15'
   TimeStart: 08:30 AM
   TimeEnd: 10:00 AM
   Tracks:
@@ -1191,7 +1216,10 @@
     SessionOrSub: Sub
     Tags: ''
     Presentations: []
-- Date: 09/15/2025
+  id: 9
+  type: agenda
+  title: 'Data / Survey: Listen & Engage'
+- Date: '2025-09-15'
   TimeStart: 08:30 AM
   TimeEnd: 10:00 AM
   Tracks:
@@ -1446,7 +1474,10 @@
     SessionOrSub: Sub
     Tags: ''
     Presentations: []
-- Date: 09/15/2025
+  id: 10
+  type: agenda
+  title: Modeling - Big Data Integration
+- Date: '2025-09-15'
   TimeStart: 08:30 AM
   TimeEnd: 10:00 AM
   Tracks:
@@ -1719,7 +1750,10 @@
     Presentations:
     - ./2025/./Monday/8_30-10_00/Travel Behavior Trends/COVID & Telecommuting-induced
       Changes in Individual Activity and Travel Patterns - BHYL.pptx
-- Date: 09/15/2025
+  id: 11
+  type: agenda
+  title: Travel Behavior Trends
+- Date: '2025-09-15'
   TimeStart: 10:00 AM
   TimeEnd: 10:30 AM
   Tracks: []
@@ -1737,7 +1771,10 @@
   Tags: ''
   Presentations: []
   subs: []
-- Date: 09/15/2025
+  id: 12
+  type: agenda
+  title: Snacks and Beverages
+- Date: '2025-09-15'
   TimeStart: 10:30 AM
   TimeEnd: 12:00 PM
   Tracks:
@@ -2098,7 +2135,10 @@
     Tags: ''
     Presentations:
     - ./2025/./Monday/10_30-12_00/AI Support in Planning/4_MoMo_hybridgraphtransformer.pptx.pdf
-- Date: 09/15/2025
+  id: 13
+  type: agenda
+  title: AI Support in Planning
+- Date: '2025-09-15'
   TimeStart: 10:30 AM
   TimeEnd: 12:00 PM
   Tracks:
@@ -2476,7 +2516,10 @@
     Tags: ''
     Presentations:
     - ./2025/./Monday/10_30-12_00/DTA/5_MoMo_2025_DTA_Pierson.pdf
-- Date: 09/15/2025
+  id: 14
+  type: agenda
+  title: 'Dynamic Traffic Assignment: Mesoscopic and Microscopic Simulation'
+- Date: '2025-09-15'
   TimeStart: 10:30 AM
   TimeEnd: 12:00 PM
   Tracks:
@@ -2925,7 +2968,10 @@
     SessionOrSub: Sub
     Tags: ''
     Presentations: []
-- Date: 09/15/2025
+  id: 15
+  type: agenda
+  title: Scenario Planning for Sustainability
+- Date: '2025-09-15'
   TimeStart: 12:00 PM
   TimeEnd: 01:30 PM
   Tracks: []
@@ -3017,7 +3063,10 @@
     SessionOrSub: Sub
     Tags: ''
     Presentations: []
-- Date: 09/15/2025
+  id: 16
+  type: agenda
+  title: Welcome and Keynote
+- Date: '2025-09-15'
   TimeStart: 01:30 PM
   TimeEnd: 03:00 PM
   Tracks:
@@ -3447,7 +3496,10 @@
     SessionOrSub: Sub
     Tags: ''
     Presentations: []
-- Date: 09/15/2025
+  id: 17
+  type: agenda
+  title: LLMs and Models
+- Date: '2025-09-15'
   TimeStart: 01:30 PM
   TimeEnd: 03:00 PM
   Tracks:
@@ -3832,7 +3884,10 @@
     SessionOrSub: Sub
     Tags: ''
     Presentations: []
-- Date: 09/15/2025
+  id: 18
+  type: agenda
+  title: 'Land Use and Transportation: Handle With Care'
+- Date: '2025-09-15'
   TimeStart: 01:30 PM
   TimeEnd: 03:00 PM
   Tracks:
@@ -4035,7 +4090,10 @@
     SessionOrSub: Sub
     Tags: ''
     Presentations: []
-- Date: 09/15/2025
+  id: 19
+  type: agenda
+  title: Networks
+- Date: '2025-09-15'
   TimeStart: 03:00 PM
   TimeEnd: 03:30 PM
   Tracks: []
@@ -4053,7 +4111,10 @@
   Tags: ''
   Presentations: []
   subs: []
-- Date: 09/15/2025
+  id: 20
+  type: agenda
+  title: Snacks and Beverages
+- Date: '2025-09-15'
   TimeStart: 03:30 PM
   TimeEnd: 05:00 PM
   Tracks:
@@ -4456,7 +4517,10 @@
     SessionOrSub: Sub
     Tags: ''
     Presentations: []
-- Date: 09/15/2025
+  id: 21
+  type: agenda
+  title: Rural / Small Community Models
+- Date: '2025-09-15'
   TimeStart: 03:30 PM
   TimeEnd: 05:00 PM
   Tracks:
@@ -4773,7 +4837,10 @@
     Presentations:
     - ./2025/./Monday/3_30-5_00/Metrics and Planning/User Profiles with GPS-Based
       Survey Data.pptx
-- Date: 09/15/2025
+  id: 22
+  type: agenda
+  title: Metrics and Planning
+- Date: '2025-09-15'
   TimeStart: 03:30 PM
   TimeEnd: 05:00 PM
   Tracks:
@@ -5146,7 +5213,10 @@
     Tags: ''
     Presentations:
     - ./2025/./Monday/3_30-5_00/Statewide Modeling/6_2025 MOMO TREDIS 9-2-25.pdf
-- Date: 09/15/2025
+  id: 23
+  type: agenda
+  title: Statewide Modeling
+- Date: '2025-09-15'
   TimeStart: 05:30 PM
   TimeEnd: 06:30 PM
   Tracks: []
@@ -5218,8 +5288,11 @@
     SessionOrSub: Sub
     Tags: ''
     Presentations: []
+  id: 24
+  type: agenda
+  title: Evening Reception
 09/16/2025:
-- Date: 09/16/2025
+- Date: '2025-09-16'
   TimeStart: 07:30 AM
   TimeEnd: 08:30 AM
   Tracks: []
@@ -5247,7 +5320,10 @@
   Tags: ''
   Presentations: []
   subs: []
-- Date: 09/16/2025
+  id: 25
+  type: agenda
+  title: 'Breakfast Plenary: Zephyr Foundation'
+- Date: '2025-09-16'
   TimeStart: 08:30 AM
   TimeEnd: 10:00 AM
   Tracks:
@@ -5567,7 +5643,10 @@
     SessionOrSub: Sub
     Tags: ''
     Presentations: []
-- Date: 09/16/2025
+  id: 26
+  type: agenda
+  title: ABM Inner Workings
+- Date: '2025-09-16'
   TimeStart: 08:30 AM
   TimeEnd: 10:00 AM
   Tracks:
@@ -5605,7 +5684,10 @@
   - ./2025/./Tuesday/8_30-10_00/DMDU/Decisions for the decade at MoMo.pdf
   - ./2025/./Tuesday/8_30-10_00/DMDU/MoMo_DMDU_Share.pdf
   subs: []
-- Date: 09/16/2025
+  id: 27
+  type: agenda
+  title: 'Decision Making under Deep Uncertainty: Workshop'
+- Date: '2025-09-16'
   TimeStart: 08:30 AM
   TimeEnd: 10:00 AM
   Tracks:
@@ -5986,7 +6068,10 @@
     SessionOrSub: Sub
     Tags: ''
     Presentations: []
-- Date: 09/16/2025
+  id: 28
+  type: agenda
+  title: Performance-Based Metrics and Planning
+- Date: '2025-09-16'
   TimeStart: 10:00 AM
   TimeEnd: 10:30 AM
   Tracks: []
@@ -6004,7 +6089,10 @@
   Tags: ''
   Presentations: []
   subs: []
-- Date: 09/16/2025
+  id: 29
+  type: agenda
+  title: Snacks and Beverages
+- Date: '2025-09-16'
   TimeStart: 10:30 AM
   TimeEnd: 12:00 PM
   Tracks:
@@ -6223,7 +6311,10 @@
     SessionOrSub: Sub
     Tags: ''
     Presentations: []
-- Date: 09/16/2025
+  id: 30
+  type: agenda
+  title: Induced Demand
+- Date: '2025-09-16'
   TimeStart: 10:30 AM
   TimeEnd: 12:00 PM
   Tracks:
@@ -6603,7 +6694,10 @@
     SessionOrSub: Sub
     Tags: ''
     Presentations: []
-- Date: 09/16/2025
+  id: 31
+  type: agenda
+  title: Modeling Improvements
+- Date: '2025-09-16'
   TimeStart: 10:30 AM
   TimeEnd: 12:00 PM
   Tracks:
@@ -7117,7 +7211,10 @@
     SessionOrSub: Sub
     Tags: ''
     Presentations: []
-- Date: 09/16/2025
+  id: 32
+  type: agenda
+  title: 'Metrics and Planning: Listen & Engage'
+- Date: '2025-09-16'
   TimeStart: 12:00 PM
   TimeEnd: 01:30 PM
   Tracks:
@@ -7235,7 +7332,10 @@
   Tags: ''
   Presentations: []
   subs: []
-- Date: 09/16/2025
+  id: 33
+  type: agenda
+  title: 'Induced Demand: Debate'
+- Date: '2025-09-16'
   TimeStart: 01:30 PM
   TimeEnd: 03:00 PM
   Tracks:
@@ -7542,7 +7642,10 @@
     SessionOrSub: Sub
     Tags: ''
     Presentations: []
-- Date: 09/16/2025
+  id: 34
+  type: agenda
+  title: Survey Methods
+- Date: '2025-09-16'
   TimeStart: 01:30 PM
   TimeEnd: 03:00 PM
   Tracks:
@@ -7989,7 +8092,10 @@
     SessionOrSub: Sub
     Tags: ''
     Presentations: []
-- Date: 09/16/2025
+  id: 35
+  type: agenda
+  title: 'Visualization: Workshop'
+- Date: '2025-09-16'
   TimeStart: 01:30 PM
   TimeEnd: 03:00 PM
   Tracks:
@@ -8237,7 +8343,10 @@
     SessionOrSub: Sub
     Tags: ''
     Presentations: []
-- Date: 09/16/2025
+  id: 36
+  type: agenda
+  title: Transit Modeling
+- Date: '2025-09-16'
   TimeStart: 03:00 PM
   TimeEnd: 03:30 PM
   Tracks: []
@@ -8255,7 +8364,10 @@
   Tags: ''
   Presentations: []
   subs: []
-- Date: 09/16/2025
+  id: 37
+  type: agenda
+  title: Snacks and Beverages
+- Date: '2025-09-16'
   TimeStart: 03:30 PM
   TimeEnd: 05:00 PM
   Tracks:
@@ -8745,7 +8857,10 @@
     SessionOrSub: Sub
     Tags: ''
     Presentations: []
-- Date: 09/16/2025
+  id: 38
+  type: agenda
+  title: 'Modeling: Listen & Engage'
+- Date: '2025-09-16'
   TimeStart: 03:30 PM
   TimeEnd: 05:00 PM
   Tracks:
@@ -8880,7 +8995,10 @@
     SessionOrSub: Sub
     Tags: ''
     Presentations: []
-- Date: 09/16/2025
+  id: 39
+  type: agenda
+  title: 'Travel Survey Standardization: Workshop'
+- Date: '2025-09-16'
   TimeStart: 03:30 PM
   TimeEnd: 05:00 PM
   Tracks:
@@ -9211,7 +9329,10 @@
     Tags: ''
     Presentations:
     - ./2025/./Tuesday/3_30-5_00/5-MOMO_SiShi.pdf
-- Date: 09/16/2025
+  id: 40
+  type: agenda
+  title: Innovations in Personal Travel
+- Date: '2025-09-16'
   TimeStart: 05:30 PM
   TimeEnd: 07:30 PM
   Tracks: []
@@ -9251,8 +9372,11 @@
   Tags: ''
   Presentations: []
   subs: []
+  id: 41
+  type: agenda
+  title: Dine Around
 09/17/2025:
-- Date: 09/17/2025
+- Date: '2025-09-17'
   TimeStart: 07:30 AM
   TimeEnd: 08:30 AM
   Tracks: []
@@ -9352,7 +9476,10 @@
     Tags: ''
     Presentations:
     - ./2025/./Wednesday/Breakfast Plenary/Khani - MoMo- 20250917.pdf
-- Date: 09/17/2025
+  id: 42
+  type: agenda
+  title: 'Breakfast Plenary: Minnesota Focus'
+- Date: '2025-09-17'
   TimeStart: 08:30 AM
   TimeEnd: 10:00 AM
   Tracks:
@@ -9572,7 +9699,10 @@
     SessionOrSub: Sub
     Tags: ''
     Presentations: []
-- Date: 09/17/2025
+  id: 43
+  type: agenda
+  title: Strategies for Multimodal Mobility
+- Date: '2025-09-17'
   TimeStart: 08:30 AM
   TimeEnd: 10:00 AM
   Tracks:
@@ -10175,7 +10305,10 @@
     SessionOrSub: Sub
     Tags: ''
     Presentations: []
-- Date: 09/17/2025
+  id: 44
+  type: agenda
+  title: 'Freight and E-commerce: Listen & Engage'
+- Date: '2025-09-17'
   TimeStart: 08:30 AM
   TimeEnd: 10:00 AM
   Tracks:
@@ -10314,7 +10447,10 @@
   Tags: ''
   Presentations: []
   subs: []
-- Date: 09/17/2025
+  id: 45
+  type: agenda
+  title: AI Tools for Travel Analytics Programming Tasks Workshop
+- Date: '2025-09-17'
   TimeStart: 10:00 AM
   TimeEnd: 10:30 AM
   Tracks: []
@@ -10332,7 +10468,10 @@
   Tags: ''
   Presentations: []
   subs: []
-- Date: 09/17/2025
+  id: 46
+  type: agenda
+  title: Snacks and Beverages
+- Date: '2025-09-17'
   TimeStart: 10:30 AM
   TimeEnd: 12:00 PM
   Tracks:
@@ -10686,7 +10825,10 @@
     SessionOrSub: Sub
     Tags: ''
     Presentations: []
-- Date: 09/17/2025
+  id: 47
+  type: agenda
+  title: Activity-based Modeling
+- Date: '2025-09-17'
   TimeStart: 10:30 AM
   TimeEnd: 12:00 PM
   Tracks:
@@ -10905,7 +11047,10 @@
     SessionOrSub: Sub
     Tags: ''
     Presentations: []
-- Date: 09/17/2025
+  id: 48
+  type: agenda
+  title: Machine Learning and TDM
+- Date: '2025-09-17'
   TimeStart: 10:30 AM
   TimeEnd: 12:00 PM
   Tracks:
@@ -11213,7 +11358,10 @@
     SessionOrSub: Sub
     Tags: ''
     Presentations: []
-- Date: 09/17/2025
+  id: 49
+  type: agenda
+  title: Community, Collaboration, and Education
+- Date: '2025-09-17'
   TimeStart: 12:00 PM
   TimeEnd: 01:00 PM
   Tracks: []
@@ -11302,7 +11450,10 @@
     SessionOrSub: Sub
     Tags: ''
     Presentations: []
-- Date: 09/17/2025
+  id: 50
+  type: agenda
+  title: 'Closing Plenary: The Road Ahead'
+- Date: '2025-09-17'
   TimeStart: 01:00 PM
   TimeEnd: 02:00 PM
   Tracks:
@@ -11327,3 +11478,6 @@
   Tags: ''
   Presentations: []
   subs: []
+  id: 51
+  type: agenda
+  title: Statewide Modeling Coordination Group

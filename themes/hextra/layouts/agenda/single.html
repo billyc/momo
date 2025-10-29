@@ -1,0 +1,44 @@
+{{ define "main" }}
+<div class='hx:mx-auto hx:flex hextra-max-page-width'>
+  <article class="hx:w-full hx:break-words hx:flex hx:min-h-[calc(100vh-var(--navbar-height))] hx:min-w-0 hx:justify-center hx:pb-8 hx:pr-[calc(env(safe-area-inset-right)-1.5rem)]">
+    <main class="hx:w-full hx:min-w-0 hx:max-w-6xl hx:px-6 hx:pt-4 hx:md:px-12">
+        {{ partial "breadcrumb.html" (dict "page" . "enable" true) }}
+        <div class="content">
+
+          <h3>{{ .Params.SessionTitle }}</h3>
+          <p>{{ .Params.Description | safeHTML }}</p>
+
+{{ if gt (len .Params.subs) 0 }}
+<b>{{len .Params.subs}} Sub-sessions:</b>
+{{ range .Params.subs }}
+<div class="sub-session session-details">
+  <div class="sub-title">{{ .SessionTitle }}</div>
+  <div class="sub-speaker">{{ .RolePanelist }}</div>
+  {{ if gt (len .Speakers) 0 }}
+  {{range .Speakers}}
+  {{ $sp := index site.Data.speakerlookup . }}
+  <div class="sub-speaker"><a href="../speakers/{{$sp.id}}">{{ . }}</a></div>
+  {{end}}
+  {{ end }}
+
+  {{ if gt (len .Presentations) 0 }}
+  {{range .Presentations}}
+  {{ $ext := replaceRE `^\.` "" (path.Ext . ) }}
+  <div title="{{ . }}"><a class="sub-preso" href="../../presentations/{{ . }}">Get {{ $ext }}</a></div>
+  {{end}}
+  {{ end }}
+
+  <div class="session-desc">{{ .Description | safeHTML }}</div>
+
+  <!-- <div class="sub-desc">{{ .Description }}</div> -->
+</div>
+{{ end }}
+{{ end }}
+
+         </div>
+        <div class="hx:mt-16"></div>
+    </main>
+  </article>
+</div>
+
+{{ end }}

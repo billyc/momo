@@ -61,13 +61,13 @@ params:
     displayTitle: false
     displayLogo: true
     logo:
-      path: 'assets/images/momo2025.png'
-      width: 200
+      path: 'assets/images/justMomo-trimmed.png'
+      width: 170
 
   search:
     enable: true
     index_content: true
-    index_sections: ['2025', 'speakers', 'posts', 'docs', 'news']
+    index_sections: ['2025', '2025/agenda', 'speakers', 'agenda', 'posts', 'docs', 'news']
 
   outputs:
     home: ['HTML', 'JSON']
