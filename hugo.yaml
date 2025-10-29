@@ -61,7 +61,7 @@ params:
     displayTitle: false
     displayLogo: true
     logo:
-      path: 'assets/images/justMomo-trimmed.png'
+      path: 'assets/images/JustMomo-trimmed.png'
       width: 170
 
   search:
