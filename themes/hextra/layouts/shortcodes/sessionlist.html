@@ -4,7 +4,7 @@
 {{ range $sessions }}
 
 <div class="session-card">
-<b>{{ .SessionTitle }}</b>
+<a href="./agenda/{{.id}}"><b>{{ .SessionTitle }}</b></a>
 
 <div class="session-time">{{ .TimeStart }} – {{ .TimeEnd }} at {{ .RoomLocation}}</div>
 
