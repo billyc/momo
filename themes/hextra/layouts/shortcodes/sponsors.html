@@ -1,0 +1,38 @@
+{{ $allconfs := index site.Data.conferences }}
+{{ $offset := .Get 0 }}
+{{ $conf := index $allconfs $offset }}
+{{ $sponsors := $conf.sponsors }}
+{{ $gold := $sponsors.gold }}
+{{ $silver := $sponsors.silver }}
+{{ $bronze := $sponsors.bronze }}
+
+<p style="font-size: 20px">
+We would like to graciously thank our generous sponsors for this year's event:
+</p>
+
+<h3 class="gold">GOLD&nbsp;SPONSORS</h3>
+<div style="display: flex; gap: 5rem">
+{{ range $gold }}
+<div class="momo-sponsor">
+  <a target="_blank" href="{{ .url }}"><img width="200px" title="{{ .label }}" src="{{ .logo }}"/></a>
+</div>
+{{ end }}
+</div>
+
+<h3 class="silver">SILVER&nbsp;SPONSORS</h3>
+<div style="display: flex; gap: 2rem">
+{{ range $silver }}
+<div class="momo-sponsor">
+  <a href="{{ .url }}"><img width="130px" title="{{ .label }}" src="{{ .logo }}"/></a>
+</div>
+{{ end }}
+</div>
+
+<h3 class="bronze">BRONZE&nbsp;SPONSORS</h3>
+<div style="display: flex; gap: 2rem">
+{{ range $bronze }}
+<div class="momo-sponsor">
+  <a href="{{ .url }}"><img width="60px" title="{{ .label }}" src="{{ .logo }}"/></a>
+</div>
+{{ end }}
+</div>

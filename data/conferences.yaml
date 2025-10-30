@@ -1,6 +1,45 @@
 - title: 'MoMo 2025: Minneapolis'
   link: '2025'
   image: 'images/uminn.jpeg'
+  blurb: |
+    September 14-17, 2025, in Minneapolis, Minnesota at the beautiful McNamara
+    Alumni Center on the University of Minnesota (Twin Cities) campus.
+
+    We welcome public and private sector practitioners, researchers, students,
+    and all involved in developing, analyzing, and applying transportation data and
+    tools to connect, learn, share, and build lasting professional relationships.
+
+  sponsors:
+    gold:
+      - label: Cambridge Systematics
+        logo: /momo/assets/images/2025/cs.png
+        url: https://camsys.com
+      - label: WSP Inc.
+        logo: /momo/assets/images/2025/wsp.png
+        url: https://www.wsp.com/en-us/
+      - label: RSG Inc.
+        logo: /momo/assets/images/2025/rsg.jpg
+        url: https://rsginc.com
+    silver:
+      - label: Bentley Systems
+        logo: /momo/assets/images/2025/bentley.jpg
+        url: https://bentley.com
+      - label: PTV Group
+        logo: /momo/assets/images/2025/ptv.png
+        url: https://ptvgroup.com/en
+    bronze:
+      - label: Insight Transportation Consulting
+        logo: /momo/assets/images/2025/insight.png
+        url: https://insighttransportconsulting.com
+      - label: Conveyal
+        logo: /momo/assets/images/2025/conveyal.jpg
+        url: https://conveyal.com
+      - label: SRF Consulting
+        logo: /momo/assets/images/2025/srf.jpg
+        url: https://srfconsulting.com
+      - label: DKS Associates
+        logo: /momo/assets/images/2025/dks.jpg
+        url: https://dksassociates.com
 # - title: 'MoMo 2024: Arizona'
 #   link: '2024'
 #   image: 'images/cactus.png'

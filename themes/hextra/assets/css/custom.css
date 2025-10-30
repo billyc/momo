@@ -1,5 +1,9 @@
 html,body {
   font-family: "Raleway", Arial, Helvetica, sans-serif;
+  /* font-size: 18px; */
+}
+
+p {
 }
 
 a {
@@ -423,6 +427,29 @@ a:hover {
     rgb(64, 64, 240),
     rgb(199, 65, 229)
   );
+}
+
+.momo-main-page {
+  flex: 8;
+}
+
+.momo-sponsor {
+}
+
+h3.gold {
+    color: rgb(203, 175, 15);
+    font-weight: bold;
+    text-decoration: underline;
+}
+h3.silver {
+    color: rgb(165, 179, 186);
+    font-weight: bold;
+    text-decoration: underline;
+}
+h3.bronze {
+    color: rgb(116, 108, 60);
+    font-weight: bold;
+    text-decoration: underline;
 }
 
 .speaker-event {

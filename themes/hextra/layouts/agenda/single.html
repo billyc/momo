@@ -17,7 +17,7 @@
 <b>{{len .Params.subs}} Sub-sessions:</b>
 {{ range .Params.subs }}
 <div class="sub-session session-details">
-  <div class="sub-title">{{ .SessionTitle }}</div>
+  <div class="sub-title" style="color: #3434af; font-weight: bold; font-size: 18px;">{{ .SessionTitle }}</div>
   <div class="sub-speaker">{{ .RolePanelist }}</div>
   {{ if gt (len .Speakers) 0 }}
   <div class="sub-speaker">
