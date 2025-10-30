@@ -23,9 +23,12 @@ menu:
     - name: About MoMo
       pageRef: /about
       weight: 1
-    - name: News
-      pageRef: /news
+    - name: MoMo 2025
+      pageRef: /2025/
       weight: 2
+    # - name: News
+    #   pageRef: /news
+    #   weight: 2
     - name: Zephyr↗
       url: 'https://zephyrtransport.org'
       weight: 3

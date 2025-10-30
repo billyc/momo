@@ -2,7 +2,7 @@
 title: ''
 ---
 
-![MoMo 2025](/assets/images/momo2025.png)
+{{< rainbowlogo "/momo/assets/images/momo2025.png" >}}
 
 <br/>
 September 14-17, 2025, in Minneapolis, Minnesota at the beautiful McNamara Alumni Center on the University of Minnesota (Twin Cities) campus.
