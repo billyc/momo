@@ -8,6 +8,9 @@
         <div class="content">
 
           <h3>{{ .Params.SessionTitle }}</h3>
+          <p>{{ .Params.Date | time | time.Format "January 2, 2006"}}</p>
+
+          {{ .Params.TimeStart }} – {{ .Params.TimeEnd }} at {{ .Params.RoomLocation }}</p>
           <p>{{ .Params.Description | safeHTML }}</p>
 
 {{ if gt (len .Params.subs) 0 }}
@@ -38,7 +41,7 @@
   {{end}}
   {{ end }}
 
-  <div class="session-desc">{{ .Description | safeHTML }}</div>
+  <div class="session-desc" style="line-clamp: unset; -webkit-line-clamp: unset;">{{ .Description | safeHTML }}</div>
 
   <!-- <div class="sub-desc">{{ .Description }}</div> -->
 </div>

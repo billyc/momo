@@ -70,16 +70,38 @@
   {{ end }}
   {{ end }}
 
+{{ if gt (len .subs) 0 }}
+{{ range .subs }}
+  {{ if gt (len .Speakers) 0 }}
+  {{range .Speakers}}
+  {{ $sp := index site.Data.speakerlookup . }}
+
+  <a style="color: #222 !important" href="./speakers/{{$sp.id}}">
+      <div class="person-mini-card">
+      <img src="./../assets/avatars/{{$sp.avatar}}" />
+      <b>{{ $sp.Name }}</b>
+      <div style="opacity: 0.7;"> {{ $sp.Affiliation }}</div>
+      </div>
+  </a>
+
+  {{ end }}
+{{ end }}
+
+{{ end }}
+{{ end }}
+
 </div>
 
 <div class="session-desc">{{ .Description | safeHTML }}</div>
-<!-- <a>Read more...</a> -->
+<a style="text-align: right" href="agenda/{{.id}}">Read more...</a>
+{{ $agendaid := .id }}
 
 {{ if gt (len .subs) 0 }}
 <b>{{len .subs}} Sub-sessions:</b>
+
 {{ range .subs }}
 <div class="sub-session">
-  <div class="sub-title">{{ .SessionTitle }}</div>
+  <div class="sub-title"><a href="./agenda/{{ $agendaid }}">{{ .SessionTitle }}</a></div>
   <div class="sub-speaker">{{ .RolePanelist }}</div>
   {{ if gt (len .Speakers) 0 }}
   {{range .Speakers}}

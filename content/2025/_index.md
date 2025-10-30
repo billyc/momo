@@ -34,10 +34,3 @@ We welcome public and private sector practitioners, researchers, students, and a
 {{< /tab >}}
 
 {{< /tabs >}}
-
----
-
-{{< cards >}}
-{{< card link="../2025/agenda" title="Browse Agenda" icon="calendar">}}
-{{< card link="../2025/speakers" title="Speakers" icon="user-group">}}
-{{< /cards >}}

@@ -23,7 +23,8 @@ def make_filename_safe(name: str) -> str:
 # Load the Excel file and select the 'data' sheet
 sheet_url = "https://docs.google.com/spreadsheets/d/1h9T9-gtwsDiBqeEq0kxhfSD4gvLAU4tO"
 
-gid = {"agenda": 12805781, "speakers": 1604031287}
+gid = { "speakers": 1604031287, "agenda": 12805781,}
+speaker_lookup = {}
 
 for k, v in gid.items():
     csv_url = sheet_url + "/export?format=csv&gid=" + str(v)
@@ -46,6 +47,7 @@ for k, v in gid.items():
         speakers = df.to_dict(orient="records")
         for i, speaker in enumerate(speakers):
             speaker["id"] = i
+            speaker["events"] = []
             yaml_string = yaml.dump(speaker, sort_keys=False)
             md = f"---\n{yaml_string}---\n"
             with open(f"./content/{YEAR}/speakers/{i}.md", "w") as f:
@@ -56,13 +58,9 @@ for k, v in gid.items():
             # sort_keys=False preserves column order
             yaml.dump(speakers, f, sort_keys=False)
 
-        # Also create a lookup by speaker name
-        speaker_lookup = {}
+        # Also create the lookup by speaker name
         for speaker in speakers:
             speaker_lookup[speaker["Name"]] = speaker
-        with open(f"./data/speakerlookup.yaml", "w") as f:
-            # sort_keys=False preserves column order
-            yaml.dump(speaker_lookup, f, sort_keys=False)
 
     if k == "agenda":
 
@@ -107,6 +105,17 @@ for k, v in gid.items():
                     if len(event[col]) > 0:
                         s = [a.strip() for a in sorted(event[col].split(";"))]
                     event[col] = s
+                    # add this event to the speaker lookup as well
+                    for sp in s:
+                        if sp in speaker_lookup:
+                            speaker_lookup[sp]["events"].append(
+                                {"id": numSession+1,
+                                  "title": current_session["SessionTitle"],
+                                  "date": current_session["Date"],
+                                  "timeStart": current_session["TimeStart"],
+                                  "timeEnd": current_session["TimeEnd"],
+                                }
+                            )
 
                 s = []
                 if len(event["Presentations"]) > 0:
@@ -128,10 +137,15 @@ for k, v in gid.items():
 
             days[date] = todays_sessions
             print(date)
-            print([session["SessionTitle"] for session in todays_sessions])
+            # print([session["SessionTitle"] for session in todays_sessions])
 
         # Write the list of dictionaries to a YAML file
         with open(f"./data/{k}.yaml", "w") as f:
             # sort_keys=False preserves column order
             # json.dump(records, f, sort_keys=False, indent=2)
             yaml.dump(days, f, sort_keys=False)
+
+    # write out speaker lookup as well for cross-referencing
+    with open(f"./data/speakerlookup.yaml", "w") as f:
+        # sort_keys=False preserves column order
+        yaml.dump(speaker_lookup, f, sort_keys=False)

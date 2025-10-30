@@ -192,16 +192,16 @@ a:hover {
   padding: 0 0.5rem;
 }
 
-.sub-title {
-  color: #5b46cf;
-  font-weight: bold;
+.sub-title a {
+  color: #4260b0 !important;
+  font-weight: 500;
 }
 
 .sub-speaker {
   display: flex;
   gap: 1rem;
-  margin-top: -0.25rem;
-  font-weight: bold;
+  margin-top: -2px;
+  /* font-weight: bold; */
   a {
     color: #444;
     text-decoration: none;
@@ -221,6 +221,10 @@ a:hover {
   padding: 4px 4px;
   margin-top: 4px;
 
+  a {
+    color: #222 !important;
+  }
+
   img {
     display: block;
     width: 84px;
@@ -239,7 +243,7 @@ a:hover {
 
 .sub-preso {
   background-color: #ff7300;
-  color: white;
+  color: white !important;
   text-decoration: none;
   font-size: 0.9rem;
   padding: 1px 4px;
@@ -419,6 +423,19 @@ a:hover {
     rgb(64, 64, 240),
     rgb(199, 65, 229)
   );
+}
+
+.speaker-event {
+  background-color: #f8f8f8;
+  padding: 1rem 1.5rem;
+  margin-top: 0.5rem;
+  margin-bottom: 1.5rem;
+  border: 1px solid #ddd;
+  border-left: 3px solid var(--momo-blue-2);
+
+  a {
+    font-weight: bold;
+  }
 }
 
 @media(max-width: 1024px) {
