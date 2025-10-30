@@ -50,6 +50,9 @@ for k, v in gid.items():
             speaker["events"] = []
             yaml_string = yaml.dump(speaker, sort_keys=False)
             md = f"---\n{yaml_string}---\n"
+            # add some search context below the ---fold
+            for tag in "Name,Affiliation,Position,Bio".split(","):
+                md += f"{speaker[tag]}\n\n"
             with open(f"./content/{YEAR}/speakers/{i}.md", "w") as f:
                 f.write(md)
 
@@ -92,6 +95,18 @@ for k, v in gid.items():
                         current_session["Date"] = f"{d[6:]}-{d[0:2]}-{d[3:5]}"
                         yaml_string = yaml.dump(current_session, sort_keys=False)
                         md = f"---\n{yaml_string}---\n"
+                        # add some search context below the ---fold
+                        for ztag in "SessionTitle,Speakers,Description,RoleDebater,Authors,Presentations".split(","):
+                            stuff = current_session[ztag]
+                            if isinstance(stuff, list):
+                                stuff = ", ".join(stuff)
+                            md += f"{stuff}\n\n"
+                        for sub in current_session["subs"]:
+                            for ztag in "SessionTitle,Speakers,Description,Presentations".split(","):
+                                stuff = sub[ztag]
+                                if isinstance(stuff, list):
+                                    stuff = ", ".join(stuff)
+                                md += f"{stuff}\n\n"
                         with open(f"./content/{YEAR}/agenda/{numSession}.md", "w") as f:
                             f.write(md)
                     current_session = event
@@ -132,6 +147,19 @@ for k, v in gid.items():
             current_session["Date"] = f"{d[6:]}-{d[0:2]}-{d[3:5]}"
             yaml_string = yaml.dump(current_session, sort_keys=False)
             md = f"---\n{yaml_string}---\n"
+            # add some search context below the ---fold
+            for ztag in "SessionTitle,Speakers,Description,RoleDebater,Authors,Presentations".split(","):
+                stuff = current_session[ztag]
+                if isinstance(stuff, list):
+                    stuff = ", ".join(stuff)
+                md += f"{stuff}\n\n"
+            for sub in current_session["subs"]:
+                for ztag in "SessionTitle,Speakers,Description,Presentations".split(","):
+                    stuff = sub[ztag]
+                    if isinstance(stuff, list):
+                        stuff = ", ".join(stuff)
+                    md += f"{stuff}\n\n"
+
             with open(f"./content/{YEAR}/agenda/{numSession}.md", "w") as f:
                 f.write(md)
 

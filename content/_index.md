@@ -1,5 +1,6 @@
 ---
 toc: false
+excludeSearch: true
 ---
 
 <div class="home-hero">

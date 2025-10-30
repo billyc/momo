@@ -1,6 +1,7 @@
 ---
-title: "Agenda: MoMo 2025"
+title: 'Agenda: MoMo 2025'
 type: blog
+excludeSearch: true
 ---
 
 {{< tabs >}}

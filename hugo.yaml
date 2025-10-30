@@ -69,8 +69,10 @@ params:
 
   search:
     enable: true
-    index_content: true
-    index_sections: ['2025', '2025/agenda', 'speakers', 'agenda', 'posts', 'docs', 'news']
+    type: flexsearch
+    flexsearch:
+      index: content
+      tokenize: forward
 
   outputs:
     home: ['HTML', 'JSON']

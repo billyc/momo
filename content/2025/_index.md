@@ -1,5 +1,6 @@
 ---
 title: ''
+excludeSearch: true
 ---
 
 {{< rainbowlogo "/momo/assets/images/momo2025.png" >}}
