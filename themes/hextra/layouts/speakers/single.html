@@ -14,9 +14,12 @@
         <div class="content">
          {{ if $sp }}
           <img width="250" src="../../../assets/avatars/{{ $sp.avatar }}" alt="">
-          <h1>{{ $sp.Name }}</h1>
-          <p><strong>{{ $sp.Position }}</strong></p>
-          <p><em>{{ $sp.Affiliation }}</em></p>
+          <div style="text-align: center">
+            <h1>{{ $sp.Name }}</h1>
+            <p><strong>{{ $sp.Position }}</strong></p>
+            <p style="margin-top: 0"><em>{{ $sp.Affiliation }}</em></p>
+          </div>
+
           <p>{{ $sp.Bio }}</p>
 
           <h3>Sessions &amp; Events</h3>

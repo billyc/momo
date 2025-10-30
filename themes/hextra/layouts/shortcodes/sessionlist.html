@@ -96,6 +96,15 @@
 <a style="text-align: right" href="agenda/{{.id}}">Read more...</a>
 {{ $agendaid := .id }}
 
+{{ if gt (len .Presentations) 0 }}
+<b>Presentations:</b>
+  {{range .Presentations}}
+  {{ $title := replaceRE ".*/" "" . }}
+  {{ $ext := replaceRE `^\.` "" (path.Ext . ) }}
+  <div style="margin: 0 0.25rem 0.4rem 1rem" title="{{ . }}"><a href="/momo/presentations/{{ . }}">{{ $title }}</a><br><a class="sub-preso" href="/momo/presentations/{{ . }}">Get {{ $ext }}</a></div>
+  {{end}}
+{{ end }}
+
 {{ if gt (len .subs) 0 }}
 <b>{{len .subs}} Sub-sessions:</b>
 
