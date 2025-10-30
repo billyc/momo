@@ -113,7 +113,7 @@
   {{ if gt (len .Presentations) 0 }}
   {{range .Presentations}}
   {{ $ext := replaceRE `^\.` "" (path.Ext . ) }}
-  <div title="{{ . }}"><a class="sub-preso" href="./../presentations/{{ . }}">Get {{ $ext }}</a></div>
+  <div title="{{ . }}"><a class="sub-preso" href="/momo/presentations/{{ . }}">Get {{ $ext }}</a></div>
   {{end}}
   {{ end }}
 
