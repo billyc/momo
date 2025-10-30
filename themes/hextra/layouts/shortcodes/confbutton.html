@@ -1,0 +1,6 @@
+{{- $text := .Get 0 -}}
+{{- $link := .Get 1 -}}
+{{- $active := .Get 2 -}}
+<a href="{{ $link }}">
+<button class="btn-conf-button1 {{$active}}">{{ $text}}</button>
+</a>

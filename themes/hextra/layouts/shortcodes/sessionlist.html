@@ -21,9 +21,9 @@
   {{ if gt (len .RoleModerator) 0 }}
   {{ range .RoleModerator}}
   {{ $sp := index site.Data.speakerlookup . }}
-  <a href="../speakers/{{$sp.id}}">
+  <a href="./speakers/{{$sp.id}}">
   <div class="person-mini-card">
-  <img src="../../assets/avatars/{{$sp.avatar}}" />
+  <img src="./../assets/avatars/{{$sp.avatar}}" />
   <b>{{ $sp.Name }}</b>
   <div style="opacity: 0.7;"> {{ $sp.Affiliation }}</div>
   </div>
@@ -34,9 +34,9 @@
   {{ if gt (len .RoleDebater) 0 }}
   {{ range .RoleDebater }}
   {{ $sp := index site.Data.speakerlookup . }}
-  <a href="../speakers/{{$sp.id}}">
+  <a href="./speakers/{{$sp.id}}">
   <div class="person-mini-card">
-  <img src="../../assets/avatars/{{$sp.avatar}}" />
+  <img src="./../assets/avatars/{{$sp.avatar}}" />
   <b>{{ $sp.Name }}</b>
   <div style="opacity: 0.7;"> {{ $sp.Affiliation }}</div>
   </div>
@@ -47,9 +47,9 @@
   {{ if gt (len .Speakers) 0 }}
   {{ range .Speakers }}
   {{ $sp := index site.Data.speakerlookup . }}
-  <a href="../speakers/{{$sp.id}}">
+  <a href="./speakers/{{$sp.id}}">
   <div class="person-mini-card">
-  <img src="../../assets/avatars/{{$sp.avatar}}" />
+  <img src="./../assets/avatars/{{$sp.avatar}}" />
   <b>{{ $sp.Name }}</b>
   <div style="opacity: 0.7;"> {{ $sp.Affiliation }}</div>
   </div>
@@ -60,9 +60,9 @@
   {{ if gt (len .RoleFacilitator) 0 }}
   {{ range .RoleFacilitator }}
   {{ $sp := index site.Data.speakerlookup . }}
-  <a href="../speakers/{{$sp.id}}">
+  <a href="./speakers/{{$sp.id}}">
   <div class="person-mini-card">
-  <img src="../../assets/avatars/{{$sp.avatar}}" />
+  <img src="./../assets/avatars/{{$sp.avatar}}" />
   <b>{{ $sp.Name }}</b>
   <div style="opacity: 0.7;"> {{ $sp.Affiliation }}</div>
   </div>
@@ -84,14 +84,14 @@
   {{ if gt (len .Speakers) 0 }}
   {{range .Speakers}}
   {{ $sp := index site.Data.speakerlookup . }}
-  <div class="sub-speaker"><a href="../speakers/{{$sp.id}}">{{ . }}</a></div>
+  <div class="sub-speaker"><a href="./speakers/{{$sp.id}}">{{ . }}</a></div>
   {{end}}
   {{ end }}
 
   {{ if gt (len .Presentations) 0 }}
   {{range .Presentations}}
   {{ $ext := replaceRE `^\.` "" (path.Ext . ) }}
-  <div title="{{ . }}"><a class="sub-preso" href="../../presentations/{{ . }}">Get {{ $ext }}</a></div>
+  <div title="{{ . }}"><a class="sub-preso" href="./../presentations/{{ . }}">Get {{ $ext }}</a></div>
   {{end}}
   {{ end }}
 
