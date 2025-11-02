@@ -42,7 +42,6 @@ a:hover {
   aspect-ratio: 1 / 1;
   overflow: hidden;
   vertical-align: top;
-  background: #f5f5f5;
 }
 
 .speaker-image img {
@@ -83,12 +82,17 @@ a:hover {
 .hextra-nav-container {
   background-color: var(--momo-blue-2);
   padding: 0.5rem 0 !important;
-  filter:drop-shadow(0px 2px 4px #0003);
+  /* filter:drop-shadow(0px 2px 4px #0003); */
 
   a {
     color: white !important;
-    font-weight: 300;
-    font-size: 1.1rem;
+    /* font-weight: 500;
+    text-transform: uppercase; */
+    margin-left: 0.25rem;
+  }
+
+  .highlighted {
+    border: 1px solid white;
   }
 
   img {
@@ -98,6 +102,10 @@ a:hover {
   input::placeholder {
     color: #cff;
   }
+}
+
+.hextra-search-wrapper {
+  margin-left: 0.5rem;
 }
 
 .hextra-search-results {
@@ -123,12 +131,12 @@ a:hover {
 .session-card {
   display: flex;
   flex-direction: column;
-  border: 1px solid #ddd;
-  border-left: 3px solid #578ef5;
-  margin-top: 1rem;
+  /* border: 1px solid #ddd; */
+  border-left: 4px solid var(--momo-blue-2);  /* #578ef5; */
+  margin-top: 2rem;
   padding: 1rem 1rem;
   color: #444;
-  background-color: #fafafa;
+  background-color: #f5f5f5;
 }
 .session-time {
   color: #666;
@@ -204,7 +212,6 @@ a:hover {
 .sub-speaker {
   display: flex;
   gap: 1rem;
-  margin-top: -2px;
   /* font-weight: bold; */
   a {
     color: #444;
@@ -372,10 +379,10 @@ a:hover {
 }
 
 .session-details {
-  background-color: #f8f8f8;
+  background-color: #f5f5f5;
   padding: 1rem 1.5rem;
-  margin-bottom: 1.5rem;
-  border: 1px solid #ddd;
+  margin-bottom: 2rem;
+  /* border: 1px solid #ddd; */
   border-left: 3px solid var(--momo-blue-2);
 }
 

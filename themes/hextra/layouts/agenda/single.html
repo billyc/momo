@@ -11,13 +11,74 @@
           <p>{{ .Params.Date | time | time.Format "January 2, 2006"}}</p>
 
           {{ .Params.TimeStart }} – {{ .Params.TimeEnd }} at {{ .Params.RoomLocation }}</p>
-          <p>{{ .Params.Description | safeHTML }}</p>
+
+  <div class="session-people">
+
+  {{ if gt (len .Params.RoleModerator) 0 }}
+  {{ range .Params.RoleModerator}}
+  {{ $sp := index site.Data.speakerlookup . }}
+  <a href="../../speakers/{{$sp.id}}">
+  <div class="person-mini-card">
+  <img src="../../../assets/avatars/{{$sp.avatar}}" />
+  <b>{{ $sp.Name }}</b>
+  <div style="opacity: 0.7;"> {{ $sp.Affiliation }}</div>
+  </div>
+  </a>
+  {{ end }}
+  {{ end }}
+
+  {{ if gt (len .Params.RoleDebater) 0 }}
+  {{ range .Params.RoleDebater }}
+  {{ $sp := index site.Data.speakerlookup . }}
+  <a href="../../speakers/{{$sp.id}}">
+  <div class="person-mini-card">
+  <img src="../../../assets/avatars/{{$sp.avatar}}" />
+  <b>{{ $sp.Name }}</b>
+  <div style="opacity: 0.7;"> {{ $sp.Affiliation }}</div>
+  </div>
+  </a>
+  {{ end }}
+  {{ end }}
+
+  {{ if gt (len .Params.Speakers) 0 }}
+  {{ range .Params.Speakers }}
+  {{ $sp := index site.Data.speakerlookup . }}
+  <a href="../../speakers/{{$sp.id}}">
+  <div class="person-mini-card">
+  <img src="../../../assets/avatars/{{$sp.avatar}}" />
+  <b>{{ $sp.Name }}</b>
+  <div style="opacity: 0.7;"> {{ $sp.Affiliation }}</div>
+  </div>
+  </a>
+  {{ end }}
+  {{ end }}
+
+  </div>
+
+  <p>{{ .Params.Description | safeHTML }}</p>
+
+  {{ if gt (len .Params.Presentations) 0 }}
+  {{range .Params.Presentations}}
+  {{ $title := replaceRE ".*/" "" . }}
+  {{ $ext := replaceRE `^\.` "" (path.Ext . ) }}
+  <div><a href="/momo/presentations/{{ . }}">{{ $title }}</a></div>
+  <div title="{{ . }}"><a class="sub-preso" href="/momo/presentations/{{ . }}">Get {{ $ext }}</a></div>
+  {{end}}
+  {{ end }}
 
 {{ if gt (len .Params.subs) 0 }}
 <b>{{len .Params.subs}} Sub-sessions:</b>
 {{ range .Params.subs }}
 <div class="sub-session session-details">
   <div class="sub-title" style="color: #3434af; font-weight: bold; font-size: 18px;">{{ .SessionTitle }}</div>
+
+  {{ if gt (len .Presentations) 0 }}
+  {{range .Presentations}}
+  {{ $ext := replaceRE `^\.` "" (path.Ext . ) }}
+  <div title="{{ . }}"><a class="sub-preso" href="/momo/presentations/{{ . }}">Get {{ $ext }}</a></div>
+  {{end}}
+  {{ end }}
+
   <div class="sub-speaker">{{ .RolePanelist }}</div>
   {{ if gt (len .Speakers) 0 }}
   <div class="sub-speaker">
@@ -32,13 +93,6 @@
   </a>
   {{end}}
   </div>
-  {{ end }}
-
-  {{ if gt (len .Presentations) 0 }}
-  {{range .Presentations}}
-  {{ $ext := replaceRE `^\.` "" (path.Ext . ) }}
-  <div title="{{ . }}"><a class="sub-preso" href="/momo/presentations/{{ . }}">Get {{ $ext }}</a></div>
-  {{end}}
   {{ end }}
 
   <div class="session-desc" style="line-clamp: unset; -webkit-line-clamp: unset;">{{ .Description | safeHTML }}</div>
