@@ -5,3 +5,7 @@ resources/
 
 # Editor
 .vscode/
+
+# Build artifacts
+content/2025/agenda/*
+content/2025/speakers/*
