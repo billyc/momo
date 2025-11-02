@@ -1,6 +1,6 @@
 ---
-title: ''
-excludeSearch: true
+title: 'Photo Gallery - MoMo 2025'
+layout: 'confpage'
 ---
 
 {{< rainbowlogo "/momo/assets/images/momo2025.png" >}}
@@ -11,29 +11,13 @@ September 14-17, 2025, in Minneapolis, Minnesota at the beautiful McNamara Alumn
 We welcome public and private sector practitioners, researchers, students, and all involved in developing, analyzing, and applying transportation data and tools to connect, learn, share, and build lasting professional relationships.
 
 <div class="conf-section-picker">
-{{< confbutton "AGENDA" "" active >}}
-{{< confbutton "SPEAKERS" "./speakers" >}}
-{{< confbutton "PHOTO GALLERY" "./gallery" >}}
+{{< confbutton "AGENDA" "../" >}}
+{{< confbutton "SPEAKERS" "../speakers" >}}
+{{< confbutton "PHOTO GALLERY" "" active >}}
 </div>
 
-{{< tabs >}}
+{{< gallery "images/2025/snapshots" >}}
 
-{{< tab name="SUN" >}}
-{{< sessionlist "09/14/2025" >}}
-{{< /tab >}}
+## Credits
 
-{{< tab name="MON" >}}
-{{< sessionlist "09/15/2025" >}}
-{{< /tab >}}
-
-{{< tab name="TUE" >}}
-{{< sessionlist "09/16/2025" >}}
-{{< /tab >}}
-
-{{< tab name="WED" >}}
-{{< sessionlist "09/17/2025" >}}
-{{< /tab >}}
-
-{{< /tabs >}}
-
-{{< sponsors 0 >}}
+All snapshots taken by participants at MoMo 2025. Please let us know if you have some photos to add, or if you would like any photos removed for any reason.
