@@ -14,6 +14,7 @@ We welcome public and private sector practitioners, researchers, students, and a
 {{< confbutton "AGENDA" "" active >}}
 {{< confbutton "SPEAKERS" "./speakers" >}}
 {{< confbutton "PHOTO GALLERY" "./gallery" >}}
+{{< confbutton "MOMOSTS" "./momosts" >}}
 </div>
 
 {{< tabs >}}

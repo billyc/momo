@@ -1,6 +1,7 @@
 {{ $dir := .Get 0 -}} {{ $files := resources.Match (printf "%s/*" $dir) }}
+{{ $gapclass:= .Get 1 -}}
 
-<div class="gallery">
+<div class="gallery {{ $gapclass }}">
   {{ range $files }} {{ $src := . }} {{ $thumb := .Fit "400x400 webp q75" }} {{ $blur := .Fit "20x20 webp q20" }} {{ $name := replace (path.Base .Name) (path.Ext .Name) "" }} {{ $caption := default $name .Exif.Tags.ImageDescription }}
 
   <figure class="gallery-item" data-full="{{ $src.RelPermalink }}" data-caption="{{ $caption }}">
@@ -77,18 +78,22 @@
 </script>
 
 <style>
+
   .gallery {
     margin-top: 2rem;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     gap: 2px;
-    /* background-color: #334; */
   }
+  .extra-gap {
+    gap: 2rem;
+  }
+
   .gallery-item {
     position: relative;
     cursor: pointer;
     width: 100%;
-    padding-bottom: 80%;
+    padding-bottom: 75%;
     overflow: hidden;
     /* border-radius: 8px; */
   }

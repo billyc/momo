@@ -1,6 +1,6 @@
 ---
-title: 'Speakers'
-type: 'speakers'
+title: 'MoMosts: The MoMo Awards'
+layout: 'confpage'
 ---
 
 {{< rainbowlogo "/momo/assets/images/momo2025.png" >}}
@@ -12,7 +12,15 @@ We welcome public and private sector practitioners, researchers, students, and a
 
 <div class="conf-section-picker">
 {{< confbutton "AGENDA" "../" >}}
-{{< confbutton "SPEAKERS" "" active >}}
+{{< confbutton "SPEAKERS" "../speakers" >}}
 {{< confbutton "PHOTO GALLERY" "../gallery" >}}
-{{< confbutton "MOMOSTS" "../momosts" >}}
+{{< confbutton "MOMOSTS" "" active >}}
 </div>
+
+<br>
+
+# MoMosts: The MoMo Awards
+
+These little awards were presenting on the closing day of MoMo 2025. Let's give a round of applause to our MoMost winners!
+
+{{< gallery "images/2025/momosts" "extra-gap" >}}

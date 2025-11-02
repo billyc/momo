@@ -398,8 +398,8 @@ a:hover {
 .conf-section-picker {
   display: flex;
   width:100%;
-  border-bottom: 4px solid var(--momo-orange-2);
-  margin-top:2rem;
+  border-bottom: 5px solid var(--momo-orange-2);
+  margin-top: 2rem;
 }
 
 .btn-conf-button1 {
