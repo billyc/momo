@@ -57,7 +57,7 @@ params:
     base: 'https://github.com/imfing/hextra-starter-template/edit/main/content'
 
   footer:
-    displayCopyright: true
+    displayCopyright: false
     displayPoweredBy: false
 
   navbar:

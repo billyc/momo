@@ -452,6 +452,27 @@ h3.bronze {
   }
 }
 
+footer {
+  background-color: #2f2f44 !important;
+  line-height: 1.4rem;
+
+  a:hover {
+    color: var(--momo-blue-1) !important;
+  }
+}
+
+footer  h3 {
+  color: #d4d4d4 !important;
+  font-size: 0.85rem !important;
+  font-weight: 700;
+  padding-bottom: 0.5rem;
+}
+
+footer p {
+  font-size: 0.85rem !important;
+  color: #bbb !important;
+}
+
 /* Hide desktop sidebar */
 @media (min-width: 767px) {
   .hextra-sidebar-container {
