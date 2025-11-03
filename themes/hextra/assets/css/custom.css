@@ -182,23 +182,6 @@ a:hover {
   overflow: hidden;
 }
 
-/* @-moz-document url-prefix() {
-  .speaker-affiliation {
-    max-height: calc(1.1rem * 3);
-    overflow: hidden;
-  }
-  .session-desc {
-    max-height: 10rem;
-    overflow: hidden;
-  }
-}
-*/
-
-.hextra-nav-container {
-  /* background-color: #fffe; */
-  /* padding: 0.5rem 0 0.25rem 0 !important; */
-}
-
 .sub-session {
   margin-top: 0.75rem;
   padding: 0 0.5rem;
@@ -440,9 +423,6 @@ a:hover {
   flex: 8;
 }
 
-.momo-sponsor {
-}
-
 h3.gold {
     color: rgb(203, 175, 15);
     font-weight: bold;
@@ -472,6 +452,14 @@ h3.bronze {
   }
 }
 
+/* Hide desktop sidebar */
+@media (min-width: 767px) {
+  .hextra-sidebar-container {
+    display: none !important;
+  }
+}
+
+
 @media(max-width: 1024px) {
   .home-hero {
     font-size: 1.8rem;
@@ -488,11 +476,22 @@ h3.bronze {
   }
 }
 
-@media(max-width: 768px) {
+@media(min-width: 768px) {
+  .hextra-sidebar-container {
+    display: none;
+  }
+}
+
+@media(max-width: 767px) {
   .momo-logo-image {
     margin-left: 0rem;
   }
   .rainbowlogo { height: 150px; }
+
+  .hextra-sidebar-container {
+    display: block !important;
+  }
+
   .home-hero {
     font-size: 1.5rem;
 
