@@ -452,7 +452,7 @@ h3.bronze {
 }
 
 .hextra-footer {
-  background-color: #2f2f44 !important;
+  background: linear-gradient(50deg, #282841, #1a3e5f);
   line-height: 1.4rem;
 
   a:hover {
