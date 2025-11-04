@@ -127,7 +127,6 @@ a:hover {
   display: none;
 }
 
-
 .session-card {
   display: flex;
   flex-direction: column;
@@ -452,7 +451,7 @@ h3.bronze {
   }
 }
 
-footer {
+.hextra-footer {
   background-color: #2f2f44 !important;
   line-height: 1.4rem;
 
@@ -461,16 +460,21 @@ footer {
   }
 }
 
-footer  h3 {
+.hextra-footer h3 {
   color: #d4d4d4 !important;
   font-size: 0.85rem !important;
   font-weight: 700;
   padding-bottom: 0.5rem;
 }
 
-footer p {
+.hextra-footer p {
   font-size: 0.85rem !important;
   color: #bbb !important;
+}
+
+.hextra-custom-footer {
+  max-width: 70rem;
+  margin: 0 auto;
 }
 
 /* Hide desktop sidebar */
