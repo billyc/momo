@@ -7,7 +7,7 @@ excludeSearch: true
 
 ![MoMo](/assets/images/JustMomo-trimmed.png)
 
-The **Modeling Mobility Conference** is the premier forum for professionals working with travel models, transportation data, and quantitative analysis.
+The <span style="font-weight: 700">Modeling Mobility Conference</span> is the premier forum for professionals working with travel models, transportation data, and quantitative analysis.
 
 </div>
 
