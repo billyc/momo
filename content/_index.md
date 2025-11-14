@@ -3,46 +3,22 @@ toc: false
 excludeSearch: true
 ---
 
-<div class="home-hero">
-
-![MoMo](/assets/images/JustMomo-trimmed.png)
-
-The <span style="font-weight: 700">Modeling Mobility Conference</span> is the premier forum for professionals working with travel models, transportation data, and quantitative analysis.
-
+<div class="momo-tagline">
+<p>the modeling mobility conference is the premier forum for professionals working with travel models, transportation data, and quantitative analysis.</p>
 </div>
 
-<div class="front-page-col">
-<div class="colorblurb" style="background-color: salmon">
-
-### Welcome to MoMo!
-
-MoMo emphasizes advancing analytical support for real-world transportation decisions and fostering a strong community through interactive workshops, sessions, and face-to-face networking opportunities.
-
-🚀 add cute graphic here! 🚀
-
-</div>
-
-<div class="home-past-conferences">
-
-### Past Conferences
-
-Agendas, speaker lists, and presentations are here ⬇️
-
-{{< conferencelist >}}
-
-</div>
-</div>
+{{< callouts >}}
 
 <br/>
 <br/>
 
-# New and noteworthy
+# new and noteworthy
 
 {{< recentposts 3 >}}
 
 <br/>
 <br/>
 
-# To learn more
+# to learn more
 
-For more information...
+To learn more about whats next for momo, sign-up for the newsletter and continue to follow this webpage.

@@ -12,18 +12,26 @@
 */
 
 :root {
-  --hextra-max-page-width: {{ $maxPageWidth }};
-  --hextra-max-navbar-width: {{ $maxNavbarWidth }};
-  --hextra-max-footer-width: {{ $maxFooterWidth }};
+  --hextra-max-page-width: 100%; /* {{ $maxPageWidth }}; */
+  --hextra-max-navbar-width: 90rem; /* {{ $maxNavbarWidth }}; */
+  --hextra-max-footer-width: 50rem; /* {{ $maxFooterWidth }}; */
   --momo-blue-1: #83cae6;
   --momo-blue-2: #219ebc;
   --momo-blue-3: #023047;
   --momo-orange-1: #ffb703;
   --momo-orange-2: #fb8500;
+
+  --momo-x-grey-1: #d3d9d4;
+  --momo-x-grey-2: #748d92;
+  --momo-x-grey-3: #2f3944;
+  --momo-x-grey-4: #212a31;
+  --momo-x-blue-1: #144e66;
+  --momo-x-red-1: #e8495f;
+
 }
 
 .hextra-max-page-width {
-  max-width: var(--hextra-max-page-width);
+  max-width: 100%; /* var(--hextra-max-page-width); */
 }
 
 .hextra-max-navbar-width {

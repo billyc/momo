@@ -1,0 +1,17 @@
+{{ $boxes := index site.Data.callouts }}
+
+<div class="conference-cards">
+
+{{ range $boxes }}
+
+  {{ $img := resources.Get .image }}
+  {{ $thumb := $img.Fit "400x300" }}
+
+  <a class="conference-card" href="{{ .url }}">
+    <img src="{{ $thumb.RelPermalink }}">
+    <p>{{ .title }}</p>
+  </a>
+
+{{ end }}
+
+</div>

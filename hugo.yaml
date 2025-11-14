@@ -20,16 +20,16 @@ markup:
 
 menu:
   main:
-    - name: About MoMo
+    - name: about momo
       pageRef: /about
       weight: 1
-    - name: MoMo 2025
+    - name: momo 2025
       pageRef: /2025/
       weight: 2
     # - name: News
     #   pageRef: /news
     #   weight: 2
-    - name: Zephyr↗
+    - name: zephyr↗
       url: 'https://zephyrtransport.org'
       weight: 3
     - name: Search
