@@ -3,7 +3,7 @@
   <article class="hx:w-full hx:break-words hx:flex hx:min-h-[calc(100vh-var(--navbar-height))] hx:min-w-0 hx:justify-center hx:pb-8 hx:pr-[calc(env(safe-area-inset-right)-1.5rem)]">
     <main class="hx:w-full hx:min-w-0 hx:max-w-6xl hx:px-6 hx:pt-4 hx:md:px-12">
 
-      <a href="../..">⬅️ Back to agenda summary</a>
+      <a href="../..">⬅️ Back to agenda</a>
       <!-- {{ partial "breadcrumb.html" (dict "page" . "enable" true) }} -->
         <div class="content">
 
@@ -69,7 +69,7 @@
 {{ if gt (len .Params.subs) 0 }}
 <b>{{len .Params.subs}} Sub-sessions:</b>
 {{ range .Params.subs }}
-<div class="sub-session session-details">
+<div class="sub-session session-details agenda-single-subsession">
   <div class="sub-title" style="color: #3434af; font-weight: bold; font-size: 18px;">{{ .SessionTitle }}</div>
 
   {{ if gt (len .Presentations) 0 }}
@@ -103,7 +103,6 @@
 {{ end }}
 
          </div>
-        <div class="hx:mt-16"></div>
     </main>
   </article>
 </div>

@@ -126,7 +126,7 @@ a:hover {
   display: flex;
   flex-direction: column;
   /* border: 1px solid #ddd; */
-  border-left: 4px solid var(--momo-x-blue-1);  /* #578ef5; */
+  border-left: 2px solid var(--momo-x-blue-1);  /* #578ef5; */
   margin-top: 2rem;
   padding: 1rem 1rem;
   color: #444;
@@ -520,12 +520,113 @@ footer {
     display: block !important;
   }
 
-  .home-hero {
-    font-size: 1.5rem;
+  .momo-hero {
+    padding: 2rem;
+    height: unset;
+
+    p { padding: 0; }
+  }
+
+  .momo-tagline {
+    margin-top: 1rem;
+    font-size: 1.3rem;
+    padding: 1rem;
+    p { line-height: 1.7rem !important; }
+  }
+
+  .conference-cards {
+    grid-template-columns: 1fr;
+  }
+
+  .hextra-custom-footer {
+    padding: 0 0.25rem;
+  }
+
+  .conference-card {
+    max-width: 100%;
 
     p {
-      line-height: 2rem !important;
-      margin: 1.5rem 0 0 0;
+      text-align: center;
+      margin: auto 0 0 0;
+      padding: 6px 0;
+      filter: none;
+      background-color: var(--momo-x-grey-1);
+      font-size: 1rem;
+      color: var(--momo-x-grey-3);
+    }
+
+    img {
+      height: 200px;
+    }
+  }
+
+  main {
+    padding: 0 0.75rem;
+    font-size: 1rem;
+  }
+
+  .conf-section-picker {
+    border-bottom: none;
+  }
+
+  .btn-conf-button1 {
+    padding: 4px 5px;
+    margin-right: 1px;
+  }
+
+  .speaker-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(90px, 1fr));
+    gap: 0.5rem;
+    margin-top: 2rem;
+  }
+
+  .speaker-card {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    text-decoration: none;
+    background: white;
+    p { font-size: 0.75rem !important; }
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+
+  .speaker-info {
+    padding: 0.25rem 0.25rem;
+    font-size: 0.5rem !important;
+    h3 { font-size: 0.9rem !important; }
+    line-height: 0.6rem;
+  }
+  .session-people {
+     grid-template-columns: repeat(auto-fill, minmax(60px, 1fr));
+  }
+  .person-mini-card {
+    font-size: 0.8rem;
+  }
+  .sub-session {
+    padding-left: 0;
+    font-size: 0.9rem;
+    line-height: 1.2rem;
+    a { margin: 2px 0;}
+  }
+  .gold-sponsors {
+    flex-direction: column;
+    margin: 0 0;
+    padding: 0 0;
+    gap: 0;
+  }
+  .gallery {
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)) !important;
+  }
+  .agenda-single-subsession {
+    margin-left: -4px;
+    border-left: 2px solid var(--momo-x-blue-1);
+    padding-left: 0.5rem !important;
+    /* line-height: 1rem; */
+
+    .sub-title {
+      font-size: 0.9rem !important;
+      margin-bottom: 0.25rem;
     }
   }
 }

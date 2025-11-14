@@ -13,6 +13,6 @@ We welcome public and private sector practitioners, researchers, students, and a
 <div class="conf-section-picker">
 {{< confbutton "AGENDA" "../" >}}
 {{< confbutton "SPEAKERS" "" active >}}
-{{< confbutton "PHOTO GALLERY" "../gallery" >}}
+{{< confbutton "PHOTOS" "../gallery" >}}
 {{< confbutton "MOMOSTS" "../momosts" >}}
 </div>
