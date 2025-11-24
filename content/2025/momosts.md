@@ -6,9 +6,7 @@ layout: 'confpage'
 {{< rainbowlogo "/momo/assets/images/momo2025.png" >}}
 
 <br/>
-September 14-17, 2025, in Minneapolis, Minnesota at the beautiful McNamara Alumni Center on the University of Minnesota (Twin Cities) campus.
-
-We welcome public and private sector practitioners, researchers, students, and all involved in developing, analyzing, and applying transportation data and tools to connect, learn, share, and build lasting professional relationships.
+September 14-17, 2025, in Minneapolis, Minnesota at the McNamara Alumni Center of the University of Minnesota (Twin Cities).
 
 <div class="conf-section-picker">
 {{< confbutton "AGENDA" "../" >}}
@@ -17,7 +15,7 @@ We welcome public and private sector practitioners, researchers, students, and a
 {{< confbutton "MOMOSTS" "" active >}}
 </div>
 
-<br>
+![MoMost Awards](/assets/images/Momost_lightbackground_large.png)
 
 # MoMosts: The MoMo Awards
 

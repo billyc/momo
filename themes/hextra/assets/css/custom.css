@@ -68,7 +68,7 @@ a:hover {
   color: #888;
   margin: 0;
   margin-bottom: 0.5rem;
-  line-height: 1.1rem;
+  line-height: 1rem;
 
 }
 
@@ -176,6 +176,7 @@ a:hover {
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
   overflow: hidden;
+  line-height: 0.9rem;
 }
 
 .sub-session {
