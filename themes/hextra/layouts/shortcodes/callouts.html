@@ -5,10 +5,10 @@
 {{ range $boxes }}
 
   {{ $img := resources.Get .image }}
-  {{ $thumb := $img.Fit "400x300" }}
+  {{ $thumb := $img.Fit "800x600" }}
 
   <a class="conference-card" href="{{ .url }}">
-    <img src="{{ $thumb.RelPermalink }}">
+    <img src="{{ $img.RelPermalink }}">
     <p>{{ .title }}</p>
   </a>
 
