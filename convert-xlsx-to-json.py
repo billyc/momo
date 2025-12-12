@@ -36,7 +36,7 @@ for k, v in gid.items():
         df.sort_values(by="LastName", inplace=True)
 
         # attach headshot avatars
-        with open("static/assets/avatars/_avatars.yaml", "r") as file:
+        with open("assets/images/avatars/_avatars.yaml", "r") as file:
             lookup = yaml.safe_load(file)
             df["avatar"] = df["Name"].map(lookup["avatars"])
             df["title"] = df["Name"]

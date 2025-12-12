@@ -11,9 +11,12 @@
 
           <div class="speaker-grid">
              {{ range $index, $speaker := .Site.Data.speakers }}
+             {{ $imagepath := printf "%s/%s" "images/avatars" $speaker.avatar }}
+             {{ $avatar := resources.Get $imagepath }}
+             {{ $thumb := $avatar.Fit "300x300" }}
                <a class="speaker-card" href="./{{ $index }}/">
                  <div class="speaker-image">
-                   <img src="../../assets/avatars/{{ $speaker.avatar }}" alt="">
+                   <img src="{{ $thumb.RelPermalink }}" alt="">
                  </div>
                  <div class="speaker-info">
                    <h3 class="speaker-name">{{ $speaker.Name }}</h3>

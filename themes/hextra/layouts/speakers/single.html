@@ -4,6 +4,10 @@
 {{ $sp := index .Site.Data.speakers $index }}
 {{ $splookup := index .Site.Data.speakerlookup $sp.Name }}
 
+{{ $avatarpath := printf "%s/%s" "images/avatars" $sp.avatar }}
+{{ $avatar := resources.Get $avatarpath }}
+{{ $thumb := $avatar.Fit "500x500" }}
+
 <div class='hx:mx-auto hx:flex hextra-max-page-width'>
   <!-- {{ partial "sidebar.html" (dict "context" .) }} -->
   {{ partial "toc.html" . }}
@@ -13,7 +17,7 @@
         {{ partial "breadcrumb.html" (dict "page" . "enable" true) }}
         <div class="content">
          {{ if $sp }}
-          <img width="250" src="../../../assets/avatars/{{ $sp.avatar }}" alt="">
+          <img width="300" src="{{$thumb.RelPermalink}}" alt="{{$sp.Name}}">
           <div style="text-align: center">
             <h1>{{ $sp.Name }}</h1>
             <p><strong>{{ $sp.Position }}</strong></p>
