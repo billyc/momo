@@ -18,9 +18,3 @@ Because a group of volunteers cannot sign contracts, book conference spaces and 
 The 2025 MoMo Theme is **CONNECT!**
 
 MoMo25: Connect! celebrates the power of connection in transportation—linking people, goods, and ideas. As professionals, students, mentors, colleagues, and friends, we come together to share insights, learn from each other, and strengthen our collective practice. Together, we’ll explore how transportation can both empower and challenge communities, and work toward solutions that support meaningful connections for all.
-
-Upon learning in the mid-COVID years that TRB would no longer commit to sponsoring specific conferences in the future, a few ‘previous conference volunteers’ were concerned that these conferences might not exist moving forward. They sought to work with TRB to try to find an arrangement that might fit within TRB’s re-organization and objectives but were unable to reach a consensus. It appeared to them that the best way forward was to find another organization that would be willing to take on the financial and legal obligations for a conference – a sponsorship role that had previously been filled by TRB – and who could commit to a regular conference cycle.
-
-They were looking specifically for non-profit, transportation-specific organizations, and Zephyr expressed interest in taking on the Sponsor role. Since committing to sponsoring the MoMo conference, the Zephyr Board of Directors has taken a hands-off approach, including not explicitly influencing design of the conference themes, program, or soliciting volunteers for the planning committee – these tasks have been driven primarily by the all-volunteer Conference Planning Committee.
-
-The vision is that moving forward, the Modeling Mobility Conference will be seen as a vital _complement_ to other transportation-related conferences put on by TRB and other organizations.

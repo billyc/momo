@@ -1,0 +1,9 @@
+{{- $banner := .Get 0 -}}
+{{- $alt := .Get 1 -}}
+{{- $img := resources.Get $banner -}}
+<!-- {{- $resized := $img.Resize "1280x" -}} -->
+
+<div class="image-conf-splash">
+  <img src="{{ $img.RelPermalink }}" alt="{{ $alt }}">
+  <p>{{ $alt }} </p>
+</div>

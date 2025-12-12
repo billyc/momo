@@ -3,10 +3,7 @@ title: 'MoMosts: The MoMo Awards'
 layout: 'confpage'
 ---
 
-{{< rainbowlogo "/momo/assets/images/momo2025.png" >}}
-
-<br/>
-September 14-17, 2025, in Minneapolis, Minnesota at the McNamara Alumni Center of the University of Minnesota (Twin Cities).
+{{< bannerimage "images/Minneapolis_notext.jpg" "momo 2025: minneapolis" >}}
 
 <div class="conf-section-picker">
 {{< confbutton "AGENDA" "../" >}}
@@ -14,6 +11,9 @@ September 14-17, 2025, in Minneapolis, Minnesota at the McNamara Alumni Center o
 {{< confbutton "PHOTOS" "../gallery" >}}
 {{< confbutton "MOMOSTS" "" active >}}
 </div>
+
+<br/>
+September 14-17, 2025, in Minneapolis, Minnesota at the McNamara Alumni Center of the University of Minnesota (Twin Cities).
 
 ![MoMost Awards](/assets/images/Momost_lightbackground_large.png)
 
