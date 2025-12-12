@@ -17,9 +17,12 @@
   {{ if gt (len .Params.RoleModerator) 0 }}
   {{ range .Params.RoleModerator}}
   {{ $sp := index site.Data.speakerlookup . }}
+  {{ $face := printf "%s/%s" "images/avatars" $sp.avatar }}
+  {{ $faceimg := resources.Get $face }}
+  {{ $thumb := $faceimg.Fit "200x200" }}
   <a href="../../speakers/{{$sp.id}}">
   <div class="person-mini-card">
-  <img src="../../../assets/avatars/{{$sp.avatar}}" />
+  <img src="{{ $thumb.RelPermalink }}" />
   <b>{{ $sp.Name }}</b>
   <div style="opacity: 0.7;"> {{ $sp.Affiliation }}</div>
   </div>
@@ -30,9 +33,12 @@
   {{ if gt (len .Params.RoleDebater) 0 }}
   {{ range .Params.RoleDebater }}
   {{ $sp := index site.Data.speakerlookup . }}
+  {{ $face := printf "%s/%s" "images/avatars" $sp.avatar }}
+  {{ $faceimg := resources.Get $face }}
+  {{ $thumb := $faceimg.Fit "200x200" }}
   <a href="../../speakers/{{$sp.id}}">
   <div class="person-mini-card">
-  <img src="../../../assets/avatars/{{$sp.avatar}}" />
+  <img src="{{ $thumb.RelPermalink }}" />
   <b>{{ $sp.Name }}</b>
   <div style="opacity: 0.7;"> {{ $sp.Affiliation }}</div>
   </div>
@@ -43,9 +49,12 @@
   {{ if gt (len .Params.Speakers) 0 }}
   {{ range .Params.Speakers }}
   {{ $sp := index site.Data.speakerlookup . }}
+  {{ $face := printf "%s/%s" "images/avatars" $sp.avatar }}
+  {{ $faceimg := resources.Get $face }}
+  {{ $thumb := $faceimg.Fit "200x200" }}
   <a href="../../speakers/{{$sp.id}}">
   <div class="person-mini-card">
-  <img src="../../../assets/avatars/{{$sp.avatar}}" />
+  <img src="{{ $thumb.RelPermalink }}" />
   <b>{{ $sp.Name }}</b>
   <div style="opacity: 0.7;"> {{ $sp.Affiliation }}</div>
   </div>
@@ -84,9 +93,12 @@
   <div class="sub-speaker">
   {{range .Speakers}}
   {{ $sp := index site.Data.speakerlookup . }}
+  {{ $face := printf "%s/%s" "images/avatars" $sp.avatar }}
+  {{ $faceimg := resources.Get $face }}
+  {{ $thumb := $faceimg.Fit "200x200" }}
   <a href="../../speakers/{{$sp.id}}" style="color: #222 !important;">
     <div class="person-mini-card" >
-    <img src="../../../assets/avatars/{{$sp.avatar}}" />
+    <img src="{{ $thumb.RelPermalink }}" />
     <b>{{ $sp.Name }}</b>
     <div style="opacity: 0.7;"> {{ $sp.Affiliation }}</div>
     </div>
