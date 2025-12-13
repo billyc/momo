@@ -1,6 +1,6 @@
 # Hugo configuration file
 title: Modeling Mobility Conference
-baseURL: https://billyc.github.io/momo
+baseURL: https://ModelingMobility.org
 theme: hextra
 
 # import hextra as module
@@ -36,16 +36,6 @@ menu:
       weight: 4
       params:
         type: search
-    # - name: GitHub
-    #   weight: 5
-    #   url: "https://github.com/imfing/hextra-starter-template"
-    #   params:
-    #     icon: github
-    # - name: Twitter
-    #   weight: 6
-    #   url: 'https://twitter.com/'
-    #   params:
-    #     icon: x-twitter
 
 params:
   theme:
@@ -54,7 +44,7 @@ params:
 
   editURL:
     enable: false
-    base: 'https://github.com/imfing/hextra-starter-template/edit/main/content'
+    base: 'https://github.com/ZephrTransport/momo-website/edit/main/content'
 
   footer:
     displayCopyright: false

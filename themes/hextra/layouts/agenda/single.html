@@ -70,8 +70,8 @@
   {{range .Params.Presentations}}
   {{ $title := replaceRE ".*/" "" . }}
   {{ $ext := replaceRE `^\.` "" (path.Ext . ) }}
-  <div><a href="/momo/presentations/{{ . }}">{{ $title }}</a></div>
-  <div title="{{ . }}"><a class="sub-preso" href="/momo/presentations/{{ . }}">Get {{ $ext }}</a></div>
+  <div><a href="/presentations/{{ . }}">{{ $title }}</a></div>
+  <div title="{{ . }}"><a class="sub-preso" href="/presentations/{{ . }}">Get {{ $ext }}</a></div>
   {{end}}
   {{ end }}
 
@@ -84,7 +84,7 @@
   {{ if gt (len .Presentations) 0 }}
   {{range .Presentations}}
   {{ $ext := replaceRE `^\.` "" (path.Ext . ) }}
-  <div title="{{ . }}"><a class="sub-preso" href="/momo/presentations/{{ . }}">Get {{ $ext }}</a></div>
+  <div title="{{ . }}"><a class="sub-preso" href="/presentations/{{ . }}">Get {{ $ext }}</a></div>
   {{end}}
   {{ end }}
 

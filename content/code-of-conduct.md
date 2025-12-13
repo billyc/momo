@@ -1,9 +1,7 @@
 ---
-title: About MoMo
+title: "Modeling Mobility Conference: Code of Conduct"
 type: about
 ---
-
-# Code of Conduct
 
 **The Modeling Mobility Conference (MoMo) and the organizing Zephyr Foundation (Zephyr) are committed to fostering a safe, respectful, and inclusive environment for all participants.** We believe in open collaboration, the exchange of ideas, and the creation of high-quality, innovative work — all grounded in principles that guide our community and support the public good.
 

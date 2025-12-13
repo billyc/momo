@@ -12,33 +12,33 @@
   sponsors:
     gold:
       - label: Cambridge Systematics
-        logo: /momo/assets/images/2025/cs.png
+        logo: /assets/images/2025/cs.png
         url: https://camsys.com
       - label: WSP Inc.
-        logo: /momo/assets/images/2025/wsp.png
+        logo: /assets/images/2025/wsp.png
         url: https://www.wsp.com/en-us/
       - label: RSG Inc.
-        logo: /momo/assets/images/2025/rsg.jpg
+        logo: /assets/images/2025/rsg.jpg
         url: https://rsginc.com
     silver:
       - label: Bentley Systems
-        logo: /momo/assets/images/2025/bentley.jpg
+        logo: /assets/images/2025/bentley.jpg
         url: https://bentley.com
       - label: PTV Group
-        logo: /momo/assets/images/2025/ptv.png
+        logo: /assets/images/2025/ptv.png
         url: https://ptvgroup.com/en
     bronze:
       - label: Insight Transportation Consulting
-        logo: /momo/assets/images/2025/insight.png
+        logo: /assets/images/2025/insight.png
         url: https://insighttransportconsulting.com
       - label: Conveyal
-        logo: /momo/assets/images/2025/conveyal.jpg
+        logo: /assets/images/2025/conveyal.jpg
         url: https://conveyal.com
       - label: SRF Consulting
-        logo: /momo/assets/images/2025/srf.jpg
+        logo: /assets/images/2025/srf.jpg
         url: https://srfconsulting.com
       - label: DKS Associates
-        logo: /momo/assets/images/2025/dks.jpg
+        logo: /assets/images/2025/dks.jpg
         url: https://dksassociates.com
 # - title: 'MoMo 2024: Arizona'
 #   link: '2024'
