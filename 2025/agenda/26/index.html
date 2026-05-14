@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr"><head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="robots" content="index, follow" />
+  
+
+<link rel="icon" href="/favicon.png" type="image/png" />
+
+
+<link fetchpriority="low" href="/site.webmanifest" rel="manifest" />
+<title>ABM Inner Workings – Modeling Mobility Conference</title>
+  <meta name="description" content="All Bout Minnesota(ABM) seems like more fun than models
+This session explores various aspects of activity-based travel demand models (ABMs). It covers advanced modeling techniques beyond traditional logit models, including optimization, machine learning, and discrete choice models, addressing their motivations, obstacles, and practical applications in travel demand forecasting. The session also delves into the critical role of modeling activity/travel behavior of individuals serving dependent household members, focusing on its impact on activity scheduling and intra-household interactions. Furthermore, it examines the importance of evaluating microsimulation variability in ABMs, comparing different statistical approaches (Monte-Carlo with uncontrolled/fixed random numbers and Random Utility Simulation with fixed seed) to understand their impact on model properties and sensitivity to input changes. Finally, the session presents a study on how public transport accessibility influences individual activity patterns, using real-world transit card data to provide empirical evidence for urban planning and transportation policy.
+" /><link rel="canonical" href="https://ModelingMobility.org/2025/agenda/26/" itemprop="url" />
+
+<meta property="og:title" content="ABM Inner Workings">
+<meta
+  property="og:description"
+  content="
+    &lt;p&gt;&lt;span style=&#34;font-size: 14pt;&#34;&gt;&lt;em&gt;&lt;strong&gt;All Bout Minnesota(ABM) seems like more fun than models&lt;/strong&gt;&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;This session explores various aspects of activity-based travel demand models (ABMs). It covers advanced modeling techniques beyond traditional logit models, including optimization, machine learning, and discrete choice models, addressing their motivations, obstacles, and practical applications in travel demand forecasting. The session also delves into the critical role of modeling activity/travel behavior of individuals serving dependent household members, focusing on its impact on activity scheduling and intra-household interactions. Furthermore, it examines the importance of evaluating microsimulation variability in ABMs, comparing different statistical approaches (Monte-Carlo with uncontrolled/fixed random numbers and Random Utility Simulation with fixed seed) to understand their impact on model properties and sensitivity to input changes. Finally, the session presents a study on how public transport accessibility influences individual activity patterns, using real-world transit card data to provide empirical evidence for urban planning and transportation policy.&lt;/p&gt;
+  ">
+<meta
+  property="og:type"
+  content="
+    article
+  ">
+<meta property="og:url" content="https://ModelingMobility.org/2025/agenda/26/"><meta property="article:section" content="2025">
+
+<meta
+  property="article:published_time"
+  content="2025-09-16T00:00:00+00:00">
+
+
+<meta
+  property="article:modified_time"
+  content="2025-09-16T00:00:00+00:00">
+
+
+
+  <meta itemprop="name" content="ABM Inner Workings">
+  <meta itemprop="description" content="All Bout Minnesota(ABM) seems like more fun than models
+This session explores various aspects of activity-based travel demand models (ABMs). It covers advanced modeling techniques beyond traditional logit models, including optimization, machine learning, and discrete choice models, addressing their motivations, obstacles, and practical applications in travel demand forecasting. The session also delves into the critical role of modeling activity/travel behavior of individuals serving dependent household members, focusing on its impact on activity scheduling and intra-household interactions. Furthermore, it examines the importance of evaluating microsimulation variability in ABMs, comparing different statistical approaches (Monte-Carlo with uncontrolled/fixed random numbers and Random Utility Simulation with fixed seed) to understand their impact on model properties and sensitivity to input changes. Finally, the session presents a study on how public transport accessibility influences individual activity patterns, using real-world transit card data to provide empirical evidence for urban planning and transportation policy.">
+  <meta itemprop="datePublished" content="2025-09-16T00:00:00+00:00">
+  <meta itemprop="dateModified" content="2025-09-16T00:00:00+00:00">
+  <meta itemprop="wordCount" content="1605">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="ABM Inner Workings">
+  <meta name="twitter:description" content="All Bout Minnesota(ABM) seems like more fun than models
+This session explores various aspects of activity-based travel demand models (ABMs). It covers advanced modeling techniques beyond traditional logit models, including optimization, machine learning, and discrete choice models, addressing their motivations, obstacles, and practical applications in travel demand forecasting. The session also delves into the critical role of modeling activity/travel behavior of individuals serving dependent household members, focusing on its impact on activity scheduling and intra-household interactions. Furthermore, it examines the importance of evaluating microsimulation variability in ABMs, comparing different statistical approaches (Monte-Carlo with uncontrolled/fixed random numbers and Random Utility Simulation with fixed seed) to understand their impact on model properties and sensitivity to input changes. Finally, the session presents a study on how public transport accessibility influences individual activity patterns, using real-world transit card data to provide empirical evidence for urban planning and transportation policy.">
+
+    <link rel="preload" href="/css/compiled/main.min.94f8c5f0c7114934254a94d4a2a0499b7779a80a9d64cd4d98f7e96af25284c4.css" as="style" integrity="sha256-lPjF8McRSTQlSpTUoqBJm3d5qAqdZM1NmPfpavJShMQ=" />
+    <link href="/css/compiled/main.min.94f8c5f0c7114934254a94d4a2a0499b7779a80a9d64cd4d98f7e96af25284c4.css" rel="stylesheet" integrity="sha256-lPjF8McRSTQlSpTUoqBJm3d5qAqdZM1NmPfpavJShMQ=" />
+
+  
+
+
+
+
+<script src="/js/main-head.min.2375b7265ea066ecb314226ce5ff17478453df5f350d34d830b3fc96fba21672.js" integrity="sha256-I3W3Jl6gZuyzFCJs5f8XR4RT3181DTTYMLP8lvuiFnI="></script>
+
+  
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+
+</head>
+<body><div class="hextra-nav-container hx:sticky hx:top-0 hx:z-20 hx:w-full hx:bg-transparent hx:print:hidden">
+  <div
+    class="hextra-nav-container-blur hx:pointer-events-none hx:absolute hx:z-[-1] hx:h-full hx:w-full hx:bg-white hx:dark:bg-dark hx:shadow-[0_2px_4px_rgba(0,0,0,.02),0_1px_0_rgba(0,0,0,.06)] hx:contrast-more:shadow-[0_0_0_1px_#000] hx:dark:shadow-[0_-1px_0_rgba(255,255,255,.1)_inset] hx:contrast-more:dark:shadow-[0_0_0_1px_#fff]"
+  ></div>
+
+  <nav class="hextra-max-navbar-width hx:mx-auto hx:flex hx:items-center hx:justify-end hx:gap-2 hx:h-16 hx:px-6">
+    <a class="hx:flex hx:items-center hx:hover:opacity-75 hx:ltr:mr-auto hx:rtl:ml-auto" href="/">
+    <img class="hx:mr-2 hx:block hx:dark:hidden momo-logo-image" src="/assets/images/JustMomo-trimmed.png" alt="Modeling Mobility Conference" height="20" width="150" />
+    <img class="hx:mr-2 hx:hidden hx:dark:block" src="/assets/images/JustMomo-trimmed.png" alt="Modeling Mobility Conference" height="20" width="150" />
+</a>
+<a
+  title=""
+  href="/about"
+  
+  class="hx:text-sm hx:contrast-more:text-gray-700 hx:contrast-more:dark:text-gray-100 hx:relative hx:-ml-2 hx:hidden hx:whitespace-nowrap hx:p-2 hx:md:inline-flex hx:items-center hx:gap-1 hx:text-gray-600 hx:hover:text-gray-800 hx:dark:text-gray-400 hx:dark:hover:text-gray-200"
+><span class="hx:text-center">about</span>
+</a><a
+  title=""
+  href="/2025/"
+  
+  class="hx:text-sm hx:contrast-more:text-gray-700 hx:contrast-more:dark:text-gray-100 hx:relative hx:-ml-2 hx:hidden hx:whitespace-nowrap hx:p-2 hx:md:inline-flex hx:items-center hx:gap-1 hx:font-medium"
+><span class="hx:text-center">momo 2025</span>
+</a><a
+  title=""
+  href="/2027"
+  
+  class="hx:text-sm hx:contrast-more:text-gray-700 hx:contrast-more:dark:text-gray-100 hx:relative hx:-ml-2 hx:hidden hx:whitespace-nowrap hx:p-2 hx:md:inline-flex hx:items-center hx:gap-1 hx:text-gray-600 hx:hover:text-gray-800 hx:dark:text-gray-400 hx:dark:hover:text-gray-200"
+><span class="hx:text-center"><span style="border-radius: 5px;color:white;font-weight:bold;background-color: #20BEC7;padding: 2px 6px">momo 2027<span></span>
+</a><a
+  title=""
+  href="https://zephyrtransport.org"
+  target="_blank" rel="noreferrer"
+  class="hx:text-sm hx:contrast-more:text-gray-700 hx:contrast-more:dark:text-gray-100 hx:relative hx:-ml-2 hx:hidden hx:whitespace-nowrap hx:p-2 hx:md:inline-flex hx:items-center hx:gap-1 hx:text-gray-600 hx:hover:text-gray-800 hx:dark:text-gray-400 hx:dark:hover:text-gray-200"
+><span class="hx:text-center">zephyr↗</span>
+</a><div class="hextra-search-wrapper hx:relative hx:md:w-64">
+  <div class="hx:relative hx:flex hx:items-center hx:text-gray-900 hx:contrast-more:text-gray-800 hx:dark:text-gray-300 hx:contrast-more:dark:text-gray-300">
+    <input
+      placeholder="search..."
+      class="hextra-search-input hx:focus:hextra-focus hx:block hx:w-full hx:appearance-none hx:rounded-lg hx:px-3 hx:py-2 hx:transition-colors hx:text-base hx:leading-tight hx:md:text-sm hx:bg-black/[.05] hx:dark:bg-gray-50/10 hx:focus:bg-white hx:dark:focus:bg-dark hx:placeholder:text-gray-500 hx:dark:placeholder:text-gray-400 hx:contrast-more:border hx:contrast-more:border-current"
+      type="search"
+      value=""
+      spellcheck="false"
+    />
+    <kbd
+      class="hx:absolute hx:my-1.5 hx:select-none hx:ltr:right-1.5 hx:rtl:left-1.5 hx:h-5 hx:rounded-sm hx:bg-white hx:px-1.5 hx:font-mono hx:text-[10px] hx:font-medium hx:text-gray-500 hx:border hx:border-gray-200 hx:dark:border-gray-100/20 hx:dark:bg-dark/50 hx:contrast-more:border-current hx:contrast-more:text-current hx:contrast-more:dark:border-current hx:items-center hx:gap-1 hx:transition-opacity hx:pointer-events-none hx:hidden hx:sm:flex"
+    >
+      CTRL K
+    </kbd>
+  </div>
+
+  <div>
+    <ul
+      class="hextra-search-results hextra-scrollbar hx:hidden hx:border hx:border-gray-200 hx:bg-white hx:text-gray-100 hx:dark:border-neutral-800 hx:dark:bg-neutral-900 hx:absolute hx:top-full hx:z-20 hx:mt-2 hx:overflow-auto hx:overscroll-contain hx:rounded-xl hx:py-2.5 hx:shadow-xl hx:max-h-[min(calc(50vh-11rem-env(safe-area-inset-bottom)),400px)] hx:md:max-h-[min(calc(100vh-5rem-env(safe-area-inset-bottom)),400px)] hx:inset-x-0 hx:ltr:md:left-auto hx:rtl:md:right-auto hx:contrast-more:border hx:contrast-more:border-gray-900 hx:contrast-more:dark:border-gray-50 hx:w-screen hx:min-h-[100px] hx:max-w-[min(calc(100vw-2rem),calc(100%+20rem))]"
+      style="transition: max-height 0.2s ease 0s;"
+    ></ul>
+  </div>
+</div>
+<button type="button" aria-label="Menu" class="hextra-hamburger-menu hx:cursor-pointer hx:-mr-2 hx:rounded-sm hx:p-2 hx:active:bg-gray-400/20 hx:md:hidden"><svg height=24 fill="none" viewBox="0 0 24 24" stroke="currentColor"><g><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 8H20"></path></g><g><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16H20"></path></g></svg></button>
+  </nav>
+</div>
+
+<div class='hx:mx-auto hx:flex hextra-max-page-width'>
+  <article class="hx:w-full hx:break-words hx:flex hx:min-h-[calc(100vh-var(--navbar-height))] hx:min-w-0 hx:justify-center hx:pb-8 hx:pr-[calc(env(safe-area-inset-right)-1.5rem)]">
+    <main class="hx:w-full hx:min-w-0 hx:max-w-6xl hx:px-6 hx:pt-4 hx:md:px-12">
+
+      <a href="../..">⬅️ Back to agenda</a>
+      
+        <div class="content">
+
+          <h3>ABM Inner Workings</h3>
+          <p>September 16, 2025</p>
+
+          08:30 AM – 10:00 AM at Ski-U-Mah</p>
+
+  <div class="session-people">
+
+  
+  
+  
+  
+  
+  
+  <a href="../../speakers/178">
+  <div class="person-mini-card">
+  <img src="/images/avatars/Lisa%20Zorn_hu_28164339de384a61.jpeg" />
+  <b>Lisa Zorn</b>
+  <div style="opacity: 0.7;"> Metropolitan Transportation Commission</div>
+  </div>
+  </a>
+  
+  
+
+  
+
+  
+
+  </div>
+
+  <p><p><span style="font-size: 14pt;"><em><strong>All Bout Minnesota(ABM) seems like more fun than models</strong></em></span></p><p>This session explores various aspects of activity-based travel demand models (ABMs). It covers advanced modeling techniques beyond traditional logit models, including optimization, machine learning, and discrete choice models, addressing their motivations, obstacles, and practical applications in travel demand forecasting. The session also delves into the critical role of modeling activity/travel behavior of individuals serving dependent household members, focusing on its impact on activity scheduling and intra-household interactions. Furthermore, it examines the importance of evaluating microsimulation variability in ABMs, comparing different statistical approaches (Monte-Carlo with uncontrolled/fixed random numbers and Random Utility Simulation with fixed seed) to understand their impact on model properties and sensitivity to input changes. Finally, the session presents a study on how public transport accessibility influences individual activity patterns, using real-world transit card data to provide empirical evidence for urban planning and transportation policy.</p></p>
+
+  
+
+
+<b>5 Sub-sessions:</b>
+
+<div class="sub-session session-details agenda-single-subsession">
+  <div class="sub-title" style="color: #3434af; font-weight: bold; font-size: 18px;">Extending the toolbox of travel modeling in practice</div>
+
+  
+  
+  
+  <div title="./2025/./Tuesday/8_30-10_00/ABM Inner Workings/1_Peter_Vovsha_Extending_toolbox_tarvel_modeling_practice_30slides.pdf"><a class="sub-preso" href="/presentations/./2025/./Tuesday/8_30-10_00/ABM%20Inner%20Workings/1_Peter_Vovsha_Extending_toolbox_tarvel_modeling_practice_30slides.pdf">Get pdf</a></div>
+  
+  
+
+  <div class="sub-speaker"></div>
+  
+  <div class="sub-speaker">
+  
+  
+  
+  
+  
+  <a href="../../speakers/163" style="color: #222 !important;">
+    <div class="person-mini-card" >
+    <img src="/images/avatars/Peter%20Vovsha_hu_84c78f6064256c53.jpeg" />
+    <b>Peter Vovsha</b>
+    <div style="opacity: 0.7;"> Bentley</div>
+    </div>
+  </a>
+  
+  </div>
+  
+
+  <div class="session-desc" style="line-clamp: unset; -webkit-line-clamp: unset;"><p class="MsoNormal">Activity-Based Models (ABMs) in practice mostly rely on traditional logit models to generate individual travel choices.<span style="mso-spacerun: yes;">&nbsp; </span>However, with the growing number of choice dimensions and realistic representation of constraints and interactions associated with individual travel behavior it becomes important to extend the toolbox.<span style="mso-spacerun: yes;">&nbsp; </span>While multiple promising directions have been identified in academic research (and some stand-alone examples in practice) the mainstream of ABM industry proved to be quite reluctant to adopt new methods.<span style="mso-spacerun: yes;">&nbsp; </span><span style="mso-spacerun: yes;">&nbsp;</span></p><p class="MsoNormal">The paper overviews several extensions beyond the standard logit models with the corresponding motivation and obstacles for adoption:<span style="mso-spacerun: yes;">&nbsp;&nbsp; </span><span style="mso-spacerun: yes;">&nbsp;&nbsp;</span><span style="mso-spacerun: yes;">&nbsp;&nbsp;</span><span style="mso-spacerun: yes;">&nbsp;&nbsp;</span></p><p class="MsoListParagraphCxSpFirst" style="text-indent: -.25in; mso-list: l0 level1 lfo1;"><!-- [if !supportLists]--><span style="font-family: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol;"><span style="mso-list: Ignore;">&middot;<span style="font: 7.0pt 'Times New Roman';">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><!--[endif]-->Optimization methods such as Liner Programming proved practical for coordinated scheduling of individual activities and travel in continuous time (essential for ABM integration with Dynamic Traffic Assignment) and resource allocation problems such as intrahousehold car allocation.<span style="mso-spacerun: yes;">&nbsp; </span>They, however, require special methods of calibration.<span style="mso-spacerun: yes;">&nbsp;&nbsp; </span><span style="mso-spacerun: yes;">&nbsp;</span></p><p class="MsoListParagraphCxSpMiddle" style="text-indent: -.25in; mso-list: l0 level1 lfo1;"><!-- [if !supportLists]--><span style="font-family: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol;"><span style="mso-list: Ignore;">&middot;<span style="font: 7.0pt 'Times New Roman';">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><!--[endif]-->Machine Learning (ML) / Artificial Intelligence (AI) represent a potential replacement for logit models, but this is hampered by complex elasticities and non-transparency.<span style="mso-spacerun: yes;">&nbsp; </span>Some of these methods proved to be very useful as a behavioral analysis tool.<span style="mso-spacerun: yes;">&nbsp; </span>Probably the most appealing practical direction was borrowing the ML backward propagation methods for travel model system calibration to match traffic/transit counts and/or &lsquo;big data&rsquo;.<span style="mso-spacerun: yes;">&nbsp; </span></p><p class="MsoListParagraphCxSpMiddle" style="text-indent: -.25in; mso-list: l0 level1 lfo1;"><!-- [if !supportLists]--><span style="font-family: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol;"><span style="mso-list: Ignore;">&middot;<span style="font: 7.0pt 'Times New Roman';">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><!--[endif]-->Multiple Discrete-Continuous Extreme Value (MDCEV) class of models allows for an integrated generation of individual activity participation under the time/budget constraints without a combinatorial explosion pertinent to discrete choice models.<span style="mso-spacerun: yes;">&nbsp; </span>Adoption of MDCEV in mainstream ABM until recently was hampered by a complex iterative application algorithm and somewhat incompatible ABM framework that operates with discrete activity/travel episodes rather than continuous time allocation.<span style="mso-spacerun: yes;">&nbsp; </span></p><p class="MsoListParagraphCxSpMiddle" style="text-indent: -.25in; mso-list: l0 level1 lfo1;"><!-- [if !supportLists]--><span style="font-family: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol;"><span style="mso-list: Ignore;">&middot;<span style="font: 7.0pt 'Times New Roman';">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><!--[endif]-->Mixed logit models with random coefficients. While very difficult in estimation with real-world data due to the statistical identification problems, some particular examples demonstrated an important advantage of these methods for accounting of distributed Value 0f Time (VOT) for toll road forecasting.<span style="mso-spacerun: yes;">&nbsp; </span>Replacing a distributed individual VOT with crude average values results in systematic biases in traffic and revenue forecasting.</p><p class="MsoListParagraphCxSpMiddle" style="text-indent: -.25in; mso-list: l0 level1 lfo1;"><!-- [if !supportLists]--><span style="font-family: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol;"><span style="mso-list: Ignore;">&middot;<span style="font: 7.0pt 'Times New Roman';">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><!--[endif]-->Latent class discrete choice models. <span style="mso-spacerun: yes;">&nbsp;</span>While quite complex in model estimation these models offer unique insights into the hidden segmentation of individuals. The main stumbling block in practice proved to be policy sensitivity of the class membership component that in many cases resulted in a very constrained model response. <span style="mso-spacerun: yes;">&nbsp;</span></p><p class="MsoListParagraphCxSpLast" style="text-indent: -.25in; mso-list: l0 level1 lfo1;"><!-- [if !supportLists]--><span style="font-family: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol;"><span style="mso-list: Ignore;">&middot;<span style="font: 7.0pt 'Times New Roman';">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><!--[endif]-->Incorporating travel time reliability.<span style="mso-spacerun: yes;">&nbsp; </span>Very behaviorally appealing methods were suggested such as &ldquo;schedule delay&rdquo; concept.<span style="mso-spacerun: yes;">&nbsp; </span>However, their adoption in forecasting models proved to be problematic because of the required input such as preferred arrival time that is essentially unobserved. <span style="mso-spacerun: yes;">&nbsp;</span></p><p class="MsoNormal">We discuss how to boost the adoption of these promising methods in mainstream ABMs in practice.<span style="mso-spacerun: yes;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></p></div>
+
+  
+</div>
+
+<div class="sub-session session-details agenda-single-subsession">
+  <div class="sub-title" style="color: #3434af; font-weight: bold; font-size: 18px;">Analysis of dependent-serving activity/travel behavior</div>
+
+  
+  
+  
+  <div title="./2025/./Tuesday/8_30-10_00/ABM Inner Workings/2_Usman_Ahmed_Analysis of Dependent Serving Activity Behavior.pdf"><a class="sub-preso" href="/presentations/./2025/./Tuesday/8_30-10_00/ABM%20Inner%20Workings/2_Usman_Ahmed_Analysis%20of%20Dependent%20Serving%20Activity%20Behavior.pdf">Get pdf</a></div>
+  
+  
+
+  <div class="sub-speaker"></div>
+  
+  <div class="sub-speaker">
+  
+  
+  
+  
+  
+  <a href="../../speakers/2" style="color: #222 !important;">
+    <div class="person-mini-card" >
+    <img src="/images/avatars/Usman%20Ahmed_hu_8757309a4bcb2978.png" />
+    <b>Usman Ahmed</b>
+    <div style="opacity: 0.7;"> University of Tennessee</div>
+    </div>
+  </a>
+  
+  </div>
+  
+
+  <div class="session-desc" style="line-clamp: unset; -webkit-line-clamp: unset;"><p class="MsoNormal">The objective of this study is to analyze the activity/travel behavior of persons serving dependent members of a household. These interactions are important to incorporate in activity-based travel demand modeling because of their impact on activity scheduling and travel behavior. Activity generation and scheduling is one of the most critical and challenging components of activity-based travel models. The desire to fulfill activities generates travel demand. Activity scheduling is a function of activity type and intra-household interactions. Most of the activity/travel models focus on mandatory and discretionary activities. Mandatory activities include work and school activities. These activities are generally pre-planned with fixed locations. However, new emerging working models such as flexible work arrangements are also becoming popular. Discretionary activities include maintenance activities such as shopping and visiting a doctor; and leisure activities such as visiting friends and participating in sports. These activities have flexible schedules and change from day-to-day. Most activity/travel models focus on modeling mandatory and discretionary activities. A third category of activities which is often neglected in modeling is helping or serving a dependent household member. We use the term &lsquo;serve dependent activity&rsquo; for these types of activities.</p><p class="MsoNormal">A dependent is a person who is unable to undertake certain activities unassisted and/or cannot be left unattended due to factors such as age and disability. In some cases, decisions concerning dependents&rsquo; activity participation are also taken by independent family members. For example, in the case of young children, parents decide their activity participation (join a play group, enroll in daycare, etc.). In this study, we mainly focus on the activity behavior of young children as a critical use case. These activities involve supervision, chauffeuring, and joint participation in activities (e.g., visiting a doctor). These activities are important to study because they largely impact the activity scheduling of independent household members and involve complex household interactions. Some serve dependent activities which are pre-planned can also be classified as mandatory activities. For example, activities such as daycare and evening school sports class have fixed schedules and locations. Supervision of serve dependents at home also impacts participation in other types of activities. Household members interact with each other to manage serve dependent activities. In this paper, we present activity behavior of serve dependents and its related household interactions. We also present a framework to model these activities and household interactions in an activity-based travel demand model i.e., Toronto Area Scheduling Model for Household Agents (TASHA) developed for the Toronto Area in Canada.</p></div>
+
+  
+</div>
+
+<div class="sub-session session-details agenda-single-subsession">
+  <div class="sub-title" style="color: #3434af; font-weight: bold; font-size: 18px;">Rolling the Dice with ABM - A systematic study of microsimulation variability</div>
+
+  
+  
+  
+  <div title="./2025/./Tuesday/8_30-10_00/ABM Inner Workings/3_Gaurav_Vyas_Edmonton_rolling_dice_with_ABM.pdf"><a class="sub-preso" href="/presentations/./2025/./Tuesday/8_30-10_00/ABM%20Inner%20Workings/3_Gaurav_Vyas_Edmonton_rolling_dice_with_ABM.pdf">Get pdf</a></div>
+  
+  
+
+  <div class="sub-speaker"></div>
+  
+  <div class="sub-speaker">
+  
+  
+  
+  
+  
+  <a href="../../speakers/164" style="color: #222 !important;">
+    <div class="person-mini-card" >
+    <img src="/images/avatars/Gaurav%20Vyas_hu_7dfadc7974e4b36e.jpeg" />
+    <b>Gaurav Vyas</b>
+    <div style="opacity: 0.7;"> Bentley</div>
+    </div>
+  </a>
+  
+  </div>
+  
+
+  <div class="session-desc" style="line-clamp: unset; -webkit-line-clamp: unset;"><p class="MsoNormal">Activity-based models (ABMs) in practice involve random numbers to convert probabilistic outcomes of the logit choice models into discrete individual choices.<span style="mso-spacerun: yes;">&nbsp; </span>It is important to evaluate the model properties with respect to the microsimulation variability and its impact on the sensitivity due to changes in model inputs should be well understood.</p><p class="MsoNormal">Microsimulation variability can be better understood by evaluating aggregate and disaggregate model elasticities against several important properties:</p><ul><li class="MsoNormal"><u>Repeatability</u> of the results with the same inputs.<span style="mso-spacerun: yes;">&nbsp; </span></li><li class="MsoNormal"><u>Continuity</u> across the range of inputs from large differences to small differences.<span style="mso-spacerun: yes;">&nbsp; </span>At the aggregate level, continuity means that small changes in inputs result in small changes in aggregate shares.<span style="mso-spacerun: yes;">&nbsp; </span>At the disaggregate level, continuity means that small changes in inputs result in a small number of individual switches.</li><li class="MsoNormal"><u>Monotonicity</u> across the range of scenario inputs. <span style="mso-spacerun: yes;">&nbsp;&nbsp;&nbsp;</span><span style="mso-spacerun: yes;">&nbsp;</span></li><li class="MsoNormal"><u>Comparability</u> that requires a stable difference between two scenarios across different random seeds.</li></ul><p class="MsoNormal">The properties exhibited by various microsimulation approaches will differ in important ways. Here, we provide a systematic evaluation of the detailed scenario responses resulting from application of three different statistical options used in choice modeling:</p><ul><li class="MsoNormal">Monte-Carlo with Uncontrolled Random Numbers (MCR).</li><li class="MsoNormal">Monte-Carlo with a fixed seed for each individual choice (MCF).</li><li class="MsoNormal">Random utility simulation with fixed seed (RUF) for each individual and choice alternative that are generated in advance and kept fixed across compared scenarios.</li></ul><p class="MsoNormal">The insights are first illustrated for a single choice dimension (one sub-model), and then for a sequence of interlinked sub-models. The results indicate that only RUF can ensure all desired properties (at both aggregate and disaggregate level) in the context of one sub-model while MCF can ensure only some of them (primarily at the aggregate level). Results indicate that MCR is the most volatile method that may violate any of the desired properties.<span style="mso-spacerun: yes;">&nbsp; </span></p><p class="MsoNormal">Differences between the three microsimulation methods might appear minimal at the aggregate level when the scale of the simulation (number of affected individuals) and magnitude of differences between scenarios are large.<span style="mso-spacerun: yes;">&nbsp; </span>However, these differences become more prominent when considered against smaller samples on scenarios with minor changes in inputs. In the context of a sequence of interlinked sub-models, RUF choice method results in the least number of irrelevant changes in the model results due to a transportation policy and hence is the most stable out of the three choice methods.</p><p class="MsoNormal">All microsimulations for this presentation are performed using the Regional Person Travel Model for Edmonton modelling region.</p></div>
+
+  
+</div>
+
+<div class="sub-session session-details agenda-single-subsession">
+  <div class="sub-title" style="color: #3434af; font-weight: bold; font-size: 18px;">Extending Data Models for Disaggregate Activity-Based Mobility Analysis</div>
+
+  
+  
+  
+  <div title="./2025/./Tuesday/8_30-10_00/ABM Inner Workings/4_Chetan_abm_data_integration.pdf"><a class="sub-preso" href="/presentations/./2025/./Tuesday/8_30-10_00/ABM%20Inner%20Workings/4_Chetan_abm_data_integration.pdf">Get pdf</a></div>
+  
+  
+
+  <div class="sub-speaker"></div>
+  
+  <div class="sub-speaker">
+  
+  
+  
+  
+  
+  <a href="../../speakers/74" style="color: #222 !important;">
+    <div class="person-mini-card" >
+    <img src="/images/avatars/Chetan%20Joshi_hu_868fef441fbb1e7a.jpeg" />
+    <b>Chetan Joshi</b>
+    <div style="opacity: 0.7;"> PTV Group</div>
+    </div>
+  </a>
+  
+  </div>
+  
+
+  <div class="session-desc" style="line-clamp: unset; -webkit-line-clamp: unset;"><p class="MsoNormal">This presentation introduces an extended data model designed to support disaggregate Activity-Based Models (ABMs), enabling enhanced analysis of individual travel behavior across diverse transportation modes. The model extensions facilitate detailed path tracing and user profiling, offering planners and researchers a powerful framework for multimodal mobility insights.</p><p class="MsoNormal">A generalized relational data structure connects daily activity plans&mdash;tours and trips&mdash;with spatial and modal attributes, supporting advanced select link analysis and multimodal tour representation. These enhancements enable person-level analytics, such as income and age distribution across auto, transit, and active modes.</p><p class="MsoNormal">Comparative applications using CT-RAMP, ActivitySim, and DaySim demonstrate the model&rsquo;s flexibility in profiling transit rider characteristics, evaluating resource access, and assessing equity impacts. By integrating ABM outputs with network modeling tools like Visum, the framework supports robust scenario testing and policy evaluation.</p><p class="MsoNormal">This work highlights the potential of enriched ABM data structures to inform equitable, data-driven transportation planning and investment strategies.</p></div>
+
+  
+</div>
+
+<div class="sub-session session-details agenda-single-subsession">
+  <div class="sub-title" style="color: #3434af; font-weight: bold; font-size: 18px;">Synergies Between Open Source and Proprietary Software</div>
+
+  
+  
+  
+  <div title="./2025/./Tuesday/8_30-10_00/ABM Inner Workings/5_Rohne_Synergies.pdf"><a class="sub-preso" href="/presentations/./2025/./Tuesday/8_30-10_00/ABM%20Inner%20Workings/5_Rohne_Synergies.pdf">Get pdf</a></div>
+  
+  
+
+  <div class="sub-speaker"></div>
+  
+  <div class="sub-speaker">
+  
+  
+  
+  
+  
+  <a href="../../speakers/13" style="color: #222 !important;">
+    <div class="person-mini-card" >
+    <img src="/images/avatars/Vince%20Bernardin_hu_70623cf756b426c5.jpeg" />
+    <b>Vince Bernardin</b>
+    <div style="opacity: 0.7;"> Caliper Corporation</div>
+    </div>
+  </a>
+  
+  
+  
+  
+  
+  <a href="../../speakers/126" style="color: #222 !important;">
+    <div class="person-mini-card" >
+    <img src="/images/avatars/Andrew%20Rohne_hu_293277789e461530.png" />
+    <b>Andrew Rohne</b>
+    <div style="opacity: 0.7;"> Caliper</div>
+    </div>
+  </a>
+  
+  </div>
+  
+
+  <div class="session-desc" style="line-clamp: unset; -webkit-line-clamp: unset;"></div>
+
+  
+</div>
+
+
+
+         </div>
+    </main>
+  </article>
+</div>
+
+
+      <footer class="hextra-footer hx:bg-gray-100 hx:pb-[env(safe-area-inset-bottom)] hx:dark:bg-neutral-900 hx:print:bg-transparent"><div style="max-width: 85rem; margin: 0 auto;" class="hextra-custom-footer hextra-max-footer-width hx:pl-[max(env(safe-area-inset-left),1.5rem)] hx:pr-[max(env(safe-area-inset-right),1.5rem)] hx:text-gray-600 hx:dark:text-gray-400"><div
+  style="display: flex;gap: 4rem; padding: 2rem 1rem 1rem 1rem;font-size: 0.9rem;"
+>
+
+
+<div style="display: flex;flex-direction:column;">
+ <h3>Modeling Mobility Conference</h3>
+<a href="/about">About MoMo</a>
+<a href="/about#contact-momo">Contact us</a>
+</div>
+
+<div style="display: flex;flex-direction:column;">
+ <h3>Legal</h3>
+<a href="https://zephyrtransport.org/terms-of-use/" target="_blank">Terms of use</a>
+<a href="https://zephyrtransport.org/privacy-policy/" target="_blank">Privacy policy</a>
+<a href="/code-of-conduct/">Code&nbsp;of&nbsp;conduct</a>
+</div>
+
+</div>
+
+
+
+<div style="display: flex;gap: 2rem; padding: 0 0 2rem 0.25rem; font-size: 0.9rem;margin-top: 1rem;">
+
+<div style="display: flex;flex-direction:column; width:max-content; margin: 0 auto 0 0">
+<a href="https://zephyrtransport.org" target="_blank">
+ <img src="/assets/images/zephyr-logo.png" alt="Zephyr Foundation Logo" width="75px">
+ <p style="text-align: center;font-weight:bold; letter-spacing: 3px;margin-top: -4px">ZEPHYR</p>
+</a>
+</div>
+
+<div style="flex: 1; margin: auto 0 auto 0">
+  <p> All content &copy; 2026 Zephyr Transport Foundation.</p>
+  <p> Zephyr is a registered 501(c)3 non-profit organization</p>
+</div>
+
+</div>
+
+</div></footer>
+    
+    <script defer src="/js/main.min.39357d3a276b997babd04706aee6e334ed45d51ff863a72730bd1a6b618d310f.js" integrity="sha256-OTV9OidrmXur0EcGrubjNO1F1R/4Y6cnML0aa2GNMQ8="></script>
+<script defer src="/js/flexsearch.433e941a8a573ebb9931fc16fc75266ab6b93f569ac2fb4f3dc66882e0416f4c.js" integrity="sha256-Qz6UGopXPruZMfwW/HUmara5P1aawvtPPcZoguBBb0w=" crossorigin="anonymous"></script>
+        <script defer src="/en.search.min.097e3a24da0aba2ac82ef0f53e82e1500343a7126260a0203f3a45bbe0876093.js" integrity="sha256-CX46JNoKuirILvD1PoLhUANDpxJiYKAgPzpFu&#43;CHYJM="></script>
+  </body>
+</html>
