@@ -1,13 +1,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Modeling Mobility Conference – </title>
-    <link>https://ModelingMobility.org/</link>
+    <link>https://billyc.github.io/momo/</link>
     <description>Recent content on Modeling Mobility Conference</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Tue, 13 Jan 2026 00:00:00 +0000</lastBuildDate>
     
-	  <atom:link href="https://ModelingMobility.org/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="https://billyc.github.io/momo/index.xml" rel="self" type="application/rss+xml" />
     
     
       
