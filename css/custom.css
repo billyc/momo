@@ -610,6 +610,10 @@ footer {
   display: none;
 }
 
+.maplibregl-ctrl-bottom-right {
+  opacity: 0.5 !important;
+}
+
 /* Hide desktop sidebar */
 @media (min-width: 767px) {
   .hextra-sidebar-container {
