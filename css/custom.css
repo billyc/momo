@@ -1,0 +1,793 @@
+html,body {
+  font-family: "DM Sans", Arial, Helvetica, sans-serif;
+  /* font-size: 18px; */
+}
+
+a {
+  color: var(--momo-x-blue-1) !important;
+  text-decoration: none !important;
+  font-weight: 600 !important;
+}
+a:hover {
+  color: var(--momo-x-grey-2) !important;
+}
+
+.speaker-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 1.25rem;
+  margin-top: 2rem;
+}
+
+.speaker-card {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  text-decoration: none;
+  background: white;
+  /* box-shadow: 0 2px 8px rgba(0,0,0,0.08); */
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.speaker-card:hover {
+  transform: translateY(-2px);
+  filter:drop-shadow(0px 0px 6px #2225);
+}
+
+.speaker-image {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
+  vertical-align: top;
+}
+
+.speaker-image img {
+  width: 100%;
+  height: 100%;
+  border-radius: 0px;
+  margin: 0 0;
+  object-fit: cover;
+}
+
+.speaker-info {
+  flex: 1;
+  padding: 0.5rem 0.75rem 0.25rem 0.75rem;
+  text-align: left;
+  background: #f5f5f5;
+}
+
+.speaker-name {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #447;
+  margin: 0.25rem 0;
+}
+
+.speaker-affiliation {
+  font-size: 0.9rem;
+  color: #888;
+  margin: 0;
+  margin-bottom: 0.5rem;
+  line-height: 1rem;
+
+}
+
+.hextra-sidebar-container {
+  display: none;
+}
+
+.hextra-nav-container {
+  background-color: var(--momo-x-grey-1);
+  padding: 0.5rem 0 !important;
+  /* filter:drop-shadow(0px 2px 4px #0003); */
+
+  a {
+    color: var(--momo-x-grey-3) !important;
+    font-weight: 400 !important;
+  }
+
+  .highlighted {
+    border: 1px solid white;
+  }
+
+  img {
+    filter: brightness(0) invert(0.2);
+  }
+
+  input::placeholder {
+    color: var(--momo-x-gray-2);
+  }
+}
+
+.hextra-search-wrapper {
+  margin-left: 0.5rem;
+}
+
+.hextra-search-results {
+  a {
+    color: var(--momo-x-grey-3) !important;
+  }
+
+  a.hextra-search-active,a.hextra-search-inactive {
+    color: var(--momo-x-grey-3) !important;
+    background-color: var(--momo-x-grey-1) !important;
+  }
+}
+
+.hextra-nav-container-blur {
+  display: none;
+}
+
+.hextra-toc {
+  display: none;
+}
+
+.session-card {
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid #ddd; */
+  border-left: 2px solid var(--momo-x-blue-1);  /* #578ef5; */
+  margin-top: 2rem;
+  padding: 1rem 1rem;
+  color: #444;
+  background-color: #f5f5f5;
+}
+.session-time {
+  color: var(--momo-x-grey-2);
+  font-size: 0.9rem;
+}
+.session-track {
+  text-transform: uppercase;
+  color: white;
+  font-size: 0.8rem;
+  font-weight: bold;
+  background-color: #2fc794;
+  background-color: var(--momo-x-blue-1);
+  opacity: 0.7;
+  margin-right: 2px;
+  padding: 0px 5px 1px 5px;
+  display: inline-block;
+}
+.session-desc {
+  margin-top: 1rem;
+  line-height: 1.4rem;
+  display: -webkit-box;
+  line-clamp: 4;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.session-people {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fill, minmax(96px, 1fr));
+  margin-top: 0.5rem;
+  margin-right: 1rem;
+
+  a {
+    color: #444 !important;
+    text-decoration: none;
+  }
+}
+
+.speaker-affiliation {
+  display: -webkit-box;
+  line-clamp: 3;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  line-height: 0.9rem;
+}
+
+.sub-session {
+  margin-top: 0.75rem;
+  padding: 0 0.5rem;
+}
+
+.sub-title a {
+  color: var(--momo-x-blue-1);
+  font-weight: 500;
+}
+
+.sub-speaker {
+  display: flex;
+  gap: 1rem;
+  margin-top: -2px;
+  a {
+    color: var(--momo-x-grey-2) !important;
+    text-decoration: none;
+  }
+  a:hover {
+    color: #44c;
+  }
+}
+
+.person-mini-card {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 120px;
+  font-size: 0.9rem;
+  line-height: 1rem;
+  padding: 4px 4px;
+  margin-top: 4px;
+  color: var(--momo-x-blue-1);
+  font-weight: 400;
+
+  img {
+    display: block;
+    width: 84px;
+    height: 84px;
+    object-fit:cover;
+    border-radius: 42px;
+    margin: 0.5rem auto 0.25rem auto;
+  }
+}
+
+.person-mini-card:hover {
+  transition: all 0.1s ease-in-out;
+  background-color: #ececec;
+}
+
+.sub-preso {
+  background-color: var(--momo-x-red-1);
+  color: white !important;
+  text-decoration: none;
+  font-size: 0.9rem;
+  padding: 1px 4px;
+  opacity: 1.0;
+  text-transform: uppercase;
+}
+
+.sub-preso:hover {
+  color: white !important;
+  opacity: 0.8;
+}
+
+.momo-hero {
+  height: 22rem;
+  background-color: var(--momo-x-grey-3);
+  /* background: linear-gradient(45deg, var(--momo-x-grey-3), var(--momo-x-blue-1)); */
+  color: var(--momo-x-grey-1);
+  padding: 5rem;
+}
+
+.banner-image-wrapper {
+  overflow: hidden;
+}
+
+img.banner-image-hero {
+  max-width: 96rem;
+  max-height: 45rem;
+  margin: 0 auto;
+  opacity: 0;
+  transform: scale(2);
+  transition: opacity 1.5s ease-in, transform 1.5s ease-in;
+  object-fit: contain;
+}
+img.banner-image-hero.loaded {
+  transform: scale(1);
+  opacity: 1;
+}
+
+.momo-hero img {
+  margin: 0 auto;
+  filter: brightness(0) invert(0.805) sepia(0.21) saturate(55%) hue-rotate(50deg);
+}
+
+.momo-tagline {
+  font-size: 1.6rem;
+  padding: 2rem 8rem 4rem 8rem;
+  text-align: center;
+  font-weight: bold;
+
+  p {
+    line-height: 2.3rem !important;
+  }
+}
+
+.home-past-conferences {
+  flex: 1;
+  background-color: var(--momo-blue-1) !important;
+  font-weight: 500;
+  padding: 1rem 2rem 2rem 2rem;
+  border-radius: 24px;
+
+  p {
+    margin-top: 0;
+  }
+
+  h3 {
+    padding: 0 0;
+    text-align: center;
+    margin: 0 auto;
+    border: none;
+  }
+}
+
+.colorblurb {
+  flex: 1;
+  padding: 1rem 2rem 2rem 2rem;
+  font-size: 1.3rem;
+  border-radius: 24px;
+
+  h3 {
+    margin-top: 0;
+    padding-top: 0;
+  }
+  p {
+    line-height: 2rem;
+  }
+}
+
+
+.conference-cards {
+  display: grid;
+  gap: 1.5rem;
+  padding: 0 0rem;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+}
+
+.conference-card {
+  display: grid;
+  grid-template-columns: 1fr;
+  transition: all 0.1s ease-in-out;
+
+  img {
+    grid-row: 1 / 2;
+    grid-column: 1 / 2;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    border-radius: 0px !important;
+    /* filter: brightness(0.9); */
+  }
+
+  p {
+    color: white;
+    font-weight: 900;
+    font-size: 1.6rem;
+    filter: drop-shadow(0px 2px 5px #0009);
+    grid-row: 1 / 2;
+    grid-column: 1 / 2;
+    margin: auto 1.75rem 0.5rem auto;
+    z-index: 2;
+  }
+}
+
+.conference-card:hover {
+  transform: scale(1.01);
+  filter: drop-shadow(0px 2px 6px #0008);
+}
+
+.read-more {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: white !important;
+  background-color: var(--momo-x-blue-1);
+  line-height: 1.5rem !important;
+  margin-right: auto;
+  border-radius: 16px;
+  padding: 1px 0.75rem 2px 0.75rem !important;
+}
+.read-more:hover {
+  background-color: var(--momo-x-grey-2);
+  color: white !important;
+  filter: drop-shadow(0px 2px 3px #0002);
+}
+
+.image-conf-splash {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr;
+  img {
+    grid-row: 1 / 2;
+    grid-column: 1 / 2;
+    width: 100%;
+    height: 420px;
+    object-fit: cover;
+    border-radius: 0px;
+  }
+  p {
+    grid-row: 1 / 2;
+    grid-column: 1 / 2;
+    color: white;
+    font-weight: 900;
+    font-size: 2.5rem;
+    margin: auto auto 3rem auto;
+    filter: drop-shadow(0px 3px 8px #0008);
+  }
+}
+
+.session-details {
+  background-color: #f5f5f5;
+  padding: 1rem 1.5rem;
+  margin-bottom: 2rem;
+  /* border: 1px solid #ddd; */
+  border-left: 3px solid var(--momo-blue-2);
+}
+
+.momo-logo-image {
+  margin-left: 1.25rem;
+}
+
+.front-page-col {
+  display: flex;
+  gap: 2rem;
+}
+
+.conf-section-picker {
+  display: flex;
+  width:100%;
+  border-bottom: 5px solid var(--momo-x-blue-1);
+  margin-top: 2rem;
+}
+
+.btn-conf-button1 {
+  padding: 0.9rem 1.5rem 0.75rem 1.5rem;
+  margin: 0 0;
+  font-weight: bold;
+  background-color: var(--momo-x-grey-2);
+  transition: opacity 0.1s ease-in-out;
+  color: white;
+}
+.btn-conf-button1:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+.btn-conf-button1.active {
+  color: white;
+  background-color:  var(--momo-x-blue-1);
+  opacity: 1.0;
+  cursor: default;
+}
+
+.rainbowlogo {
+  width: 100%;
+  height: 300px;
+  background: linear-gradient(
+    45deg,
+    rgb(183, 6, 6),
+    rgb(197, 133, 14),
+    rgb(235, 235, 107),
+    rgb(71, 196, 110),
+    rgb(75, 204, 255),
+    rgb(64, 64, 240),
+    rgb(199, 65, 229)
+  );
+}
+
+.momo-main-page {
+  flex: 8;
+}
+
+h3.gold {
+    color: rgb(203, 175, 15);
+    font-weight: bold;
+    text-decoration: underline;
+}
+h3.silver {
+    color: rgb(165, 179, 186);
+    font-weight: bold;
+    text-decoration: underline;
+}
+h3.bronze {
+    color: rgb(116, 108, 60);
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.speaker-event {
+  background-color: #f8f8f8;
+  padding: 1rem 1.5rem;
+  margin-top: 0.5rem;
+  margin-bottom: 1.5rem;
+  border: 1px solid #ddd;
+  border-left: 3px solid var(--momo-x-blue-1);
+
+  a {
+    font-weight: bold;
+  }
+}
+
+footer {
+  margin-top: 3rem;
+  background-color: var(--momo-x-grey-4);
+  line-height: 1.4rem;
+
+  a {
+    color: var(--momo-x-grey-2) !important;
+  }
+
+  a:hover {
+    color: var(--momo-x-grey-1) !important;
+  }
+}
+
+.hextra-footer h3 {
+  color: #d4d4d4 !important;
+  color: var(--momo-x-grey-1) !important;
+  font-size: 0.85rem !important;
+  font-weight: 700;
+  padding-bottom: 0.5rem;
+}
+
+.hextra-footer p {
+  font-size: 0.85rem !important;
+  color: #bbb !important;
+}
+
+.hextra-custom-footer {
+  max-width: 70rem;
+  margin: 0 auto;
+}
+
+.momo-2027-page {
+  font-size: 1.4rem;
+  max-width: 50rem;
+  margin: 0 auto;
+
+  p {
+    line-height: 2.3rem;
+    margin-bottom: 2rem;
+  }
+
+  h2 {
+    margin-top: 4rem;
+    color: #C26F6F;
+    font-size: 3.5rem;
+    text-align: center;
+    border-bottom: none;
+  }
+
+}
+
+.momo-2027-intro {
+  text-align: center;
+  font-weight: 700;
+}
+
+/* Icon tab strip -- see layouts/shortcodes/sectiontabs.html */
+.momo-tabstrip {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 1rem;
+  border-bottom: 2px solid #f2b8bf;
+  margin-top: 2rem;
+  /* Scroll the strip sideways on narrow screens. overflow-y must be pinned:
+     a scroll value on one axis makes the other compute to `auto`, which
+     otherwise shows a stray vertical scrollbar. */
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+.momo-tab {
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.25rem 0.5rem 0.5rem 0.5rem;
+  border-bottom: 4px solid transparent;
+  text-align: center;
+  color: var(--momo-x-grey-3) !important; /* beat the global `a { color: ... !important }` */
+}
+
+.momo-tab:hover {
+  color: var(--momo-x-red-1) !important;
+}
+
+.momo-tab.is-active {
+  color: var(--momo-x-red-1) !important;
+  border-bottom-color: var(--momo-x-red-1);
+  cursor: default;
+}
+
+.momo-tab-icon {
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+}
+
+.momo-tab-label {
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.2;
+  white-space: nowrap;
+}
+
+.momo-panel {
+  margin-top: 2.5rem;
+}
+
+/* Panels only collapse once section-tabs.js takes over; without JS all six
+   sections stay visible and the tab links simply jump to them. */
+.momo-tabs-js .momo-panel[hidden] {
+  display: none;
+}
+
+/* Hide desktop sidebar */
+@media (min-width: 767px) {
+  .hextra-sidebar-container {
+    display: none !important;
+  }
+}
+
+
+@media(max-width: 1024px) {
+  .home-hero {
+    font-size: 1.8rem;
+
+    p {
+      line-height: 2.4rem !important;
+      margin: 2rem 0 0 0;
+    }
+  }
+  .rainbowlogo { height: 225px; }
+
+  .front-page-col {
+    flex-direction: column;
+  }
+}
+
+@media(min-width: 768px) {
+  .hextra-sidebar-container {
+    display: none;
+  }
+}
+
+@media(max-width: 767px) {
+  .momo-logo-image {
+    margin-left: 0rem;
+  }
+  .rainbowlogo { height: 150px; }
+
+  .hextra-sidebar-container {
+    display: block !important;
+  }
+
+  .momo-hero {
+    padding: 2rem;
+    height: unset;
+
+    p { padding: 0; }
+  }
+
+  .momo-tagline {
+    margin-top: 1rem;
+    font-size: 1.3rem;
+    padding: 1rem;
+    p { line-height: 1.7rem !important; }
+  }
+
+  .conference-cards {
+    grid-template-columns: 1fr;
+  }
+
+  .hextra-custom-footer {
+    padding: 0 0.25rem;
+  }
+
+  .conference-card {
+    max-width: 100%;
+
+    p {
+      display: unset;
+      text-align: center;
+      margin: auto 0 0 0;
+      padding: 6px 0;
+      filter: none;
+      background-color: var(--momo-x-grey-1);
+      font-size: 1rem;
+      color: var(--momo-x-grey-3);
+    }
+
+    img {
+      height: 200px;
+    }
+  }
+
+  main {
+    padding: 0 0.75rem;
+    font-size: 1rem;
+  }
+
+  .conf-section-picker {
+    border-bottom: none;
+  }
+
+  .momo-tabstrip {
+    justify-content: flex-start;
+    gap: 0.25rem;
+  }
+
+  .momo-tab-icon {
+    width: 36px;
+    height: 36px;
+  }
+
+  .momo-tab-label {
+    font-size: 0.8rem;
+  }
+
+  .btn-conf-button1 {
+    padding: 4px 5px;
+    margin-right: 1px;
+  }
+
+  .speaker-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(90px, 1fr));
+    gap: 0.5rem;
+    margin-top: 2rem;
+  }
+
+  .speaker-card {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    text-decoration: none;
+    background: white;
+    p { font-size: 0.75rem !important; }
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+
+  .speaker-info {
+    padding: 0.25rem 0.25rem;
+    font-size: 0.5rem !important;
+    h3 { font-size: 0.9rem !important; }
+    line-height: 0.6rem;
+  }
+  .session-people {
+     grid-template-columns: repeat(auto-fill, minmax(60px, 1fr));
+  }
+  .person-mini-card {
+    font-size: 0.8rem;
+  }
+  .sub-session {
+    padding-left: 0;
+    font-size: 0.9rem;
+    line-height: 1.2rem;
+    a { margin: 2px 0;}
+  }
+  .gold-sponsors {
+    flex-direction: column;
+    margin: 0 0;
+    padding: 0 0;
+    gap: 0;
+  }
+  .gallery {
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)) !important;
+  }
+  .agenda-single-subsession {
+    margin-left: -4px;
+    border-left: 2px solid var(--momo-x-blue-1);
+    padding-left: 0.5rem !important;
+    /* line-height: 1rem; */
+
+    .sub-title {
+      font-size: 0.9rem !important;
+      margin-bottom: 0.25rem;
+    }
+  }
+  .image-conf-splash {
+    img {
+      height: 220px;
+      object-fit: cover;
+      border-radius: 0px;
+    }
+    p {
+      font-size: 1.5rem;
+      filter: drop-shadow(0px 3px 8px #0008);
+      margin-bottom: 2rem;
+    }
+  }
+
+  .momo-2027-page {
+    h2 {
+      font-size: 2rem;
+    }
+ }
+}
+
