@@ -523,7 +523,7 @@ footer {
 }
 
 .momo-2027-page {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   max-width: 50rem;
   margin: 0 auto;
 
@@ -599,6 +599,9 @@ footer {
 
 .momo-panel {
   margin-top: 2.5rem;
+    h3 {
+      color: #5ABBC6 !important;
+    }
 }
 
 /* Panels only collapse once section-tabs.js takes over; without JS all six
