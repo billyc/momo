@@ -67,7 +67,7 @@ The theme for this conference is converge. Momo is the forum where ideas, tools,
 
   <meta itemprop="name" content="Modeling Mobility Conference">
   <meta itemprop="description" content="MoMo brings together the community working at the intersection of transportation modeling, data, and planning to connect, share ideas, and advance the practice. We are excited to welcome practitioners, researchers, students, and innovators to Tempe in Spring 2027 Overview Plan Registration Get involved Sponsorship Agenda The theme for this conference is converge. Momo is the forum where ideas, tools, and perspectives converge to address complex mobility challenges. It is also the space where transportation professionals from public agencies, private consultants and academic institutes converge to shape the future of modeling mobility. After all, as transportation modelers, our endgame is always convergence.">
-  <meta itemprop="wordCount" content="711">
+  <meta itemprop="wordCount" content="708">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Modeling Mobility Conference">
   <meta name="twitter:description" content="MoMo brings together the community working at the intersection of transportation modeling, data, and planning to connect, share ideas, and advance the practice. We are excited to welcome practitioners, researchers, students, and innovators to Tempe in Spring 2027 Overview Plan Registration Get involved Sponsorship Agenda The theme for this conference is converge. Momo is the forum where ideas, tools, and perspectives converge to address complex mobility challenges. It is also the space where transportation professionals from public agencies, private consultants and academic institutes converge to shape the future of modeling mobility. After all, as transportation modelers, our endgame is always convergence.">
@@ -87,6 +87,9 @@ The theme for this conference is converge. Momo is the forum where ideas, tools,
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+
+
+<link rel="stylesheet" href="https://unpkg.com/maplibre-gl@^6.0.0/dist/maplibre-gl.css" />
 
 </head>
 <body><div class="hextra-nav-container hx:sticky hx:top-0 hx:z-20 hx:w-full hx:bg-transparent hx:print:hidden">
@@ -2267,7 +2270,8 @@ Registration OPEN: November 1st, 2026<br></p>
     <a href="#conference-location" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><p>Memorial Union, Arizona State University campus, Tempe, AZ</p>
 <p>(MAP LOCATION)</p>
 <h3>Hotels<span class="hx:absolute hx:-mt-20" id="hotels"></span>
-    <a href="#hotels" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><p><strong>HYATT PLACE</strong><br>
+    <a href="#hotels" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><div id="map-hotel1" style="height: 18rem; width: 100%"></div>
+<p><strong>HYATT PLACE</strong><br>
 601 E 6th St, Tempe, AZ 85281</p>
 <ul>
 <li>Price range: from $161</li>
@@ -2291,7 +2295,6 @@ Registration OPEN: November 1st, 2026<br></p>
 <li>Phone: +14809679431</li>
 <li><a href="https://book.passkey.com/gt/221520761?gtid=7cee6c9c769aba3ee8325b936c2c7e499"target="_blank" rel="noopener">Book now</a></li>
 </ul>
-<p>(MAP HOTEL LOCATION)</p>
 <p><em>Hotel questions? Email us (put this in a box they click)</em></p>
 <h3>Airports<span class="hx:absolute hx:-mt-20" id="airports"></span>
     <a href="#airports" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><p><strong>PHX Phoenix Sky Harbor International Airport (recommended)</strong></p>
@@ -2426,6 +2429,35 @@ Direct end to end light rail access: no<br></p>
 </section></div>
 
 </div>
+<!--- MAPLIBRE -->
+<script type="module">
+    import * as maplibregl from 'https://unpkg.com/maplibre-gl@^6.0.0/dist/maplibre-gl.mjs';
+
+    const map = new maplibregl.Map({
+        container: 'map-hotel1', // container id
+        style: 'https://tiles.openfreemap.org/styles/liberty',
+        center: [-112, 33.5],
+        zoom: 9
+    });
+
+    const hotels = [
+      {title: 'Hyatt Place', lnglat: [-112,33.5], color: '#a00'},
+      {title: 'Hyatt House', lnglat: [-112.1,33.52], color: '#4ca'},
+      {title: 'Graduate Hilton Tempe', lnglat: [-112.2,33.53], color: '#07c'},
+    ]
+
+    map.on('load', () => {
+      for (let hotel of hotels) {
+        let popup = new maplibregl.Popup({}).setHTML(`<h3>${hotel.title}</h3>`)
+        let marker = new maplibregl.Marker({
+          color: hotel.color, draggable: false}).setLngLat(hotel.lnglat
+        )
+          .setPopup(popup)
+          .addTo(map)
+        popup.addTo(map)
+      }
+    })
+</script>
 
         </div>
       </main>
